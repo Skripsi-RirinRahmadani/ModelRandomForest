@@ -8,7 +8,7 @@ import os
 app = FastAPI(
     title="Horticulture Recommendation API",
     description="API untuk sistem rekomendasi varietas tanaman hortikultura menggunakan Random Forest",
-    version="1.0.0"
+    version="1.1.0"
 )
 
 # Input Schema
@@ -20,29 +20,44 @@ class EnvironmentalInput(BaseModel):
     ketersediaan_air: str  # Rendah, Sedang, Tinggi
     intensitas_matahari_jam: float
 
-# Global variables for model and data
-MODEL_PATH = 'models/random_forest_model.joblib'
-KECAMATAN_ENCODER_PATH = 'models/le_kecamatan.joblib'
-DATA_PATH = 'data/processed_dataset.csv'
+# Global variables to store loaded resources
+MODEL = None
+LE_KECAMATAN = None
+DATASET = None
 
-def load_resources():
-    if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH):
-        raise FileNotFoundError("Model or Encoder files not found. Please train the model first.")
+@app.on_event("startup")
+def startup_event():
+    """Memuat model dan data ke memori saat API dinyalakan."""
+    global MODEL, LE_KECAMATAN, DATASET
     
-    model = joblib.load(MODEL_PATH)
-    le_kecamatan = joblib.load(KECAMATAN_ENCODER_PATH)
-    df = pd.read_csv(DATA_PATH)
-    return model, le_kecamatan, df
+    MODEL_PATH = 'models/random_forest_model.joblib'
+    KECAMATAN_ENCODER_PATH = 'models/le_kecamatan.joblib'
+    DATA_PATH = 'data/processed_dataset.csv'
+    
+    print("Loading resources into memory...")
+    if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH):
+        print("ERROR: Model files not found. API might not work correctly.")
+        return
+
+    MODEL = joblib.load(MODEL_PATH)
+    LE_KECAMATAN = joblib.load(KECAMATAN_ENCODER_PATH)
+    DATASET = pd.read_csv(DATA_PATH)
+    print("Resources loaded successfully. Ready to predict!")
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Horticulture Recommendation API. Visit /docs for documentation."}
+    return {
+        "status": "online",
+        "message": "Welcome to Horticulture Recommendation API. Visit /docs for documentation.",
+        "model_loaded": MODEL is not None
+    }
 
 @app.post("/predict")
 def predict(input_data: EnvironmentalInput):
-    try:
-        model, le_kecamatan, df = load_resources()
+    if MODEL is None or LE_KECAMATAN is None:
+        raise HTTPException(status_code=500, detail="Model is not loaded. Please check server logs.")
         
+    try:
         # 1. Preprocess input
         water_mapping = {'Rendah': 0, 'Sedang': 1, 'Tinggi': 2}
         air_val = water_mapping.get(input_data.ketersediaan_air)
@@ -59,11 +74,11 @@ def predict(input_data: EnvironmentalInput):
         ]])
         
         # 2. Predict Kecamatan
-        kec_encoded = model.predict(features)[0]
-        kec_name = le_kecamatan.inverse_transform([kec_encoded])[0]
+        kec_encoded = MODEL.predict(features)[0]
+        kec_name = LE_KECAMATAN.inverse_transform([kec_encoded])[0]
         
-        # 3. Lookup varieties
-        recommendations = df[df['Kecamatan'] == kec_name]
+        # 3. Lookup varieties using pre-loaded DATASET
+        recommendations = DATASET[DATASET['Kecamatan'] == kec_name]
         plant_recs = recommendations.groupby('Nama_Tanaman')['Nama_Varietas'].first().to_dict()
         
         # 4. Format response
@@ -81,4 +96,5 @@ def predict(input_data: EnvironmentalInput):
 
 if __name__ == "__main__":
     import uvicorn
+    # Menjalankan server
     uvicorn.run(app, host="0.0.0.0", port=8000)

@@ -1,811 +1,811 @@
-Nama_Tanaman,Kecamatan,pH_Tanah,Suhu_C,Curah_Hujan_mm,Elevasi_mdpl,Ketersediaan_Air,Intensitas_Matahari_jam,Nama_Varietas,Nama_Varietas_Encoded,Nama_Tanaman_Encoded
-Ketimun,Baktiya,6.46,24.2,1763,255,0,6.4,Hercules F1,10,6
-Ketimun,Baktiya,6.46,24.2,1763,255,0,6.4,Mercy F1,19,6
-Ketimun,Baktiya,6.46,24.2,1763,255,0,6.4,Roman F1,23,6
-Kacang Panjang,Baktiya,6.46,24.2,1763,255,0,6.4,Parade Tavi,21,4
-Kacang Panjang,Baktiya,6.46,24.2,1763,255,0,6.4,Kanton Tavi,13,4
-Kacang Panjang,Baktiya,6.46,24.2,1763,255,0,6.4,KP-1,12,4
-Kangkung,Baktiya,6.46,24.2,1763,255,0,6.4,Bangkok LP-1,3,5
-Kangkung,Baktiya,6.46,24.2,1763,255,0,6.4,Bisi Kangkung,5,5
-Kangkung,Baktiya,6.46,24.2,1763,255,0,6.4,Sutra,26,5
-Terung,Baktiya,6.46,24.2,1763,255,0,6.4,Mustang F1,20,8
-Terung,Baktiya,6.46,24.2,1763,255,0,6.4,Laguna F1,16,8
-Terung,Baktiya,6.46,24.2,1763,255,0,6.4,Antaboga,1,8
-Cabe Rawit,Baktiya,6.46,24.2,1763,255,0,6.4,Dewata F1,8,3
-Cabe Rawit,Baktiya,6.46,24.2,1763,255,0,6.4,Bara,4,3
-Cabe Rawit,Baktiya,6.46,24.2,1763,255,0,6.4,Taruna,29,3
-Cabe Keriting,Baktiya,6.46,24.2,1763,255,0,6.4,TM 999,27,2
-Cabe Keriting,Baktiya,6.46,24.2,1763,255,0,6.4,Lado F1,15,2
-Cabe Keriting,Baktiya,6.46,24.2,1763,255,0,6.4,Kencana,14,2
-Cabe Besar,Baktiya,6.46,24.2,1763,255,0,6.4,Tanjung 2,28,1
-Cabe Besar,Baktiya,6.46,24.2,1763,255,0,6.4,Gada MK F1,9,1
-Cabe Besar,Baktiya,6.46,24.2,1763,255,0,6.4,Laris F1,17,1
-Tomat,Baktiya,6.46,24.2,1763,255,0,6.4,Servo F1,24,9
-Tomat,Baktiya,6.46,24.2,1763,255,0,6.4,Ratna,22,9
-Tomat,Baktiya,6.46,24.2,1763,255,0,6.4,Intan,11,9
-Semangka,Baktiya,6.46,24.2,1763,255,0,6.4,Crimson Sweet,7,7
-Semangka,Baktiya,6.46,24.2,1763,255,0,6.4,Sugar Baby,25,7
-Semangka,Baktiya,6.46,24.2,1763,255,0,6.4,Amara F1,0,7
-Bayam,Baktiya,6.46,24.2,1763,255,0,6.4,Maestro,18,0
-Bayam,Baktiya,6.46,24.2,1763,255,0,6.4,Bangkok,2,0
-Bayam,Baktiya,6.46,24.2,1763,255,0,6.4,Cempaka,6,0
-Ketimun,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Hercules F1,10,6
-Ketimun,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Mercy F1,19,6
-Ketimun,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Roman F1,23,6
-Kacang Panjang,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Parade Tavi,21,4
-Kacang Panjang,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Kanton Tavi,13,4
-Kacang Panjang,Baktiya Barat,5.65,29.2,2316,94,2,7.3,KP-1,12,4
-Kangkung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bangkok LP-1,3,5
-Kangkung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bisi Kangkung,5,5
-Kangkung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Sutra,26,5
-Terung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Mustang F1,20,8
-Terung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Laguna F1,16,8
-Terung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Antaboga,1,8
-Cabe Rawit,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Dewata F1,8,3
-Cabe Rawit,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bara,4,3
-Cabe Rawit,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Taruna,29,3
-Cabe Keriting,Baktiya Barat,5.65,29.2,2316,94,2,7.3,TM 999,27,2
-Cabe Keriting,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Lado F1,15,2
-Cabe Keriting,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Kencana,14,2
-Cabe Besar,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Tanjung 2,28,1
-Cabe Besar,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Gada MK F1,9,1
-Cabe Besar,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Laris F1,17,1
-Tomat,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Servo F1,24,9
-Tomat,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Ratna,22,9
-Tomat,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Intan,11,9
-Semangka,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Crimson Sweet,7,7
-Semangka,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Sugar Baby,25,7
-Semangka,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Amara F1,0,7
-Bayam,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Maestro,18,0
-Bayam,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bangkok,2,0
-Bayam,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Cempaka,6,0
-Ketimun,Banda Baro,5.54,25.5,2234,621,0,7.7,Hercules F1,10,6
-Ketimun,Banda Baro,5.54,25.5,2234,621,0,7.7,Mercy F1,19,6
-Ketimun,Banda Baro,5.54,25.5,2234,621,0,7.7,Roman F1,23,6
-Kacang Panjang,Banda Baro,5.54,25.5,2234,621,0,7.7,Parade Tavi,21,4
-Kacang Panjang,Banda Baro,5.54,25.5,2234,621,0,7.7,Kanton Tavi,13,4
-Kacang Panjang,Banda Baro,5.54,25.5,2234,621,0,7.7,KP-1,12,4
-Kangkung,Banda Baro,5.54,25.5,2234,621,0,7.7,Bangkok LP-1,3,5
-Kangkung,Banda Baro,5.54,25.5,2234,621,0,7.7,Bisi Kangkung,5,5
-Kangkung,Banda Baro,5.54,25.5,2234,621,0,7.7,Sutra,26,5
-Terung,Banda Baro,5.54,25.5,2234,621,0,7.7,Mustang F1,20,8
-Terung,Banda Baro,5.54,25.5,2234,621,0,7.7,Laguna F1,16,8
-Terung,Banda Baro,5.54,25.5,2234,621,0,7.7,Antaboga,1,8
-Cabe Rawit,Banda Baro,5.54,25.5,2234,621,0,7.7,Dewata F1,8,3
-Cabe Rawit,Banda Baro,5.54,25.5,2234,621,0,7.7,Bara,4,3
-Cabe Rawit,Banda Baro,5.54,25.5,2234,621,0,7.7,Taruna,29,3
-Cabe Keriting,Banda Baro,5.54,25.5,2234,621,0,7.7,TM 999,27,2
-Cabe Keriting,Banda Baro,5.54,25.5,2234,621,0,7.7,Lado F1,15,2
-Cabe Keriting,Banda Baro,5.54,25.5,2234,621,0,7.7,Kencana,14,2
-Cabe Besar,Banda Baro,5.54,25.5,2234,621,0,7.7,Tanjung 2,28,1
-Cabe Besar,Banda Baro,5.54,25.5,2234,621,0,7.7,Gada MK F1,9,1
-Cabe Besar,Banda Baro,5.54,25.5,2234,621,0,7.7,Laris F1,17,1
-Tomat,Banda Baro,5.54,25.5,2234,621,0,7.7,Servo F1,24,9
-Tomat,Banda Baro,5.54,25.5,2234,621,0,7.7,Ratna,22,9
-Tomat,Banda Baro,5.54,25.5,2234,621,0,7.7,Intan,11,9
-Semangka,Banda Baro,5.54,25.5,2234,621,0,7.7,Crimson Sweet,7,7
-Semangka,Banda Baro,5.54,25.5,2234,621,0,7.7,Sugar Baby,25,7
-Semangka,Banda Baro,5.54,25.5,2234,621,0,7.7,Amara F1,0,7
-Bayam,Banda Baro,5.54,25.5,2234,621,0,7.7,Maestro,18,0
-Bayam,Banda Baro,5.54,25.5,2234,621,0,7.7,Bangkok,2,0
-Bayam,Banda Baro,5.54,25.5,2234,621,0,7.7,Cempaka,6,0
-Ketimun,Cot Girek,6.57,28.9,2059,230,1,7.8,Hercules F1,10,6
-Ketimun,Cot Girek,6.57,28.9,2059,230,1,7.8,Mercy F1,19,6
-Ketimun,Cot Girek,6.57,28.9,2059,230,1,7.8,Roman F1,23,6
-Kacang Panjang,Cot Girek,6.57,28.9,2059,230,1,7.8,Parade Tavi,21,4
-Kacang Panjang,Cot Girek,6.57,28.9,2059,230,1,7.8,Kanton Tavi,13,4
-Kacang Panjang,Cot Girek,6.57,28.9,2059,230,1,7.8,KP-1,12,4
-Kangkung,Cot Girek,6.57,28.9,2059,230,1,7.8,Bangkok LP-1,3,5
-Kangkung,Cot Girek,6.57,28.9,2059,230,1,7.8,Bisi Kangkung,5,5
-Kangkung,Cot Girek,6.57,28.9,2059,230,1,7.8,Sutra,26,5
-Terung,Cot Girek,6.57,28.9,2059,230,1,7.8,Mustang F1,20,8
-Terung,Cot Girek,6.57,28.9,2059,230,1,7.8,Laguna F1,16,8
-Terung,Cot Girek,6.57,28.9,2059,230,1,7.8,Antaboga,1,8
-Cabe Rawit,Cot Girek,6.57,28.9,2059,230,1,7.8,Dewata F1,8,3
-Cabe Rawit,Cot Girek,6.57,28.9,2059,230,1,7.8,Bara,4,3
-Cabe Rawit,Cot Girek,6.57,28.9,2059,230,1,7.8,Taruna,29,3
-Cabe Keriting,Cot Girek,6.57,28.9,2059,230,1,7.8,TM 999,27,2
-Cabe Keriting,Cot Girek,6.57,28.9,2059,230,1,7.8,Lado F1,15,2
-Cabe Keriting,Cot Girek,6.57,28.9,2059,230,1,7.8,Kencana,14,2
-Cabe Besar,Cot Girek,6.57,28.9,2059,230,1,7.8,Tanjung 2,28,1
-Cabe Besar,Cot Girek,6.57,28.9,2059,230,1,7.8,Gada MK F1,9,1
-Cabe Besar,Cot Girek,6.57,28.9,2059,230,1,7.8,Laris F1,17,1
-Tomat,Cot Girek,6.57,28.9,2059,230,1,7.8,Servo F1,24,9
-Tomat,Cot Girek,6.57,28.9,2059,230,1,7.8,Ratna,22,9
-Tomat,Cot Girek,6.57,28.9,2059,230,1,7.8,Intan,11,9
-Semangka,Cot Girek,6.57,28.9,2059,230,1,7.8,Crimson Sweet,7,7
-Semangka,Cot Girek,6.57,28.9,2059,230,1,7.8,Sugar Baby,25,7
-Semangka,Cot Girek,6.57,28.9,2059,230,1,7.8,Amara F1,0,7
-Bayam,Cot Girek,6.57,28.9,2059,230,1,7.8,Maestro,18,0
-Bayam,Cot Girek,6.57,28.9,2059,230,1,7.8,Bangkok,2,0
-Bayam,Cot Girek,6.57,28.9,2059,230,1,7.8,Cempaka,6,0
-Ketimun,Dewantara,6.71,24.0,1526,719,1,7.0,Hercules F1,10,6
-Ketimun,Dewantara,6.71,24.0,1526,719,1,7.0,Mercy F1,19,6
-Ketimun,Dewantara,6.71,24.0,1526,719,1,7.0,Roman F1,23,6
-Kacang Panjang,Dewantara,6.71,24.0,1526,719,1,7.0,Parade Tavi,21,4
-Kacang Panjang,Dewantara,6.71,24.0,1526,719,1,7.0,Kanton Tavi,13,4
-Kacang Panjang,Dewantara,6.71,24.0,1526,719,1,7.0,KP-1,12,4
-Kangkung,Dewantara,6.71,24.0,1526,719,1,7.0,Bangkok LP-1,3,5
-Kangkung,Dewantara,6.71,24.0,1526,719,1,7.0,Bisi Kangkung,5,5
-Kangkung,Dewantara,6.71,24.0,1526,719,1,7.0,Sutra,26,5
-Terung,Dewantara,6.71,24.0,1526,719,1,7.0,Mustang F1,20,8
-Terung,Dewantara,6.71,24.0,1526,719,1,7.0,Laguna F1,16,8
-Terung,Dewantara,6.71,24.0,1526,719,1,7.0,Antaboga,1,8
-Cabe Rawit,Dewantara,6.71,24.0,1526,719,1,7.0,Dewata F1,8,3
-Cabe Rawit,Dewantara,6.71,24.0,1526,719,1,7.0,Bara,4,3
-Cabe Rawit,Dewantara,6.71,24.0,1526,719,1,7.0,Taruna,29,3
-Cabe Keriting,Dewantara,6.71,24.0,1526,719,1,7.0,TM 999,27,2
-Cabe Keriting,Dewantara,6.71,24.0,1526,719,1,7.0,Lado F1,15,2
-Cabe Keriting,Dewantara,6.71,24.0,1526,719,1,7.0,Kencana,14,2
-Cabe Besar,Dewantara,6.71,24.0,1526,719,1,7.0,Tanjung 2,28,1
-Cabe Besar,Dewantara,6.71,24.0,1526,719,1,7.0,Gada MK F1,9,1
-Cabe Besar,Dewantara,6.71,24.0,1526,719,1,7.0,Laris F1,17,1
-Tomat,Dewantara,6.71,24.0,1526,719,1,7.0,Servo F1,24,9
-Tomat,Dewantara,6.71,24.0,1526,719,1,7.0,Ratna,22,9
-Tomat,Dewantara,6.71,24.0,1526,719,1,7.0,Intan,11,9
-Semangka,Dewantara,6.71,24.0,1526,719,1,7.0,Crimson Sweet,7,7
-Semangka,Dewantara,6.71,24.0,1526,719,1,7.0,Sugar Baby,25,7
-Semangka,Dewantara,6.71,24.0,1526,719,1,7.0,Amara F1,0,7
-Bayam,Dewantara,6.71,24.0,1526,719,1,7.0,Maestro,18,0
-Bayam,Dewantara,6.71,24.0,1526,719,1,7.0,Bangkok,2,0
-Bayam,Dewantara,6.71,24.0,1526,719,1,7.0,Cempaka,6,0
-Ketimun,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Hercules F1,10,6
-Ketimun,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Mercy F1,19,6
-Ketimun,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Roman F1,23,6
-Kacang Panjang,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Parade Tavi,21,4
-Kacang Panjang,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Kanton Tavi,13,4
-Kacang Panjang,Geuredong Pase,5.73,30.7,1889,109,0,7.1,KP-1,12,4
-Kangkung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bangkok LP-1,3,5
-Kangkung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bisi Kangkung,5,5
-Kangkung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Sutra,26,5
-Terung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Mustang F1,20,8
-Terung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Laguna F1,16,8
-Terung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Antaboga,1,8
-Cabe Rawit,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Dewata F1,8,3
-Cabe Rawit,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bara,4,3
-Cabe Rawit,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Taruna,29,3
-Cabe Keriting,Geuredong Pase,5.73,30.7,1889,109,0,7.1,TM 999,27,2
-Cabe Keriting,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Lado F1,15,2
-Cabe Keriting,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Kencana,14,2
-Cabe Besar,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Tanjung 2,28,1
-Cabe Besar,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Gada MK F1,9,1
-Cabe Besar,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Laris F1,17,1
-Tomat,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Servo F1,24,9
-Tomat,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Ratna,22,9
-Tomat,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Intan,11,9
-Semangka,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Crimson Sweet,7,7
-Semangka,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Sugar Baby,25,7
-Semangka,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Amara F1,0,7
-Bayam,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Maestro,18,0
-Bayam,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bangkok,2,0
-Bayam,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Cempaka,6,0
-Ketimun,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Hercules F1,10,6
-Ketimun,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Mercy F1,19,6
-Ketimun,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Roman F1,23,6
-Kacang Panjang,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Parade Tavi,21,4
-Kacang Panjang,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Kanton Tavi,13,4
-Kacang Panjang,Kuta Makmur,6.04,26.4,1741,831,0,8.2,KP-1,12,4
-Kangkung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bangkok LP-1,3,5
-Kangkung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bisi Kangkung,5,5
-Kangkung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Sutra,26,5
-Terung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Mustang F1,20,8
-Terung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Laguna F1,16,8
-Terung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Antaboga,1,8
-Cabe Rawit,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Dewata F1,8,3
-Cabe Rawit,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bara,4,3
-Cabe Rawit,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Taruna,29,3
-Cabe Keriting,Kuta Makmur,6.04,26.4,1741,831,0,8.2,TM 999,27,2
-Cabe Keriting,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Lado F1,15,2
-Cabe Keriting,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Kencana,14,2
-Cabe Besar,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Tanjung 2,28,1
-Cabe Besar,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Gada MK F1,9,1
-Cabe Besar,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Laris F1,17,1
-Tomat,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Servo F1,24,9
-Tomat,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Ratna,22,9
-Tomat,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Intan,11,9
-Semangka,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Crimson Sweet,7,7
-Semangka,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Sugar Baby,25,7
-Semangka,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Amara F1,0,7
-Bayam,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Maestro,18,0
-Bayam,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bangkok,2,0
-Bayam,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Cempaka,6,0
-Ketimun,Langkahan,6.3,30.8,1975,85,2,6.9,Hercules F1,10,6
-Ketimun,Langkahan,6.3,30.8,1975,85,2,6.9,Mercy F1,19,6
-Ketimun,Langkahan,6.3,30.8,1975,85,2,6.9,Roman F1,23,6
-Kacang Panjang,Langkahan,6.3,30.8,1975,85,2,6.9,Parade Tavi,21,4
-Kacang Panjang,Langkahan,6.3,30.8,1975,85,2,6.9,Kanton Tavi,13,4
-Kacang Panjang,Langkahan,6.3,30.8,1975,85,2,6.9,KP-1,12,4
-Kangkung,Langkahan,6.3,30.8,1975,85,2,6.9,Bangkok LP-1,3,5
-Kangkung,Langkahan,6.3,30.8,1975,85,2,6.9,Bisi Kangkung,5,5
-Kangkung,Langkahan,6.3,30.8,1975,85,2,6.9,Sutra,26,5
-Terung,Langkahan,6.3,30.8,1975,85,2,6.9,Mustang F1,20,8
-Terung,Langkahan,6.3,30.8,1975,85,2,6.9,Laguna F1,16,8
-Terung,Langkahan,6.3,30.8,1975,85,2,6.9,Antaboga,1,8
-Cabe Rawit,Langkahan,6.3,30.8,1975,85,2,6.9,Dewata F1,8,3
-Cabe Rawit,Langkahan,6.3,30.8,1975,85,2,6.9,Bara,4,3
-Cabe Rawit,Langkahan,6.3,30.8,1975,85,2,6.9,Taruna,29,3
-Cabe Keriting,Langkahan,6.3,30.8,1975,85,2,6.9,TM 999,27,2
-Cabe Keriting,Langkahan,6.3,30.8,1975,85,2,6.9,Lado F1,15,2
-Cabe Keriting,Langkahan,6.3,30.8,1975,85,2,6.9,Kencana,14,2
-Cabe Besar,Langkahan,6.3,30.8,1975,85,2,6.9,Tanjung 2,28,1
-Cabe Besar,Langkahan,6.3,30.8,1975,85,2,6.9,Gada MK F1,9,1
-Cabe Besar,Langkahan,6.3,30.8,1975,85,2,6.9,Laris F1,17,1
-Tomat,Langkahan,6.3,30.8,1975,85,2,6.9,Servo F1,24,9
-Tomat,Langkahan,6.3,30.8,1975,85,2,6.9,Ratna,22,9
-Tomat,Langkahan,6.3,30.8,1975,85,2,6.9,Intan,11,9
-Semangka,Langkahan,6.3,30.8,1975,85,2,6.9,Crimson Sweet,7,7
-Semangka,Langkahan,6.3,30.8,1975,85,2,6.9,Sugar Baby,25,7
-Semangka,Langkahan,6.3,30.8,1975,85,2,6.9,Amara F1,0,7
-Bayam,Langkahan,6.3,30.8,1975,85,2,6.9,Maestro,18,0
-Bayam,Langkahan,6.3,30.8,1975,85,2,6.9,Bangkok,2,0
-Bayam,Langkahan,6.3,30.8,1975,85,2,6.9,Cempaka,6,0
-Ketimun,Lapang,6.44,30.2,1940,596,0,8.1,Hercules F1,10,6
-Ketimun,Lapang,6.44,30.2,1940,596,0,8.1,Mercy F1,19,6
-Ketimun,Lapang,6.44,30.2,1940,596,0,8.1,Roman F1,23,6
-Kacang Panjang,Lapang,6.44,30.2,1940,596,0,8.1,Parade Tavi,21,4
-Kacang Panjang,Lapang,6.44,30.2,1940,596,0,8.1,Kanton Tavi,13,4
-Kacang Panjang,Lapang,6.44,30.2,1940,596,0,8.1,KP-1,12,4
-Kangkung,Lapang,6.44,30.2,1940,596,0,8.1,Bangkok LP-1,3,5
-Kangkung,Lapang,6.44,30.2,1940,596,0,8.1,Bisi Kangkung,5,5
-Kangkung,Lapang,6.44,30.2,1940,596,0,8.1,Sutra,26,5
-Terung,Lapang,6.44,30.2,1940,596,0,8.1,Mustang F1,20,8
-Terung,Lapang,6.44,30.2,1940,596,0,8.1,Laguna F1,16,8
-Terung,Lapang,6.44,30.2,1940,596,0,8.1,Antaboga,1,8
-Cabe Rawit,Lapang,6.44,30.2,1940,596,0,8.1,Dewata F1,8,3
-Cabe Rawit,Lapang,6.44,30.2,1940,596,0,8.1,Bara,4,3
-Cabe Rawit,Lapang,6.44,30.2,1940,596,0,8.1,Taruna,29,3
-Cabe Keriting,Lapang,6.44,30.2,1940,596,0,8.1,TM 999,27,2
-Cabe Keriting,Lapang,6.44,30.2,1940,596,0,8.1,Lado F1,15,2
-Cabe Keriting,Lapang,6.44,30.2,1940,596,0,8.1,Kencana,14,2
-Cabe Besar,Lapang,6.44,30.2,1940,596,0,8.1,Tanjung 2,28,1
-Cabe Besar,Lapang,6.44,30.2,1940,596,0,8.1,Gada MK F1,9,1
-Cabe Besar,Lapang,6.44,30.2,1940,596,0,8.1,Laris F1,17,1
-Tomat,Lapang,6.44,30.2,1940,596,0,8.1,Servo F1,24,9
-Tomat,Lapang,6.44,30.2,1940,596,0,8.1,Ratna,22,9
-Tomat,Lapang,6.44,30.2,1940,596,0,8.1,Intan,11,9
-Semangka,Lapang,6.44,30.2,1940,596,0,8.1,Crimson Sweet,7,7
-Semangka,Lapang,6.44,30.2,1940,596,0,8.1,Sugar Baby,25,7
-Semangka,Lapang,6.44,30.2,1940,596,0,8.1,Amara F1,0,7
-Bayam,Lapang,6.44,30.2,1940,596,0,8.1,Maestro,18,0
-Bayam,Lapang,6.44,30.2,1940,596,0,8.1,Bangkok,2,0
-Bayam,Lapang,6.44,30.2,1940,596,0,8.1,Cempaka,6,0
-Ketimun,Lhoksukon,5.57,25.6,1792,86,0,8.6,Hercules F1,10,6
-Ketimun,Lhoksukon,5.57,25.6,1792,86,0,8.6,Mercy F1,19,6
-Ketimun,Lhoksukon,5.57,25.6,1792,86,0,8.6,Roman F1,23,6
-Kacang Panjang,Lhoksukon,5.57,25.6,1792,86,0,8.6,Parade Tavi,21,4
-Kacang Panjang,Lhoksukon,5.57,25.6,1792,86,0,8.6,Kanton Tavi,13,4
-Kacang Panjang,Lhoksukon,5.57,25.6,1792,86,0,8.6,KP-1,12,4
-Kangkung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bangkok LP-1,3,5
-Kangkung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bisi Kangkung,5,5
-Kangkung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Sutra,26,5
-Terung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Mustang F1,20,8
-Terung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Laguna F1,16,8
-Terung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Antaboga,1,8
-Cabe Rawit,Lhoksukon,5.57,25.6,1792,86,0,8.6,Dewata F1,8,3
-Cabe Rawit,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bara,4,3
-Cabe Rawit,Lhoksukon,5.57,25.6,1792,86,0,8.6,Taruna,29,3
-Cabe Keriting,Lhoksukon,5.57,25.6,1792,86,0,8.6,TM 999,27,2
-Cabe Keriting,Lhoksukon,5.57,25.6,1792,86,0,8.6,Lado F1,15,2
-Cabe Keriting,Lhoksukon,5.57,25.6,1792,86,0,8.6,Kencana,14,2
-Cabe Besar,Lhoksukon,5.57,25.6,1792,86,0,8.6,Tanjung 2,28,1
-Cabe Besar,Lhoksukon,5.57,25.6,1792,86,0,8.6,Gada MK F1,9,1
-Cabe Besar,Lhoksukon,5.57,25.6,1792,86,0,8.6,Laris F1,17,1
-Tomat,Lhoksukon,5.57,25.6,1792,86,0,8.6,Servo F1,24,9
-Tomat,Lhoksukon,5.57,25.6,1792,86,0,8.6,Ratna,22,9
-Tomat,Lhoksukon,5.57,25.6,1792,86,0,8.6,Intan,11,9
-Semangka,Lhoksukon,5.57,25.6,1792,86,0,8.6,Crimson Sweet,7,7
-Semangka,Lhoksukon,5.57,25.6,1792,86,0,8.6,Sugar Baby,25,7
-Semangka,Lhoksukon,5.57,25.6,1792,86,0,8.6,Amara F1,0,7
-Bayam,Lhoksukon,5.57,25.6,1792,86,0,8.6,Maestro,18,0
-Bayam,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bangkok,2,0
-Bayam,Lhoksukon,5.57,25.6,1792,86,0,8.6,Cempaka,6,0
-Ketimun,Matangkuli,6.07,27.2,1947,171,1,7.1,Hercules F1,10,6
-Ketimun,Matangkuli,6.07,27.2,1947,171,1,7.1,Mercy F1,19,6
-Ketimun,Matangkuli,6.07,27.2,1947,171,1,7.1,Roman F1,23,6
-Kacang Panjang,Matangkuli,6.07,27.2,1947,171,1,7.1,Parade Tavi,21,4
-Kacang Panjang,Matangkuli,6.07,27.2,1947,171,1,7.1,Kanton Tavi,13,4
-Kacang Panjang,Matangkuli,6.07,27.2,1947,171,1,7.1,KP-1,12,4
-Kangkung,Matangkuli,6.07,27.2,1947,171,1,7.1,Bangkok LP-1,3,5
-Kangkung,Matangkuli,6.07,27.2,1947,171,1,7.1,Bisi Kangkung,5,5
-Kangkung,Matangkuli,6.07,27.2,1947,171,1,7.1,Sutra,26,5
-Terung,Matangkuli,6.07,27.2,1947,171,1,7.1,Mustang F1,20,8
-Terung,Matangkuli,6.07,27.2,1947,171,1,7.1,Laguna F1,16,8
-Terung,Matangkuli,6.07,27.2,1947,171,1,7.1,Antaboga,1,8
-Cabe Rawit,Matangkuli,6.07,27.2,1947,171,1,7.1,Dewata F1,8,3
-Cabe Rawit,Matangkuli,6.07,27.2,1947,171,1,7.1,Bara,4,3
-Cabe Rawit,Matangkuli,6.07,27.2,1947,171,1,7.1,Taruna,29,3
-Cabe Keriting,Matangkuli,6.07,27.2,1947,171,1,7.1,TM 999,27,2
-Cabe Keriting,Matangkuli,6.07,27.2,1947,171,1,7.1,Lado F1,15,2
-Cabe Keriting,Matangkuli,6.07,27.2,1947,171,1,7.1,Kencana,14,2
-Cabe Besar,Matangkuli,6.07,27.2,1947,171,1,7.1,Tanjung 2,28,1
-Cabe Besar,Matangkuli,6.07,27.2,1947,171,1,7.1,Gada MK F1,9,1
-Cabe Besar,Matangkuli,6.07,27.2,1947,171,1,7.1,Laris F1,17,1
-Tomat,Matangkuli,6.07,27.2,1947,171,1,7.1,Servo F1,24,9
-Tomat,Matangkuli,6.07,27.2,1947,171,1,7.1,Ratna,22,9
-Tomat,Matangkuli,6.07,27.2,1947,171,1,7.1,Intan,11,9
-Semangka,Matangkuli,6.07,27.2,1947,171,1,7.1,Crimson Sweet,7,7
-Semangka,Matangkuli,6.07,27.2,1947,171,1,7.1,Sugar Baby,25,7
-Semangka,Matangkuli,6.07,27.2,1947,171,1,7.1,Amara F1,0,7
-Bayam,Matangkuli,6.07,27.2,1947,171,1,7.1,Maestro,18,0
-Bayam,Matangkuli,6.07,27.2,1947,171,1,7.1,Bangkok,2,0
-Bayam,Matangkuli,6.07,27.2,1947,171,1,7.1,Cempaka,6,0
-Ketimun,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Hercules F1,10,6
-Ketimun,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Mercy F1,19,6
-Ketimun,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Roman F1,23,6
-Kacang Panjang,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Parade Tavi,21,4
-Kacang Panjang,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Kanton Tavi,13,4
-Kacang Panjang,Meurah Mulia,6.51,28.9,1346,628,2,6.5,KP-1,12,4
-Kangkung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bangkok LP-1,3,5
-Kangkung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bisi Kangkung,5,5
-Kangkung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Sutra,26,5
-Terung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Mustang F1,20,8
-Terung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Laguna F1,16,8
-Terung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Antaboga,1,8
-Cabe Rawit,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Dewata F1,8,3
-Cabe Rawit,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bara,4,3
-Cabe Rawit,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Taruna,29,3
-Cabe Keriting,Meurah Mulia,6.51,28.9,1346,628,2,6.5,TM 999,27,2
-Cabe Keriting,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Lado F1,15,2
-Cabe Keriting,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Kencana,14,2
-Cabe Besar,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Tanjung 2,28,1
-Cabe Besar,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Gada MK F1,9,1
-Cabe Besar,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Laris F1,17,1
-Tomat,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Servo F1,24,9
-Tomat,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Ratna,22,9
-Tomat,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Intan,11,9
-Semangka,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Crimson Sweet,7,7
-Semangka,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Sugar Baby,25,7
-Semangka,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Amara F1,0,7
-Bayam,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Maestro,18,0
-Bayam,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bangkok,2,0
-Bayam,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Cempaka,6,0
-Ketimun,Muara Batu,6.59,25.1,1977,281,2,8.1,Hercules F1,10,6
-Ketimun,Muara Batu,6.59,25.1,1977,281,2,8.1,Mercy F1,19,6
-Ketimun,Muara Batu,6.59,25.1,1977,281,2,8.1,Roman F1,23,6
-Kacang Panjang,Muara Batu,6.59,25.1,1977,281,2,8.1,Parade Tavi,21,4
-Kacang Panjang,Muara Batu,6.59,25.1,1977,281,2,8.1,Kanton Tavi,13,4
-Kacang Panjang,Muara Batu,6.59,25.1,1977,281,2,8.1,KP-1,12,4
-Kangkung,Muara Batu,6.59,25.1,1977,281,2,8.1,Bangkok LP-1,3,5
-Kangkung,Muara Batu,6.59,25.1,1977,281,2,8.1,Bisi Kangkung,5,5
-Kangkung,Muara Batu,6.59,25.1,1977,281,2,8.1,Sutra,26,5
-Terung,Muara Batu,6.59,25.1,1977,281,2,8.1,Mustang F1,20,8
-Terung,Muara Batu,6.59,25.1,1977,281,2,8.1,Laguna F1,16,8
-Terung,Muara Batu,6.59,25.1,1977,281,2,8.1,Antaboga,1,8
-Cabe Rawit,Muara Batu,6.59,25.1,1977,281,2,8.1,Dewata F1,8,3
-Cabe Rawit,Muara Batu,6.59,25.1,1977,281,2,8.1,Bara,4,3
-Cabe Rawit,Muara Batu,6.59,25.1,1977,281,2,8.1,Taruna,29,3
-Cabe Keriting,Muara Batu,6.59,25.1,1977,281,2,8.1,TM 999,27,2
-Cabe Keriting,Muara Batu,6.59,25.1,1977,281,2,8.1,Lado F1,15,2
-Cabe Keriting,Muara Batu,6.59,25.1,1977,281,2,8.1,Kencana,14,2
-Cabe Besar,Muara Batu,6.59,25.1,1977,281,2,8.1,Tanjung 2,28,1
-Cabe Besar,Muara Batu,6.59,25.1,1977,281,2,8.1,Gada MK F1,9,1
-Cabe Besar,Muara Batu,6.59,25.1,1977,281,2,8.1,Laris F1,17,1
-Tomat,Muara Batu,6.59,25.1,1977,281,2,8.1,Servo F1,24,9
-Tomat,Muara Batu,6.59,25.1,1977,281,2,8.1,Ratna,22,9
-Tomat,Muara Batu,6.59,25.1,1977,281,2,8.1,Intan,11,9
-Semangka,Muara Batu,6.59,25.1,1977,281,2,8.1,Crimson Sweet,7,7
-Semangka,Muara Batu,6.59,25.1,1977,281,2,8.1,Sugar Baby,25,7
-Semangka,Muara Batu,6.59,25.1,1977,281,2,8.1,Amara F1,0,7
-Bayam,Muara Batu,6.59,25.1,1977,281,2,8.1,Maestro,18,0
-Bayam,Muara Batu,6.59,25.1,1977,281,2,8.1,Bangkok,2,0
-Bayam,Muara Batu,6.59,25.1,1977,281,2,8.1,Cempaka,6,0
-Ketimun,Nibong,5.83,26.3,1314,239,0,8.4,Hercules F1,10,6
-Ketimun,Nibong,5.83,26.3,1314,239,0,8.4,Mercy F1,19,6
-Ketimun,Nibong,5.83,26.3,1314,239,0,8.4,Roman F1,23,6
-Kacang Panjang,Nibong,5.83,26.3,1314,239,0,8.4,Parade Tavi,21,4
-Kacang Panjang,Nibong,5.83,26.3,1314,239,0,8.4,Kanton Tavi,13,4
-Kacang Panjang,Nibong,5.83,26.3,1314,239,0,8.4,KP-1,12,4
-Kangkung,Nibong,5.83,26.3,1314,239,0,8.4,Bangkok LP-1,3,5
-Kangkung,Nibong,5.83,26.3,1314,239,0,8.4,Bisi Kangkung,5,5
-Kangkung,Nibong,5.83,26.3,1314,239,0,8.4,Sutra,26,5
-Terung,Nibong,5.83,26.3,1314,239,0,8.4,Mustang F1,20,8
-Terung,Nibong,5.83,26.3,1314,239,0,8.4,Laguna F1,16,8
-Terung,Nibong,5.83,26.3,1314,239,0,8.4,Antaboga,1,8
-Cabe Rawit,Nibong,5.83,26.3,1314,239,0,8.4,Dewata F1,8,3
-Cabe Rawit,Nibong,5.83,26.3,1314,239,0,8.4,Bara,4,3
-Cabe Rawit,Nibong,5.83,26.3,1314,239,0,8.4,Taruna,29,3
-Cabe Keriting,Nibong,5.83,26.3,1314,239,0,8.4,TM 999,27,2
-Cabe Keriting,Nibong,5.83,26.3,1314,239,0,8.4,Lado F1,15,2
-Cabe Keriting,Nibong,5.83,26.3,1314,239,0,8.4,Kencana,14,2
-Cabe Besar,Nibong,5.83,26.3,1314,239,0,8.4,Tanjung 2,28,1
-Cabe Besar,Nibong,5.83,26.3,1314,239,0,8.4,Gada MK F1,9,1
-Cabe Besar,Nibong,5.83,26.3,1314,239,0,8.4,Laris F1,17,1
-Tomat,Nibong,5.83,26.3,1314,239,0,8.4,Servo F1,24,9
-Tomat,Nibong,5.83,26.3,1314,239,0,8.4,Ratna,22,9
-Tomat,Nibong,5.83,26.3,1314,239,0,8.4,Intan,11,9
-Semangka,Nibong,5.83,26.3,1314,239,0,8.4,Crimson Sweet,7,7
-Semangka,Nibong,5.83,26.3,1314,239,0,8.4,Sugar Baby,25,7
-Semangka,Nibong,5.83,26.3,1314,239,0,8.4,Amara F1,0,7
-Bayam,Nibong,5.83,26.3,1314,239,0,8.4,Maestro,18,0
-Bayam,Nibong,5.83,26.3,1314,239,0,8.4,Bangkok,2,0
-Bayam,Nibong,5.83,26.3,1314,239,0,8.4,Cempaka,6,0
-Ketimun,Nisam,6.1,24.5,2361,740,1,6.6,Hercules F1,10,6
-Ketimun,Nisam,6.1,24.5,2361,740,1,6.6,Mercy F1,19,6
-Ketimun,Nisam,6.1,24.5,2361,740,1,6.6,Roman F1,23,6
-Kacang Panjang,Nisam,6.1,24.5,2361,740,1,6.6,Parade Tavi,21,4
-Kacang Panjang,Nisam,6.1,24.5,2361,740,1,6.6,Kanton Tavi,13,4
-Kacang Panjang,Nisam,6.1,24.5,2361,740,1,6.6,KP-1,12,4
-Kangkung,Nisam,6.1,24.5,2361,740,1,6.6,Bangkok LP-1,3,5
-Kangkung,Nisam,6.1,24.5,2361,740,1,6.6,Bisi Kangkung,5,5
-Kangkung,Nisam,6.1,24.5,2361,740,1,6.6,Sutra,26,5
-Terung,Nisam,6.1,24.5,2361,740,1,6.6,Mustang F1,20,8
-Terung,Nisam,6.1,24.5,2361,740,1,6.6,Laguna F1,16,8
-Terung,Nisam,6.1,24.5,2361,740,1,6.6,Antaboga,1,8
-Cabe Rawit,Nisam,6.1,24.5,2361,740,1,6.6,Dewata F1,8,3
-Cabe Rawit,Nisam,6.1,24.5,2361,740,1,6.6,Bara,4,3
-Cabe Rawit,Nisam,6.1,24.5,2361,740,1,6.6,Taruna,29,3
-Cabe Keriting,Nisam,6.1,24.5,2361,740,1,6.6,TM 999,27,2
-Cabe Keriting,Nisam,6.1,24.5,2361,740,1,6.6,Lado F1,15,2
-Cabe Keriting,Nisam,6.1,24.5,2361,740,1,6.6,Kencana,14,2
-Cabe Besar,Nisam,6.1,24.5,2361,740,1,6.6,Tanjung 2,28,1
-Cabe Besar,Nisam,6.1,24.5,2361,740,1,6.6,Gada MK F1,9,1
-Cabe Besar,Nisam,6.1,24.5,2361,740,1,6.6,Laris F1,17,1
-Tomat,Nisam,6.1,24.5,2361,740,1,6.6,Servo F1,24,9
-Tomat,Nisam,6.1,24.5,2361,740,1,6.6,Ratna,22,9
-Tomat,Nisam,6.1,24.5,2361,740,1,6.6,Intan,11,9
-Semangka,Nisam,6.1,24.5,2361,740,1,6.6,Crimson Sweet,7,7
-Semangka,Nisam,6.1,24.5,2361,740,1,6.6,Sugar Baby,25,7
-Semangka,Nisam,6.1,24.5,2361,740,1,6.6,Amara F1,0,7
-Bayam,Nisam,6.1,24.5,2361,740,1,6.6,Maestro,18,0
-Bayam,Nisam,6.1,24.5,2361,740,1,6.6,Bangkok,2,0
-Bayam,Nisam,6.1,24.5,2361,740,1,6.6,Cempaka,6,0
-Ketimun,Nisam Antara,6.25,30.2,2139,151,1,6.4,Hercules F1,10,6
-Ketimun,Nisam Antara,6.25,30.2,2139,151,1,6.4,Mercy F1,19,6
-Ketimun,Nisam Antara,6.25,30.2,2139,151,1,6.4,Roman F1,23,6
-Kacang Panjang,Nisam Antara,6.25,30.2,2139,151,1,6.4,Parade Tavi,21,4
-Kacang Panjang,Nisam Antara,6.25,30.2,2139,151,1,6.4,Kanton Tavi,13,4
-Kacang Panjang,Nisam Antara,6.25,30.2,2139,151,1,6.4,KP-1,12,4
-Kangkung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bangkok LP-1,3,5
-Kangkung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bisi Kangkung,5,5
-Kangkung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Sutra,26,5
-Terung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Mustang F1,20,8
-Terung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Laguna F1,16,8
-Terung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Antaboga,1,8
-Cabe Rawit,Nisam Antara,6.25,30.2,2139,151,1,6.4,Dewata F1,8,3
-Cabe Rawit,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bara,4,3
-Cabe Rawit,Nisam Antara,6.25,30.2,2139,151,1,6.4,Taruna,29,3
-Cabe Keriting,Nisam Antara,6.25,30.2,2139,151,1,6.4,TM 999,27,2
-Cabe Keriting,Nisam Antara,6.25,30.2,2139,151,1,6.4,Lado F1,15,2
-Cabe Keriting,Nisam Antara,6.25,30.2,2139,151,1,6.4,Kencana,14,2
-Cabe Besar,Nisam Antara,6.25,30.2,2139,151,1,6.4,Tanjung 2,28,1
-Cabe Besar,Nisam Antara,6.25,30.2,2139,151,1,6.4,Gada MK F1,9,1
-Cabe Besar,Nisam Antara,6.25,30.2,2139,151,1,6.4,Laris F1,17,1
-Tomat,Nisam Antara,6.25,30.2,2139,151,1,6.4,Servo F1,24,9
-Tomat,Nisam Antara,6.25,30.2,2139,151,1,6.4,Ratna,22,9
-Tomat,Nisam Antara,6.25,30.2,2139,151,1,6.4,Intan,11,9
-Semangka,Nisam Antara,6.25,30.2,2139,151,1,6.4,Crimson Sweet,7,7
-Semangka,Nisam Antara,6.25,30.2,2139,151,1,6.4,Sugar Baby,25,7
-Semangka,Nisam Antara,6.25,30.2,2139,151,1,6.4,Amara F1,0,7
-Bayam,Nisam Antara,6.25,30.2,2139,151,1,6.4,Maestro,18,0
-Bayam,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bangkok,2,0
-Bayam,Nisam Antara,6.25,30.2,2139,151,1,6.4,Cempaka,6,0
-Ketimun,Paya Bakong,6.62,27.8,2397,443,2,7.2,Hercules F1,10,6
-Ketimun,Paya Bakong,6.62,27.8,2397,443,2,7.2,Mercy F1,19,6
-Ketimun,Paya Bakong,6.62,27.8,2397,443,2,7.2,Roman F1,23,6
-Kacang Panjang,Paya Bakong,6.62,27.8,2397,443,2,7.2,Parade Tavi,21,4
-Kacang Panjang,Paya Bakong,6.62,27.8,2397,443,2,7.2,Kanton Tavi,13,4
-Kacang Panjang,Paya Bakong,6.62,27.8,2397,443,2,7.2,KP-1,12,4
-Kangkung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bangkok LP-1,3,5
-Kangkung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bisi Kangkung,5,5
-Kangkung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Sutra,26,5
-Terung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Mustang F1,20,8
-Terung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Laguna F1,16,8
-Terung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Antaboga,1,8
-Cabe Rawit,Paya Bakong,6.62,27.8,2397,443,2,7.2,Dewata F1,8,3
-Cabe Rawit,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bara,4,3
-Cabe Rawit,Paya Bakong,6.62,27.8,2397,443,2,7.2,Taruna,29,3
-Cabe Keriting,Paya Bakong,6.62,27.8,2397,443,2,7.2,TM 999,27,2
-Cabe Keriting,Paya Bakong,6.62,27.8,2397,443,2,7.2,Lado F1,15,2
-Cabe Keriting,Paya Bakong,6.62,27.8,2397,443,2,7.2,Kencana,14,2
-Cabe Besar,Paya Bakong,6.62,27.8,2397,443,2,7.2,Tanjung 2,28,1
-Cabe Besar,Paya Bakong,6.62,27.8,2397,443,2,7.2,Gada MK F1,9,1
-Cabe Besar,Paya Bakong,6.62,27.8,2397,443,2,7.2,Laris F1,17,1
-Tomat,Paya Bakong,6.62,27.8,2397,443,2,7.2,Servo F1,24,9
-Tomat,Paya Bakong,6.62,27.8,2397,443,2,7.2,Ratna,22,9
-Tomat,Paya Bakong,6.62,27.8,2397,443,2,7.2,Intan,11,9
-Semangka,Paya Bakong,6.62,27.8,2397,443,2,7.2,Crimson Sweet,7,7
-Semangka,Paya Bakong,6.62,27.8,2397,443,2,7.2,Sugar Baby,25,7
-Semangka,Paya Bakong,6.62,27.8,2397,443,2,7.2,Amara F1,0,7
-Bayam,Paya Bakong,6.62,27.8,2397,443,2,7.2,Maestro,18,0
-Bayam,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bangkok,2,0
-Bayam,Paya Bakong,6.62,27.8,2397,443,2,7.2,Cempaka,6,0
-Ketimun,Pirak Timu,5.83,31.0,2243,510,0,8.3,Hercules F1,10,6
-Ketimun,Pirak Timu,5.83,31.0,2243,510,0,8.3,Mercy F1,19,6
-Ketimun,Pirak Timu,5.83,31.0,2243,510,0,8.3,Roman F1,23,6
-Kacang Panjang,Pirak Timu,5.83,31.0,2243,510,0,8.3,Parade Tavi,21,4
-Kacang Panjang,Pirak Timu,5.83,31.0,2243,510,0,8.3,Kanton Tavi,13,4
-Kacang Panjang,Pirak Timu,5.83,31.0,2243,510,0,8.3,KP-1,12,4
-Kangkung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bangkok LP-1,3,5
-Kangkung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bisi Kangkung,5,5
-Kangkung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Sutra,26,5
-Terung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Mustang F1,20,8
-Terung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Laguna F1,16,8
-Terung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Antaboga,1,8
-Cabe Rawit,Pirak Timu,5.83,31.0,2243,510,0,8.3,Dewata F1,8,3
-Cabe Rawit,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bara,4,3
-Cabe Rawit,Pirak Timu,5.83,31.0,2243,510,0,8.3,Taruna,29,3
-Cabe Keriting,Pirak Timu,5.83,31.0,2243,510,0,8.3,TM 999,27,2
-Cabe Keriting,Pirak Timu,5.83,31.0,2243,510,0,8.3,Lado F1,15,2
-Cabe Keriting,Pirak Timu,5.83,31.0,2243,510,0,8.3,Kencana,14,2
-Cabe Besar,Pirak Timu,5.83,31.0,2243,510,0,8.3,Tanjung 2,28,1
-Cabe Besar,Pirak Timu,5.83,31.0,2243,510,0,8.3,Gada MK F1,9,1
-Cabe Besar,Pirak Timu,5.83,31.0,2243,510,0,8.3,Laris F1,17,1
-Tomat,Pirak Timu,5.83,31.0,2243,510,0,8.3,Servo F1,24,9
-Tomat,Pirak Timu,5.83,31.0,2243,510,0,8.3,Ratna,22,9
-Tomat,Pirak Timu,5.83,31.0,2243,510,0,8.3,Intan,11,9
-Semangka,Pirak Timu,5.83,31.0,2243,510,0,8.3,Crimson Sweet,7,7
-Semangka,Pirak Timu,5.83,31.0,2243,510,0,8.3,Sugar Baby,25,7
-Semangka,Pirak Timu,5.83,31.0,2243,510,0,8.3,Amara F1,0,7
-Bayam,Pirak Timu,5.83,31.0,2243,510,0,8.3,Maestro,18,0
-Bayam,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bangkok,2,0
-Bayam,Pirak Timu,5.83,31.0,2243,510,0,8.3,Cempaka,6,0
-Ketimun,Samudera,6.79,25.1,1527,816,2,7.3,Hercules F1,10,6
-Ketimun,Samudera,6.79,25.1,1527,816,2,7.3,Mercy F1,19,6
-Ketimun,Samudera,6.79,25.1,1527,816,2,7.3,Roman F1,23,6
-Kacang Panjang,Samudera,6.79,25.1,1527,816,2,7.3,Parade Tavi,21,4
-Kacang Panjang,Samudera,6.79,25.1,1527,816,2,7.3,Kanton Tavi,13,4
-Kacang Panjang,Samudera,6.79,25.1,1527,816,2,7.3,KP-1,12,4
-Kangkung,Samudera,6.79,25.1,1527,816,2,7.3,Bangkok LP-1,3,5
-Kangkung,Samudera,6.79,25.1,1527,816,2,7.3,Bisi Kangkung,5,5
-Kangkung,Samudera,6.79,25.1,1527,816,2,7.3,Sutra,26,5
-Terung,Samudera,6.79,25.1,1527,816,2,7.3,Mustang F1,20,8
-Terung,Samudera,6.79,25.1,1527,816,2,7.3,Laguna F1,16,8
-Terung,Samudera,6.79,25.1,1527,816,2,7.3,Antaboga,1,8
-Cabe Rawit,Samudera,6.79,25.1,1527,816,2,7.3,Dewata F1,8,3
-Cabe Rawit,Samudera,6.79,25.1,1527,816,2,7.3,Bara,4,3
-Cabe Rawit,Samudera,6.79,25.1,1527,816,2,7.3,Taruna,29,3
-Cabe Keriting,Samudera,6.79,25.1,1527,816,2,7.3,TM 999,27,2
-Cabe Keriting,Samudera,6.79,25.1,1527,816,2,7.3,Lado F1,15,2
-Cabe Keriting,Samudera,6.79,25.1,1527,816,2,7.3,Kencana,14,2
-Cabe Besar,Samudera,6.79,25.1,1527,816,2,7.3,Tanjung 2,28,1
-Cabe Besar,Samudera,6.79,25.1,1527,816,2,7.3,Gada MK F1,9,1
-Cabe Besar,Samudera,6.79,25.1,1527,816,2,7.3,Laris F1,17,1
-Tomat,Samudera,6.79,25.1,1527,816,2,7.3,Servo F1,24,9
-Tomat,Samudera,6.79,25.1,1527,816,2,7.3,Ratna,22,9
-Tomat,Samudera,6.79,25.1,1527,816,2,7.3,Intan,11,9
-Semangka,Samudera,6.79,25.1,1527,816,2,7.3,Crimson Sweet,7,7
-Semangka,Samudera,6.79,25.1,1527,816,2,7.3,Sugar Baby,25,7
-Semangka,Samudera,6.79,25.1,1527,816,2,7.3,Amara F1,0,7
-Bayam,Samudera,6.79,25.1,1527,816,2,7.3,Maestro,18,0
-Bayam,Samudera,6.79,25.1,1527,816,2,7.3,Bangkok,2,0
-Bayam,Samudera,6.79,25.1,1527,816,2,7.3,Cempaka,6,0
-Ketimun,Sawang,5.6,26.7,2158,546,1,8.9,Hercules F1,10,6
-Ketimun,Sawang,5.6,26.7,2158,546,1,8.9,Mercy F1,19,6
-Ketimun,Sawang,5.6,26.7,2158,546,1,8.9,Roman F1,23,6
-Kacang Panjang,Sawang,5.6,26.7,2158,546,1,8.9,Parade Tavi,21,4
-Kacang Panjang,Sawang,5.6,26.7,2158,546,1,8.9,Kanton Tavi,13,4
-Kacang Panjang,Sawang,5.6,26.7,2158,546,1,8.9,KP-1,12,4
-Kangkung,Sawang,5.6,26.7,2158,546,1,8.9,Bangkok LP-1,3,5
-Kangkung,Sawang,5.6,26.7,2158,546,1,8.9,Bisi Kangkung,5,5
-Kangkung,Sawang,5.6,26.7,2158,546,1,8.9,Sutra,26,5
-Terung,Sawang,5.6,26.7,2158,546,1,8.9,Mustang F1,20,8
-Terung,Sawang,5.6,26.7,2158,546,1,8.9,Laguna F1,16,8
-Terung,Sawang,5.6,26.7,2158,546,1,8.9,Antaboga,1,8
-Cabe Rawit,Sawang,5.6,26.7,2158,546,1,8.9,Dewata F1,8,3
-Cabe Rawit,Sawang,5.6,26.7,2158,546,1,8.9,Bara,4,3
-Cabe Rawit,Sawang,5.6,26.7,2158,546,1,8.9,Taruna,29,3
-Cabe Keriting,Sawang,5.6,26.7,2158,546,1,8.9,TM 999,27,2
-Cabe Keriting,Sawang,5.6,26.7,2158,546,1,8.9,Lado F1,15,2
-Cabe Keriting,Sawang,5.6,26.7,2158,546,1,8.9,Kencana,14,2
-Cabe Besar,Sawang,5.6,26.7,2158,546,1,8.9,Tanjung 2,28,1
-Cabe Besar,Sawang,5.6,26.7,2158,546,1,8.9,Gada MK F1,9,1
-Cabe Besar,Sawang,5.6,26.7,2158,546,1,8.9,Laris F1,17,1
-Tomat,Sawang,5.6,26.7,2158,546,1,8.9,Servo F1,24,9
-Tomat,Sawang,5.6,26.7,2158,546,1,8.9,Ratna,22,9
-Tomat,Sawang,5.6,26.7,2158,546,1,8.9,Intan,11,9
-Semangka,Sawang,5.6,26.7,2158,546,1,8.9,Crimson Sweet,7,7
-Semangka,Sawang,5.6,26.7,2158,546,1,8.9,Sugar Baby,25,7
-Semangka,Sawang,5.6,26.7,2158,546,1,8.9,Amara F1,0,7
-Bayam,Sawang,5.6,26.7,2158,546,1,8.9,Maestro,18,0
-Bayam,Sawang,5.6,26.7,2158,546,1,8.9,Bangkok,2,0
-Bayam,Sawang,5.6,26.7,2158,546,1,8.9,Cempaka,6,0
-Ketimun,Seunuddon,6.79,24.1,1434,703,2,8.3,Hercules F1,10,6
-Ketimun,Seunuddon,6.79,24.1,1434,703,2,8.3,Mercy F1,19,6
-Ketimun,Seunuddon,6.79,24.1,1434,703,2,8.3,Roman F1,23,6
-Kacang Panjang,Seunuddon,6.79,24.1,1434,703,2,8.3,Parade Tavi,21,4
-Kacang Panjang,Seunuddon,6.79,24.1,1434,703,2,8.3,Kanton Tavi,13,4
-Kacang Panjang,Seunuddon,6.79,24.1,1434,703,2,8.3,KP-1,12,4
-Kangkung,Seunuddon,6.79,24.1,1434,703,2,8.3,Bangkok LP-1,3,5
-Kangkung,Seunuddon,6.79,24.1,1434,703,2,8.3,Bisi Kangkung,5,5
-Kangkung,Seunuddon,6.79,24.1,1434,703,2,8.3,Sutra,26,5
-Terung,Seunuddon,6.79,24.1,1434,703,2,8.3,Mustang F1,20,8
-Terung,Seunuddon,6.79,24.1,1434,703,2,8.3,Laguna F1,16,8
-Terung,Seunuddon,6.79,24.1,1434,703,2,8.3,Antaboga,1,8
-Cabe Rawit,Seunuddon,6.79,24.1,1434,703,2,8.3,Dewata F1,8,3
-Cabe Rawit,Seunuddon,6.79,24.1,1434,703,2,8.3,Bara,4,3
-Cabe Rawit,Seunuddon,6.79,24.1,1434,703,2,8.3,Taruna,29,3
-Cabe Keriting,Seunuddon,6.79,24.1,1434,703,2,8.3,TM 999,27,2
-Cabe Keriting,Seunuddon,6.79,24.1,1434,703,2,8.3,Lado F1,15,2
-Cabe Keriting,Seunuddon,6.79,24.1,1434,703,2,8.3,Kencana,14,2
-Cabe Besar,Seunuddon,6.79,24.1,1434,703,2,8.3,Tanjung 2,28,1
-Cabe Besar,Seunuddon,6.79,24.1,1434,703,2,8.3,Gada MK F1,9,1
-Cabe Besar,Seunuddon,6.79,24.1,1434,703,2,8.3,Laris F1,17,1
-Tomat,Seunuddon,6.79,24.1,1434,703,2,8.3,Servo F1,24,9
-Tomat,Seunuddon,6.79,24.1,1434,703,2,8.3,Ratna,22,9
-Tomat,Seunuddon,6.79,24.1,1434,703,2,8.3,Intan,11,9
-Semangka,Seunuddon,6.79,24.1,1434,703,2,8.3,Crimson Sweet,7,7
-Semangka,Seunuddon,6.79,24.1,1434,703,2,8.3,Sugar Baby,25,7
-Semangka,Seunuddon,6.79,24.1,1434,703,2,8.3,Amara F1,0,7
-Bayam,Seunuddon,6.79,24.1,1434,703,2,8.3,Maestro,18,0
-Bayam,Seunuddon,6.79,24.1,1434,703,2,8.3,Bangkok,2,0
-Bayam,Seunuddon,6.79,24.1,1434,703,2,8.3,Cempaka,6,0
-Ketimun,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Hercules F1,10,6
-Ketimun,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Mercy F1,19,6
-Ketimun,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Roman F1,23,6
-Kacang Panjang,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Parade Tavi,21,4
-Kacang Panjang,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Kanton Tavi,13,4
-Kacang Panjang,Simpang Kramat,6.65,26.4,1801,450,0,7.4,KP-1,12,4
-Kangkung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bangkok LP-1,3,5
-Kangkung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bisi Kangkung,5,5
-Kangkung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Sutra,26,5
-Terung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Mustang F1,20,8
-Terung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Laguna F1,16,8
-Terung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Antaboga,1,8
-Cabe Rawit,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Dewata F1,8,3
-Cabe Rawit,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bara,4,3
-Cabe Rawit,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Taruna,29,3
-Cabe Keriting,Simpang Kramat,6.65,26.4,1801,450,0,7.4,TM 999,27,2
-Cabe Keriting,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Lado F1,15,2
-Cabe Keriting,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Kencana,14,2
-Cabe Besar,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Tanjung 2,28,1
-Cabe Besar,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Gada MK F1,9,1
-Cabe Besar,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Laris F1,17,1
-Tomat,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Servo F1,24,9
-Tomat,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Ratna,22,9
-Tomat,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Intan,11,9
-Semangka,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Crimson Sweet,7,7
-Semangka,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Sugar Baby,25,7
-Semangka,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Amara F1,0,7
-Bayam,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Maestro,18,0
-Bayam,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bangkok,2,0
-Bayam,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Cempaka,6,0
-Ketimun,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Hercules F1,10,6
-Ketimun,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Mercy F1,19,6
-Ketimun,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Roman F1,23,6
-Kacang Panjang,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Parade Tavi,21,4
-Kacang Panjang,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Kanton Tavi,13,4
-Kacang Panjang,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,KP-1,12,4
-Kangkung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bangkok LP-1,3,5
-Kangkung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bisi Kangkung,5,5
-Kangkung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Sutra,26,5
-Terung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Mustang F1,20,8
-Terung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Laguna F1,16,8
-Terung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Antaboga,1,8
-Cabe Rawit,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Dewata F1,8,3
-Cabe Rawit,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bara,4,3
-Cabe Rawit,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Taruna,29,3
-Cabe Keriting,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,TM 999,27,2
-Cabe Keriting,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Lado F1,15,2
-Cabe Keriting,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Kencana,14,2
-Cabe Besar,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Tanjung 2,28,1
-Cabe Besar,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Gada MK F1,9,1
-Cabe Besar,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Laris F1,17,1
-Tomat,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Servo F1,24,9
-Tomat,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Ratna,22,9
-Tomat,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Intan,11,9
-Semangka,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Crimson Sweet,7,7
-Semangka,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Sugar Baby,25,7
-Semangka,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Amara F1,0,7
-Bayam,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Maestro,18,0
-Bayam,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bangkok,2,0
-Bayam,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Cempaka,6,0
-Ketimun,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Hercules F1,10,6
-Ketimun,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Mercy F1,19,6
-Ketimun,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Roman F1,23,6
-Kacang Panjang,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Parade Tavi,21,4
-Kacang Panjang,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Kanton Tavi,13,4
-Kacang Panjang,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,KP-1,12,4
-Kangkung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bangkok LP-1,3,5
-Kangkung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bisi Kangkung,5,5
-Kangkung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Sutra,26,5
-Terung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Mustang F1,20,8
-Terung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Laguna F1,16,8
-Terung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Antaboga,1,8
-Cabe Rawit,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Dewata F1,8,3
-Cabe Rawit,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bara,4,3
-Cabe Rawit,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Taruna,29,3
-Cabe Keriting,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,TM 999,27,2
-Cabe Keriting,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Lado F1,15,2
-Cabe Keriting,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Kencana,14,2
-Cabe Besar,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Tanjung 2,28,1
-Cabe Besar,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Gada MK F1,9,1
-Cabe Besar,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Laris F1,17,1
-Tomat,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Servo F1,24,9
-Tomat,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Ratna,22,9
-Tomat,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Intan,11,9
-Semangka,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Crimson Sweet,7,7
-Semangka,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Sugar Baby,25,7
-Semangka,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Amara F1,0,7
-Bayam,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Maestro,18,0
-Bayam,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bangkok,2,0
-Bayam,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Cempaka,6,0
-Ketimun,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Hercules F1,10,6
-Ketimun,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Mercy F1,19,6
-Ketimun,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Roman F1,23,6
-Kacang Panjang,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Parade Tavi,21,4
-Kacang Panjang,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Kanton Tavi,13,4
-Kacang Panjang,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,KP-1,12,4
-Kangkung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bangkok LP-1,3,5
-Kangkung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bisi Kangkung,5,5
-Kangkung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Sutra,26,5
-Terung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Mustang F1,20,8
-Terung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Laguna F1,16,8
-Terung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Antaboga,1,8
-Cabe Rawit,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Dewata F1,8,3
-Cabe Rawit,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bara,4,3
-Cabe Rawit,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Taruna,29,3
-Cabe Keriting,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,TM 999,27,2
-Cabe Keriting,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Lado F1,15,2
-Cabe Keriting,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Kencana,14,2
-Cabe Besar,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Tanjung 2,28,1
-Cabe Besar,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Gada MK F1,9,1
-Cabe Besar,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Laris F1,17,1
-Tomat,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Servo F1,24,9
-Tomat,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Ratna,22,9
-Tomat,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Intan,11,9
-Semangka,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Crimson Sweet,7,7
-Semangka,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Sugar Baby,25,7
-Semangka,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Amara F1,0,7
-Bayam,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Maestro,18,0
-Bayam,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bangkok,2,0
-Bayam,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Cempaka,6,0
-Ketimun,Tanah Luas,5.53,30.5,1829,250,0,6.7,Hercules F1,10,6
-Ketimun,Tanah Luas,5.53,30.5,1829,250,0,6.7,Mercy F1,19,6
-Ketimun,Tanah Luas,5.53,30.5,1829,250,0,6.7,Roman F1,23,6
-Kacang Panjang,Tanah Luas,5.53,30.5,1829,250,0,6.7,Parade Tavi,21,4
-Kacang Panjang,Tanah Luas,5.53,30.5,1829,250,0,6.7,Kanton Tavi,13,4
-Kacang Panjang,Tanah Luas,5.53,30.5,1829,250,0,6.7,KP-1,12,4
-Kangkung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bangkok LP-1,3,5
-Kangkung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bisi Kangkung,5,5
-Kangkung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Sutra,26,5
-Terung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Mustang F1,20,8
-Terung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Laguna F1,16,8
-Terung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Antaboga,1,8
-Cabe Rawit,Tanah Luas,5.53,30.5,1829,250,0,6.7,Dewata F1,8,3
-Cabe Rawit,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bara,4,3
-Cabe Rawit,Tanah Luas,5.53,30.5,1829,250,0,6.7,Taruna,29,3
-Cabe Keriting,Tanah Luas,5.53,30.5,1829,250,0,6.7,TM 999,27,2
-Cabe Keriting,Tanah Luas,5.53,30.5,1829,250,0,6.7,Lado F1,15,2
-Cabe Keriting,Tanah Luas,5.53,30.5,1829,250,0,6.7,Kencana,14,2
-Cabe Besar,Tanah Luas,5.53,30.5,1829,250,0,6.7,Tanjung 2,28,1
-Cabe Besar,Tanah Luas,5.53,30.5,1829,250,0,6.7,Gada MK F1,9,1
-Cabe Besar,Tanah Luas,5.53,30.5,1829,250,0,6.7,Laris F1,17,1
-Tomat,Tanah Luas,5.53,30.5,1829,250,0,6.7,Servo F1,24,9
-Tomat,Tanah Luas,5.53,30.5,1829,250,0,6.7,Ratna,22,9
-Tomat,Tanah Luas,5.53,30.5,1829,250,0,6.7,Intan,11,9
-Semangka,Tanah Luas,5.53,30.5,1829,250,0,6.7,Crimson Sweet,7,7
-Semangka,Tanah Luas,5.53,30.5,1829,250,0,6.7,Sugar Baby,25,7
-Semangka,Tanah Luas,5.53,30.5,1829,250,0,6.7,Amara F1,0,7
-Bayam,Tanah Luas,5.53,30.5,1829,250,0,6.7,Maestro,18,0
-Bayam,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bangkok,2,0
-Bayam,Tanah Luas,5.53,30.5,1829,250,0,6.7,Cempaka,6,0
-Ketimun,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Hercules F1,10,6
-Ketimun,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Mercy F1,19,6
-Ketimun,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Roman F1,23,6
-Kacang Panjang,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Parade Tavi,21,4
-Kacang Panjang,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Kanton Tavi,13,4
-Kacang Panjang,Tanah Pasir,6.35,24.6,2195,840,0,8.9,KP-1,12,4
-Kangkung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bangkok LP-1,3,5
-Kangkung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bisi Kangkung,5,5
-Kangkung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Sutra,26,5
-Terung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Mustang F1,20,8
-Terung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Laguna F1,16,8
-Terung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Antaboga,1,8
-Cabe Rawit,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Dewata F1,8,3
-Cabe Rawit,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bara,4,3
-Cabe Rawit,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Taruna,29,3
-Cabe Keriting,Tanah Pasir,6.35,24.6,2195,840,0,8.9,TM 999,27,2
-Cabe Keriting,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Lado F1,15,2
-Cabe Keriting,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Kencana,14,2
-Cabe Besar,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Tanjung 2,28,1
-Cabe Besar,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Gada MK F1,9,1
-Cabe Besar,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Laris F1,17,1
-Tomat,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Servo F1,24,9
-Tomat,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Ratna,22,9
-Tomat,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Intan,11,9
-Semangka,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Crimson Sweet,7,7
-Semangka,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Sugar Baby,25,7
-Semangka,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Amara F1,0,7
-Bayam,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Maestro,18,0
-Bayam,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bangkok,2,0
-Bayam,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Cempaka,6,0
+Nama_Tanaman,Kecamatan,pH_Tanah,Suhu_C,Curah_Hujan_mm,Elevasi_mdpl,Ketersediaan_Air,Intensitas_Matahari_jam,Nama_Varietas,Nama_Varietas_Encoded,Nama_Tanaman_Encoded,Kecamatan_Encoded
+Ketimun,Baktiya,6.46,24.2,1763,255,0,6.4,Hercules F1,10,6,0
+Ketimun,Baktiya,6.46,24.2,1763,255,0,6.4,Mercy F1,19,6,0
+Ketimun,Baktiya,6.46,24.2,1763,255,0,6.4,Roman F1,23,6,0
+Kacang Panjang,Baktiya,6.46,24.2,1763,255,0,6.4,Parade Tavi,21,4,0
+Kacang Panjang,Baktiya,6.46,24.2,1763,255,0,6.4,Kanton Tavi,13,4,0
+Kacang Panjang,Baktiya,6.46,24.2,1763,255,0,6.4,KP-1,12,4,0
+Kangkung,Baktiya,6.46,24.2,1763,255,0,6.4,Bangkok LP-1,3,5,0
+Kangkung,Baktiya,6.46,24.2,1763,255,0,6.4,Bisi Kangkung,5,5,0
+Kangkung,Baktiya,6.46,24.2,1763,255,0,6.4,Sutra,26,5,0
+Terung,Baktiya,6.46,24.2,1763,255,0,6.4,Mustang F1,20,8,0
+Terung,Baktiya,6.46,24.2,1763,255,0,6.4,Laguna F1,16,8,0
+Terung,Baktiya,6.46,24.2,1763,255,0,6.4,Antaboga,1,8,0
+Cabe Rawit,Baktiya,6.46,24.2,1763,255,0,6.4,Dewata F1,8,3,0
+Cabe Rawit,Baktiya,6.46,24.2,1763,255,0,6.4,Bara,4,3,0
+Cabe Rawit,Baktiya,6.46,24.2,1763,255,0,6.4,Taruna,29,3,0
+Cabe Keriting,Baktiya,6.46,24.2,1763,255,0,6.4,TM 999,27,2,0
+Cabe Keriting,Baktiya,6.46,24.2,1763,255,0,6.4,Lado F1,15,2,0
+Cabe Keriting,Baktiya,6.46,24.2,1763,255,0,6.4,Kencana,14,2,0
+Cabe Besar,Baktiya,6.46,24.2,1763,255,0,6.4,Tanjung 2,28,1,0
+Cabe Besar,Baktiya,6.46,24.2,1763,255,0,6.4,Gada MK F1,9,1,0
+Cabe Besar,Baktiya,6.46,24.2,1763,255,0,6.4,Laris F1,17,1,0
+Tomat,Baktiya,6.46,24.2,1763,255,0,6.4,Servo F1,24,9,0
+Tomat,Baktiya,6.46,24.2,1763,255,0,6.4,Ratna,22,9,0
+Tomat,Baktiya,6.46,24.2,1763,255,0,6.4,Intan,11,9,0
+Semangka,Baktiya,6.46,24.2,1763,255,0,6.4,Crimson Sweet,7,7,0
+Semangka,Baktiya,6.46,24.2,1763,255,0,6.4,Sugar Baby,25,7,0
+Semangka,Baktiya,6.46,24.2,1763,255,0,6.4,Amara F1,0,7,0
+Bayam,Baktiya,6.46,24.2,1763,255,0,6.4,Maestro,18,0,0
+Bayam,Baktiya,6.46,24.2,1763,255,0,6.4,Bangkok,2,0,0
+Bayam,Baktiya,6.46,24.2,1763,255,0,6.4,Cempaka,6,0,0
+Ketimun,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Hercules F1,10,6,1
+Ketimun,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Mercy F1,19,6,1
+Ketimun,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Roman F1,23,6,1
+Kacang Panjang,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Parade Tavi,21,4,1
+Kacang Panjang,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Kanton Tavi,13,4,1
+Kacang Panjang,Baktiya Barat,5.65,29.2,2316,94,2,7.3,KP-1,12,4,1
+Kangkung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bangkok LP-1,3,5,1
+Kangkung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bisi Kangkung,5,5,1
+Kangkung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Sutra,26,5,1
+Terung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Mustang F1,20,8,1
+Terung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Laguna F1,16,8,1
+Terung,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Antaboga,1,8,1
+Cabe Rawit,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Dewata F1,8,3,1
+Cabe Rawit,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bara,4,3,1
+Cabe Rawit,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Taruna,29,3,1
+Cabe Keriting,Baktiya Barat,5.65,29.2,2316,94,2,7.3,TM 999,27,2,1
+Cabe Keriting,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Lado F1,15,2,1
+Cabe Keriting,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Kencana,14,2,1
+Cabe Besar,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Tanjung 2,28,1,1
+Cabe Besar,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Gada MK F1,9,1,1
+Cabe Besar,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Laris F1,17,1,1
+Tomat,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Servo F1,24,9,1
+Tomat,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Ratna,22,9,1
+Tomat,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Intan,11,9,1
+Semangka,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Crimson Sweet,7,7,1
+Semangka,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Sugar Baby,25,7,1
+Semangka,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Amara F1,0,7,1
+Bayam,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Maestro,18,0,1
+Bayam,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Bangkok,2,0,1
+Bayam,Baktiya Barat,5.65,29.2,2316,94,2,7.3,Cempaka,6,0,1
+Ketimun,Banda Baro,5.54,25.5,2234,621,0,7.7,Hercules F1,10,6,2
+Ketimun,Banda Baro,5.54,25.5,2234,621,0,7.7,Mercy F1,19,6,2
+Ketimun,Banda Baro,5.54,25.5,2234,621,0,7.7,Roman F1,23,6,2
+Kacang Panjang,Banda Baro,5.54,25.5,2234,621,0,7.7,Parade Tavi,21,4,2
+Kacang Panjang,Banda Baro,5.54,25.5,2234,621,0,7.7,Kanton Tavi,13,4,2
+Kacang Panjang,Banda Baro,5.54,25.5,2234,621,0,7.7,KP-1,12,4,2
+Kangkung,Banda Baro,5.54,25.5,2234,621,0,7.7,Bangkok LP-1,3,5,2
+Kangkung,Banda Baro,5.54,25.5,2234,621,0,7.7,Bisi Kangkung,5,5,2
+Kangkung,Banda Baro,5.54,25.5,2234,621,0,7.7,Sutra,26,5,2
+Terung,Banda Baro,5.54,25.5,2234,621,0,7.7,Mustang F1,20,8,2
+Terung,Banda Baro,5.54,25.5,2234,621,0,7.7,Laguna F1,16,8,2
+Terung,Banda Baro,5.54,25.5,2234,621,0,7.7,Antaboga,1,8,2
+Cabe Rawit,Banda Baro,5.54,25.5,2234,621,0,7.7,Dewata F1,8,3,2
+Cabe Rawit,Banda Baro,5.54,25.5,2234,621,0,7.7,Bara,4,3,2
+Cabe Rawit,Banda Baro,5.54,25.5,2234,621,0,7.7,Taruna,29,3,2
+Cabe Keriting,Banda Baro,5.54,25.5,2234,621,0,7.7,TM 999,27,2,2
+Cabe Keriting,Banda Baro,5.54,25.5,2234,621,0,7.7,Lado F1,15,2,2
+Cabe Keriting,Banda Baro,5.54,25.5,2234,621,0,7.7,Kencana,14,2,2
+Cabe Besar,Banda Baro,5.54,25.5,2234,621,0,7.7,Tanjung 2,28,1,2
+Cabe Besar,Banda Baro,5.54,25.5,2234,621,0,7.7,Gada MK F1,9,1,2
+Cabe Besar,Banda Baro,5.54,25.5,2234,621,0,7.7,Laris F1,17,1,2
+Tomat,Banda Baro,5.54,25.5,2234,621,0,7.7,Servo F1,24,9,2
+Tomat,Banda Baro,5.54,25.5,2234,621,0,7.7,Ratna,22,9,2
+Tomat,Banda Baro,5.54,25.5,2234,621,0,7.7,Intan,11,9,2
+Semangka,Banda Baro,5.54,25.5,2234,621,0,7.7,Crimson Sweet,7,7,2
+Semangka,Banda Baro,5.54,25.5,2234,621,0,7.7,Sugar Baby,25,7,2
+Semangka,Banda Baro,5.54,25.5,2234,621,0,7.7,Amara F1,0,7,2
+Bayam,Banda Baro,5.54,25.5,2234,621,0,7.7,Maestro,18,0,2
+Bayam,Banda Baro,5.54,25.5,2234,621,0,7.7,Bangkok,2,0,2
+Bayam,Banda Baro,5.54,25.5,2234,621,0,7.7,Cempaka,6,0,2
+Ketimun,Cot Girek,6.57,28.9,2059,230,1,7.8,Hercules F1,10,6,3
+Ketimun,Cot Girek,6.57,28.9,2059,230,1,7.8,Mercy F1,19,6,3
+Ketimun,Cot Girek,6.57,28.9,2059,230,1,7.8,Roman F1,23,6,3
+Kacang Panjang,Cot Girek,6.57,28.9,2059,230,1,7.8,Parade Tavi,21,4,3
+Kacang Panjang,Cot Girek,6.57,28.9,2059,230,1,7.8,Kanton Tavi,13,4,3
+Kacang Panjang,Cot Girek,6.57,28.9,2059,230,1,7.8,KP-1,12,4,3
+Kangkung,Cot Girek,6.57,28.9,2059,230,1,7.8,Bangkok LP-1,3,5,3
+Kangkung,Cot Girek,6.57,28.9,2059,230,1,7.8,Bisi Kangkung,5,5,3
+Kangkung,Cot Girek,6.57,28.9,2059,230,1,7.8,Sutra,26,5,3
+Terung,Cot Girek,6.57,28.9,2059,230,1,7.8,Mustang F1,20,8,3
+Terung,Cot Girek,6.57,28.9,2059,230,1,7.8,Laguna F1,16,8,3
+Terung,Cot Girek,6.57,28.9,2059,230,1,7.8,Antaboga,1,8,3
+Cabe Rawit,Cot Girek,6.57,28.9,2059,230,1,7.8,Dewata F1,8,3,3
+Cabe Rawit,Cot Girek,6.57,28.9,2059,230,1,7.8,Bara,4,3,3
+Cabe Rawit,Cot Girek,6.57,28.9,2059,230,1,7.8,Taruna,29,3,3
+Cabe Keriting,Cot Girek,6.57,28.9,2059,230,1,7.8,TM 999,27,2,3
+Cabe Keriting,Cot Girek,6.57,28.9,2059,230,1,7.8,Lado F1,15,2,3
+Cabe Keriting,Cot Girek,6.57,28.9,2059,230,1,7.8,Kencana,14,2,3
+Cabe Besar,Cot Girek,6.57,28.9,2059,230,1,7.8,Tanjung 2,28,1,3
+Cabe Besar,Cot Girek,6.57,28.9,2059,230,1,7.8,Gada MK F1,9,1,3
+Cabe Besar,Cot Girek,6.57,28.9,2059,230,1,7.8,Laris F1,17,1,3
+Tomat,Cot Girek,6.57,28.9,2059,230,1,7.8,Servo F1,24,9,3
+Tomat,Cot Girek,6.57,28.9,2059,230,1,7.8,Ratna,22,9,3
+Tomat,Cot Girek,6.57,28.9,2059,230,1,7.8,Intan,11,9,3
+Semangka,Cot Girek,6.57,28.9,2059,230,1,7.8,Crimson Sweet,7,7,3
+Semangka,Cot Girek,6.57,28.9,2059,230,1,7.8,Sugar Baby,25,7,3
+Semangka,Cot Girek,6.57,28.9,2059,230,1,7.8,Amara F1,0,7,3
+Bayam,Cot Girek,6.57,28.9,2059,230,1,7.8,Maestro,18,0,3
+Bayam,Cot Girek,6.57,28.9,2059,230,1,7.8,Bangkok,2,0,3
+Bayam,Cot Girek,6.57,28.9,2059,230,1,7.8,Cempaka,6,0,3
+Ketimun,Dewantara,6.71,24.0,1526,719,1,7.0,Hercules F1,10,6,4
+Ketimun,Dewantara,6.71,24.0,1526,719,1,7.0,Mercy F1,19,6,4
+Ketimun,Dewantara,6.71,24.0,1526,719,1,7.0,Roman F1,23,6,4
+Kacang Panjang,Dewantara,6.71,24.0,1526,719,1,7.0,Parade Tavi,21,4,4
+Kacang Panjang,Dewantara,6.71,24.0,1526,719,1,7.0,Kanton Tavi,13,4,4
+Kacang Panjang,Dewantara,6.71,24.0,1526,719,1,7.0,KP-1,12,4,4
+Kangkung,Dewantara,6.71,24.0,1526,719,1,7.0,Bangkok LP-1,3,5,4
+Kangkung,Dewantara,6.71,24.0,1526,719,1,7.0,Bisi Kangkung,5,5,4
+Kangkung,Dewantara,6.71,24.0,1526,719,1,7.0,Sutra,26,5,4
+Terung,Dewantara,6.71,24.0,1526,719,1,7.0,Mustang F1,20,8,4
+Terung,Dewantara,6.71,24.0,1526,719,1,7.0,Laguna F1,16,8,4
+Terung,Dewantara,6.71,24.0,1526,719,1,7.0,Antaboga,1,8,4
+Cabe Rawit,Dewantara,6.71,24.0,1526,719,1,7.0,Dewata F1,8,3,4
+Cabe Rawit,Dewantara,6.71,24.0,1526,719,1,7.0,Bara,4,3,4
+Cabe Rawit,Dewantara,6.71,24.0,1526,719,1,7.0,Taruna,29,3,4
+Cabe Keriting,Dewantara,6.71,24.0,1526,719,1,7.0,TM 999,27,2,4
+Cabe Keriting,Dewantara,6.71,24.0,1526,719,1,7.0,Lado F1,15,2,4
+Cabe Keriting,Dewantara,6.71,24.0,1526,719,1,7.0,Kencana,14,2,4
+Cabe Besar,Dewantara,6.71,24.0,1526,719,1,7.0,Tanjung 2,28,1,4
+Cabe Besar,Dewantara,6.71,24.0,1526,719,1,7.0,Gada MK F1,9,1,4
+Cabe Besar,Dewantara,6.71,24.0,1526,719,1,7.0,Laris F1,17,1,4
+Tomat,Dewantara,6.71,24.0,1526,719,1,7.0,Servo F1,24,9,4
+Tomat,Dewantara,6.71,24.0,1526,719,1,7.0,Ratna,22,9,4
+Tomat,Dewantara,6.71,24.0,1526,719,1,7.0,Intan,11,9,4
+Semangka,Dewantara,6.71,24.0,1526,719,1,7.0,Crimson Sweet,7,7,4
+Semangka,Dewantara,6.71,24.0,1526,719,1,7.0,Sugar Baby,25,7,4
+Semangka,Dewantara,6.71,24.0,1526,719,1,7.0,Amara F1,0,7,4
+Bayam,Dewantara,6.71,24.0,1526,719,1,7.0,Maestro,18,0,4
+Bayam,Dewantara,6.71,24.0,1526,719,1,7.0,Bangkok,2,0,4
+Bayam,Dewantara,6.71,24.0,1526,719,1,7.0,Cempaka,6,0,4
+Ketimun,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Hercules F1,10,6,5
+Ketimun,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Mercy F1,19,6,5
+Ketimun,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Roman F1,23,6,5
+Kacang Panjang,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Parade Tavi,21,4,5
+Kacang Panjang,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Kanton Tavi,13,4,5
+Kacang Panjang,Geuredong Pase,5.73,30.7,1889,109,0,7.1,KP-1,12,4,5
+Kangkung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bangkok LP-1,3,5,5
+Kangkung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bisi Kangkung,5,5,5
+Kangkung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Sutra,26,5,5
+Terung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Mustang F1,20,8,5
+Terung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Laguna F1,16,8,5
+Terung,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Antaboga,1,8,5
+Cabe Rawit,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Dewata F1,8,3,5
+Cabe Rawit,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bara,4,3,5
+Cabe Rawit,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Taruna,29,3,5
+Cabe Keriting,Geuredong Pase,5.73,30.7,1889,109,0,7.1,TM 999,27,2,5
+Cabe Keriting,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Lado F1,15,2,5
+Cabe Keriting,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Kencana,14,2,5
+Cabe Besar,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Tanjung 2,28,1,5
+Cabe Besar,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Gada MK F1,9,1,5
+Cabe Besar,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Laris F1,17,1,5
+Tomat,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Servo F1,24,9,5
+Tomat,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Ratna,22,9,5
+Tomat,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Intan,11,9,5
+Semangka,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Crimson Sweet,7,7,5
+Semangka,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Sugar Baby,25,7,5
+Semangka,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Amara F1,0,7,5
+Bayam,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Maestro,18,0,5
+Bayam,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Bangkok,2,0,5
+Bayam,Geuredong Pase,5.73,30.7,1889,109,0,7.1,Cempaka,6,0,5
+Ketimun,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Hercules F1,10,6,6
+Ketimun,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Mercy F1,19,6,6
+Ketimun,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Roman F1,23,6,6
+Kacang Panjang,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Parade Tavi,21,4,6
+Kacang Panjang,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Kanton Tavi,13,4,6
+Kacang Panjang,Kuta Makmur,6.04,26.4,1741,831,0,8.2,KP-1,12,4,6
+Kangkung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bangkok LP-1,3,5,6
+Kangkung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bisi Kangkung,5,5,6
+Kangkung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Sutra,26,5,6
+Terung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Mustang F1,20,8,6
+Terung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Laguna F1,16,8,6
+Terung,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Antaboga,1,8,6
+Cabe Rawit,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Dewata F1,8,3,6
+Cabe Rawit,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bara,4,3,6
+Cabe Rawit,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Taruna,29,3,6
+Cabe Keriting,Kuta Makmur,6.04,26.4,1741,831,0,8.2,TM 999,27,2,6
+Cabe Keriting,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Lado F1,15,2,6
+Cabe Keriting,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Kencana,14,2,6
+Cabe Besar,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Tanjung 2,28,1,6
+Cabe Besar,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Gada MK F1,9,1,6
+Cabe Besar,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Laris F1,17,1,6
+Tomat,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Servo F1,24,9,6
+Tomat,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Ratna,22,9,6
+Tomat,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Intan,11,9,6
+Semangka,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Crimson Sweet,7,7,6
+Semangka,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Sugar Baby,25,7,6
+Semangka,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Amara F1,0,7,6
+Bayam,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Maestro,18,0,6
+Bayam,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Bangkok,2,0,6
+Bayam,Kuta Makmur,6.04,26.4,1741,831,0,8.2,Cempaka,6,0,6
+Ketimun,Langkahan,6.3,30.8,1975,85,2,6.9,Hercules F1,10,6,7
+Ketimun,Langkahan,6.3,30.8,1975,85,2,6.9,Mercy F1,19,6,7
+Ketimun,Langkahan,6.3,30.8,1975,85,2,6.9,Roman F1,23,6,7
+Kacang Panjang,Langkahan,6.3,30.8,1975,85,2,6.9,Parade Tavi,21,4,7
+Kacang Panjang,Langkahan,6.3,30.8,1975,85,2,6.9,Kanton Tavi,13,4,7
+Kacang Panjang,Langkahan,6.3,30.8,1975,85,2,6.9,KP-1,12,4,7
+Kangkung,Langkahan,6.3,30.8,1975,85,2,6.9,Bangkok LP-1,3,5,7
+Kangkung,Langkahan,6.3,30.8,1975,85,2,6.9,Bisi Kangkung,5,5,7
+Kangkung,Langkahan,6.3,30.8,1975,85,2,6.9,Sutra,26,5,7
+Terung,Langkahan,6.3,30.8,1975,85,2,6.9,Mustang F1,20,8,7
+Terung,Langkahan,6.3,30.8,1975,85,2,6.9,Laguna F1,16,8,7
+Terung,Langkahan,6.3,30.8,1975,85,2,6.9,Antaboga,1,8,7
+Cabe Rawit,Langkahan,6.3,30.8,1975,85,2,6.9,Dewata F1,8,3,7
+Cabe Rawit,Langkahan,6.3,30.8,1975,85,2,6.9,Bara,4,3,7
+Cabe Rawit,Langkahan,6.3,30.8,1975,85,2,6.9,Taruna,29,3,7
+Cabe Keriting,Langkahan,6.3,30.8,1975,85,2,6.9,TM 999,27,2,7
+Cabe Keriting,Langkahan,6.3,30.8,1975,85,2,6.9,Lado F1,15,2,7
+Cabe Keriting,Langkahan,6.3,30.8,1975,85,2,6.9,Kencana,14,2,7
+Cabe Besar,Langkahan,6.3,30.8,1975,85,2,6.9,Tanjung 2,28,1,7
+Cabe Besar,Langkahan,6.3,30.8,1975,85,2,6.9,Gada MK F1,9,1,7
+Cabe Besar,Langkahan,6.3,30.8,1975,85,2,6.9,Laris F1,17,1,7
+Tomat,Langkahan,6.3,30.8,1975,85,2,6.9,Servo F1,24,9,7
+Tomat,Langkahan,6.3,30.8,1975,85,2,6.9,Ratna,22,9,7
+Tomat,Langkahan,6.3,30.8,1975,85,2,6.9,Intan,11,9,7
+Semangka,Langkahan,6.3,30.8,1975,85,2,6.9,Crimson Sweet,7,7,7
+Semangka,Langkahan,6.3,30.8,1975,85,2,6.9,Sugar Baby,25,7,7
+Semangka,Langkahan,6.3,30.8,1975,85,2,6.9,Amara F1,0,7,7
+Bayam,Langkahan,6.3,30.8,1975,85,2,6.9,Maestro,18,0,7
+Bayam,Langkahan,6.3,30.8,1975,85,2,6.9,Bangkok,2,0,7
+Bayam,Langkahan,6.3,30.8,1975,85,2,6.9,Cempaka,6,0,7
+Ketimun,Lapang,6.44,30.2,1940,596,0,8.1,Hercules F1,10,6,8
+Ketimun,Lapang,6.44,30.2,1940,596,0,8.1,Mercy F1,19,6,8
+Ketimun,Lapang,6.44,30.2,1940,596,0,8.1,Roman F1,23,6,8
+Kacang Panjang,Lapang,6.44,30.2,1940,596,0,8.1,Parade Tavi,21,4,8
+Kacang Panjang,Lapang,6.44,30.2,1940,596,0,8.1,Kanton Tavi,13,4,8
+Kacang Panjang,Lapang,6.44,30.2,1940,596,0,8.1,KP-1,12,4,8
+Kangkung,Lapang,6.44,30.2,1940,596,0,8.1,Bangkok LP-1,3,5,8
+Kangkung,Lapang,6.44,30.2,1940,596,0,8.1,Bisi Kangkung,5,5,8
+Kangkung,Lapang,6.44,30.2,1940,596,0,8.1,Sutra,26,5,8
+Terung,Lapang,6.44,30.2,1940,596,0,8.1,Mustang F1,20,8,8
+Terung,Lapang,6.44,30.2,1940,596,0,8.1,Laguna F1,16,8,8
+Terung,Lapang,6.44,30.2,1940,596,0,8.1,Antaboga,1,8,8
+Cabe Rawit,Lapang,6.44,30.2,1940,596,0,8.1,Dewata F1,8,3,8
+Cabe Rawit,Lapang,6.44,30.2,1940,596,0,8.1,Bara,4,3,8
+Cabe Rawit,Lapang,6.44,30.2,1940,596,0,8.1,Taruna,29,3,8
+Cabe Keriting,Lapang,6.44,30.2,1940,596,0,8.1,TM 999,27,2,8
+Cabe Keriting,Lapang,6.44,30.2,1940,596,0,8.1,Lado F1,15,2,8
+Cabe Keriting,Lapang,6.44,30.2,1940,596,0,8.1,Kencana,14,2,8
+Cabe Besar,Lapang,6.44,30.2,1940,596,0,8.1,Tanjung 2,28,1,8
+Cabe Besar,Lapang,6.44,30.2,1940,596,0,8.1,Gada MK F1,9,1,8
+Cabe Besar,Lapang,6.44,30.2,1940,596,0,8.1,Laris F1,17,1,8
+Tomat,Lapang,6.44,30.2,1940,596,0,8.1,Servo F1,24,9,8
+Tomat,Lapang,6.44,30.2,1940,596,0,8.1,Ratna,22,9,8
+Tomat,Lapang,6.44,30.2,1940,596,0,8.1,Intan,11,9,8
+Semangka,Lapang,6.44,30.2,1940,596,0,8.1,Crimson Sweet,7,7,8
+Semangka,Lapang,6.44,30.2,1940,596,0,8.1,Sugar Baby,25,7,8
+Semangka,Lapang,6.44,30.2,1940,596,0,8.1,Amara F1,0,7,8
+Bayam,Lapang,6.44,30.2,1940,596,0,8.1,Maestro,18,0,8
+Bayam,Lapang,6.44,30.2,1940,596,0,8.1,Bangkok,2,0,8
+Bayam,Lapang,6.44,30.2,1940,596,0,8.1,Cempaka,6,0,8
+Ketimun,Lhoksukon,5.57,25.6,1792,86,0,8.6,Hercules F1,10,6,9
+Ketimun,Lhoksukon,5.57,25.6,1792,86,0,8.6,Mercy F1,19,6,9
+Ketimun,Lhoksukon,5.57,25.6,1792,86,0,8.6,Roman F1,23,6,9
+Kacang Panjang,Lhoksukon,5.57,25.6,1792,86,0,8.6,Parade Tavi,21,4,9
+Kacang Panjang,Lhoksukon,5.57,25.6,1792,86,0,8.6,Kanton Tavi,13,4,9
+Kacang Panjang,Lhoksukon,5.57,25.6,1792,86,0,8.6,KP-1,12,4,9
+Kangkung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bangkok LP-1,3,5,9
+Kangkung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bisi Kangkung,5,5,9
+Kangkung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Sutra,26,5,9
+Terung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Mustang F1,20,8,9
+Terung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Laguna F1,16,8,9
+Terung,Lhoksukon,5.57,25.6,1792,86,0,8.6,Antaboga,1,8,9
+Cabe Rawit,Lhoksukon,5.57,25.6,1792,86,0,8.6,Dewata F1,8,3,9
+Cabe Rawit,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bara,4,3,9
+Cabe Rawit,Lhoksukon,5.57,25.6,1792,86,0,8.6,Taruna,29,3,9
+Cabe Keriting,Lhoksukon,5.57,25.6,1792,86,0,8.6,TM 999,27,2,9
+Cabe Keriting,Lhoksukon,5.57,25.6,1792,86,0,8.6,Lado F1,15,2,9
+Cabe Keriting,Lhoksukon,5.57,25.6,1792,86,0,8.6,Kencana,14,2,9
+Cabe Besar,Lhoksukon,5.57,25.6,1792,86,0,8.6,Tanjung 2,28,1,9
+Cabe Besar,Lhoksukon,5.57,25.6,1792,86,0,8.6,Gada MK F1,9,1,9
+Cabe Besar,Lhoksukon,5.57,25.6,1792,86,0,8.6,Laris F1,17,1,9
+Tomat,Lhoksukon,5.57,25.6,1792,86,0,8.6,Servo F1,24,9,9
+Tomat,Lhoksukon,5.57,25.6,1792,86,0,8.6,Ratna,22,9,9
+Tomat,Lhoksukon,5.57,25.6,1792,86,0,8.6,Intan,11,9,9
+Semangka,Lhoksukon,5.57,25.6,1792,86,0,8.6,Crimson Sweet,7,7,9
+Semangka,Lhoksukon,5.57,25.6,1792,86,0,8.6,Sugar Baby,25,7,9
+Semangka,Lhoksukon,5.57,25.6,1792,86,0,8.6,Amara F1,0,7,9
+Bayam,Lhoksukon,5.57,25.6,1792,86,0,8.6,Maestro,18,0,9
+Bayam,Lhoksukon,5.57,25.6,1792,86,0,8.6,Bangkok,2,0,9
+Bayam,Lhoksukon,5.57,25.6,1792,86,0,8.6,Cempaka,6,0,9
+Ketimun,Matangkuli,6.07,27.2,1947,171,1,7.1,Hercules F1,10,6,10
+Ketimun,Matangkuli,6.07,27.2,1947,171,1,7.1,Mercy F1,19,6,10
+Ketimun,Matangkuli,6.07,27.2,1947,171,1,7.1,Roman F1,23,6,10
+Kacang Panjang,Matangkuli,6.07,27.2,1947,171,1,7.1,Parade Tavi,21,4,10
+Kacang Panjang,Matangkuli,6.07,27.2,1947,171,1,7.1,Kanton Tavi,13,4,10
+Kacang Panjang,Matangkuli,6.07,27.2,1947,171,1,7.1,KP-1,12,4,10
+Kangkung,Matangkuli,6.07,27.2,1947,171,1,7.1,Bangkok LP-1,3,5,10
+Kangkung,Matangkuli,6.07,27.2,1947,171,1,7.1,Bisi Kangkung,5,5,10
+Kangkung,Matangkuli,6.07,27.2,1947,171,1,7.1,Sutra,26,5,10
+Terung,Matangkuli,6.07,27.2,1947,171,1,7.1,Mustang F1,20,8,10
+Terung,Matangkuli,6.07,27.2,1947,171,1,7.1,Laguna F1,16,8,10
+Terung,Matangkuli,6.07,27.2,1947,171,1,7.1,Antaboga,1,8,10
+Cabe Rawit,Matangkuli,6.07,27.2,1947,171,1,7.1,Dewata F1,8,3,10
+Cabe Rawit,Matangkuli,6.07,27.2,1947,171,1,7.1,Bara,4,3,10
+Cabe Rawit,Matangkuli,6.07,27.2,1947,171,1,7.1,Taruna,29,3,10
+Cabe Keriting,Matangkuli,6.07,27.2,1947,171,1,7.1,TM 999,27,2,10
+Cabe Keriting,Matangkuli,6.07,27.2,1947,171,1,7.1,Lado F1,15,2,10
+Cabe Keriting,Matangkuli,6.07,27.2,1947,171,1,7.1,Kencana,14,2,10
+Cabe Besar,Matangkuli,6.07,27.2,1947,171,1,7.1,Tanjung 2,28,1,10
+Cabe Besar,Matangkuli,6.07,27.2,1947,171,1,7.1,Gada MK F1,9,1,10
+Cabe Besar,Matangkuli,6.07,27.2,1947,171,1,7.1,Laris F1,17,1,10
+Tomat,Matangkuli,6.07,27.2,1947,171,1,7.1,Servo F1,24,9,10
+Tomat,Matangkuli,6.07,27.2,1947,171,1,7.1,Ratna,22,9,10
+Tomat,Matangkuli,6.07,27.2,1947,171,1,7.1,Intan,11,9,10
+Semangka,Matangkuli,6.07,27.2,1947,171,1,7.1,Crimson Sweet,7,7,10
+Semangka,Matangkuli,6.07,27.2,1947,171,1,7.1,Sugar Baby,25,7,10
+Semangka,Matangkuli,6.07,27.2,1947,171,1,7.1,Amara F1,0,7,10
+Bayam,Matangkuli,6.07,27.2,1947,171,1,7.1,Maestro,18,0,10
+Bayam,Matangkuli,6.07,27.2,1947,171,1,7.1,Bangkok,2,0,10
+Bayam,Matangkuli,6.07,27.2,1947,171,1,7.1,Cempaka,6,0,10
+Ketimun,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Hercules F1,10,6,11
+Ketimun,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Mercy F1,19,6,11
+Ketimun,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Roman F1,23,6,11
+Kacang Panjang,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Parade Tavi,21,4,11
+Kacang Panjang,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Kanton Tavi,13,4,11
+Kacang Panjang,Meurah Mulia,6.51,28.9,1346,628,2,6.5,KP-1,12,4,11
+Kangkung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bangkok LP-1,3,5,11
+Kangkung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bisi Kangkung,5,5,11
+Kangkung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Sutra,26,5,11
+Terung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Mustang F1,20,8,11
+Terung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Laguna F1,16,8,11
+Terung,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Antaboga,1,8,11
+Cabe Rawit,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Dewata F1,8,3,11
+Cabe Rawit,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bara,4,3,11
+Cabe Rawit,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Taruna,29,3,11
+Cabe Keriting,Meurah Mulia,6.51,28.9,1346,628,2,6.5,TM 999,27,2,11
+Cabe Keriting,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Lado F1,15,2,11
+Cabe Keriting,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Kencana,14,2,11
+Cabe Besar,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Tanjung 2,28,1,11
+Cabe Besar,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Gada MK F1,9,1,11
+Cabe Besar,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Laris F1,17,1,11
+Tomat,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Servo F1,24,9,11
+Tomat,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Ratna,22,9,11
+Tomat,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Intan,11,9,11
+Semangka,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Crimson Sweet,7,7,11
+Semangka,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Sugar Baby,25,7,11
+Semangka,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Amara F1,0,7,11
+Bayam,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Maestro,18,0,11
+Bayam,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Bangkok,2,0,11
+Bayam,Meurah Mulia,6.51,28.9,1346,628,2,6.5,Cempaka,6,0,11
+Ketimun,Muara Batu,6.59,25.1,1977,281,2,8.1,Hercules F1,10,6,12
+Ketimun,Muara Batu,6.59,25.1,1977,281,2,8.1,Mercy F1,19,6,12
+Ketimun,Muara Batu,6.59,25.1,1977,281,2,8.1,Roman F1,23,6,12
+Kacang Panjang,Muara Batu,6.59,25.1,1977,281,2,8.1,Parade Tavi,21,4,12
+Kacang Panjang,Muara Batu,6.59,25.1,1977,281,2,8.1,Kanton Tavi,13,4,12
+Kacang Panjang,Muara Batu,6.59,25.1,1977,281,2,8.1,KP-1,12,4,12
+Kangkung,Muara Batu,6.59,25.1,1977,281,2,8.1,Bangkok LP-1,3,5,12
+Kangkung,Muara Batu,6.59,25.1,1977,281,2,8.1,Bisi Kangkung,5,5,12
+Kangkung,Muara Batu,6.59,25.1,1977,281,2,8.1,Sutra,26,5,12
+Terung,Muara Batu,6.59,25.1,1977,281,2,8.1,Mustang F1,20,8,12
+Terung,Muara Batu,6.59,25.1,1977,281,2,8.1,Laguna F1,16,8,12
+Terung,Muara Batu,6.59,25.1,1977,281,2,8.1,Antaboga,1,8,12
+Cabe Rawit,Muara Batu,6.59,25.1,1977,281,2,8.1,Dewata F1,8,3,12
+Cabe Rawit,Muara Batu,6.59,25.1,1977,281,2,8.1,Bara,4,3,12
+Cabe Rawit,Muara Batu,6.59,25.1,1977,281,2,8.1,Taruna,29,3,12
+Cabe Keriting,Muara Batu,6.59,25.1,1977,281,2,8.1,TM 999,27,2,12
+Cabe Keriting,Muara Batu,6.59,25.1,1977,281,2,8.1,Lado F1,15,2,12
+Cabe Keriting,Muara Batu,6.59,25.1,1977,281,2,8.1,Kencana,14,2,12
+Cabe Besar,Muara Batu,6.59,25.1,1977,281,2,8.1,Tanjung 2,28,1,12
+Cabe Besar,Muara Batu,6.59,25.1,1977,281,2,8.1,Gada MK F1,9,1,12
+Cabe Besar,Muara Batu,6.59,25.1,1977,281,2,8.1,Laris F1,17,1,12
+Tomat,Muara Batu,6.59,25.1,1977,281,2,8.1,Servo F1,24,9,12
+Tomat,Muara Batu,6.59,25.1,1977,281,2,8.1,Ratna,22,9,12
+Tomat,Muara Batu,6.59,25.1,1977,281,2,8.1,Intan,11,9,12
+Semangka,Muara Batu,6.59,25.1,1977,281,2,8.1,Crimson Sweet,7,7,12
+Semangka,Muara Batu,6.59,25.1,1977,281,2,8.1,Sugar Baby,25,7,12
+Semangka,Muara Batu,6.59,25.1,1977,281,2,8.1,Amara F1,0,7,12
+Bayam,Muara Batu,6.59,25.1,1977,281,2,8.1,Maestro,18,0,12
+Bayam,Muara Batu,6.59,25.1,1977,281,2,8.1,Bangkok,2,0,12
+Bayam,Muara Batu,6.59,25.1,1977,281,2,8.1,Cempaka,6,0,12
+Ketimun,Nibong,5.83,26.3,1314,239,0,8.4,Hercules F1,10,6,13
+Ketimun,Nibong,5.83,26.3,1314,239,0,8.4,Mercy F1,19,6,13
+Ketimun,Nibong,5.83,26.3,1314,239,0,8.4,Roman F1,23,6,13
+Kacang Panjang,Nibong,5.83,26.3,1314,239,0,8.4,Parade Tavi,21,4,13
+Kacang Panjang,Nibong,5.83,26.3,1314,239,0,8.4,Kanton Tavi,13,4,13
+Kacang Panjang,Nibong,5.83,26.3,1314,239,0,8.4,KP-1,12,4,13
+Kangkung,Nibong,5.83,26.3,1314,239,0,8.4,Bangkok LP-1,3,5,13
+Kangkung,Nibong,5.83,26.3,1314,239,0,8.4,Bisi Kangkung,5,5,13
+Kangkung,Nibong,5.83,26.3,1314,239,0,8.4,Sutra,26,5,13
+Terung,Nibong,5.83,26.3,1314,239,0,8.4,Mustang F1,20,8,13
+Terung,Nibong,5.83,26.3,1314,239,0,8.4,Laguna F1,16,8,13
+Terung,Nibong,5.83,26.3,1314,239,0,8.4,Antaboga,1,8,13
+Cabe Rawit,Nibong,5.83,26.3,1314,239,0,8.4,Dewata F1,8,3,13
+Cabe Rawit,Nibong,5.83,26.3,1314,239,0,8.4,Bara,4,3,13
+Cabe Rawit,Nibong,5.83,26.3,1314,239,0,8.4,Taruna,29,3,13
+Cabe Keriting,Nibong,5.83,26.3,1314,239,0,8.4,TM 999,27,2,13
+Cabe Keriting,Nibong,5.83,26.3,1314,239,0,8.4,Lado F1,15,2,13
+Cabe Keriting,Nibong,5.83,26.3,1314,239,0,8.4,Kencana,14,2,13
+Cabe Besar,Nibong,5.83,26.3,1314,239,0,8.4,Tanjung 2,28,1,13
+Cabe Besar,Nibong,5.83,26.3,1314,239,0,8.4,Gada MK F1,9,1,13
+Cabe Besar,Nibong,5.83,26.3,1314,239,0,8.4,Laris F1,17,1,13
+Tomat,Nibong,5.83,26.3,1314,239,0,8.4,Servo F1,24,9,13
+Tomat,Nibong,5.83,26.3,1314,239,0,8.4,Ratna,22,9,13
+Tomat,Nibong,5.83,26.3,1314,239,0,8.4,Intan,11,9,13
+Semangka,Nibong,5.83,26.3,1314,239,0,8.4,Crimson Sweet,7,7,13
+Semangka,Nibong,5.83,26.3,1314,239,0,8.4,Sugar Baby,25,7,13
+Semangka,Nibong,5.83,26.3,1314,239,0,8.4,Amara F1,0,7,13
+Bayam,Nibong,5.83,26.3,1314,239,0,8.4,Maestro,18,0,13
+Bayam,Nibong,5.83,26.3,1314,239,0,8.4,Bangkok,2,0,13
+Bayam,Nibong,5.83,26.3,1314,239,0,8.4,Cempaka,6,0,13
+Ketimun,Nisam,6.1,24.5,2361,740,1,6.6,Hercules F1,10,6,14
+Ketimun,Nisam,6.1,24.5,2361,740,1,6.6,Mercy F1,19,6,14
+Ketimun,Nisam,6.1,24.5,2361,740,1,6.6,Roman F1,23,6,14
+Kacang Panjang,Nisam,6.1,24.5,2361,740,1,6.6,Parade Tavi,21,4,14
+Kacang Panjang,Nisam,6.1,24.5,2361,740,1,6.6,Kanton Tavi,13,4,14
+Kacang Panjang,Nisam,6.1,24.5,2361,740,1,6.6,KP-1,12,4,14
+Kangkung,Nisam,6.1,24.5,2361,740,1,6.6,Bangkok LP-1,3,5,14
+Kangkung,Nisam,6.1,24.5,2361,740,1,6.6,Bisi Kangkung,5,5,14
+Kangkung,Nisam,6.1,24.5,2361,740,1,6.6,Sutra,26,5,14
+Terung,Nisam,6.1,24.5,2361,740,1,6.6,Mustang F1,20,8,14
+Terung,Nisam,6.1,24.5,2361,740,1,6.6,Laguna F1,16,8,14
+Terung,Nisam,6.1,24.5,2361,740,1,6.6,Antaboga,1,8,14
+Cabe Rawit,Nisam,6.1,24.5,2361,740,1,6.6,Dewata F1,8,3,14
+Cabe Rawit,Nisam,6.1,24.5,2361,740,1,6.6,Bara,4,3,14
+Cabe Rawit,Nisam,6.1,24.5,2361,740,1,6.6,Taruna,29,3,14
+Cabe Keriting,Nisam,6.1,24.5,2361,740,1,6.6,TM 999,27,2,14
+Cabe Keriting,Nisam,6.1,24.5,2361,740,1,6.6,Lado F1,15,2,14
+Cabe Keriting,Nisam,6.1,24.5,2361,740,1,6.6,Kencana,14,2,14
+Cabe Besar,Nisam,6.1,24.5,2361,740,1,6.6,Tanjung 2,28,1,14
+Cabe Besar,Nisam,6.1,24.5,2361,740,1,6.6,Gada MK F1,9,1,14
+Cabe Besar,Nisam,6.1,24.5,2361,740,1,6.6,Laris F1,17,1,14
+Tomat,Nisam,6.1,24.5,2361,740,1,6.6,Servo F1,24,9,14
+Tomat,Nisam,6.1,24.5,2361,740,1,6.6,Ratna,22,9,14
+Tomat,Nisam,6.1,24.5,2361,740,1,6.6,Intan,11,9,14
+Semangka,Nisam,6.1,24.5,2361,740,1,6.6,Crimson Sweet,7,7,14
+Semangka,Nisam,6.1,24.5,2361,740,1,6.6,Sugar Baby,25,7,14
+Semangka,Nisam,6.1,24.5,2361,740,1,6.6,Amara F1,0,7,14
+Bayam,Nisam,6.1,24.5,2361,740,1,6.6,Maestro,18,0,14
+Bayam,Nisam,6.1,24.5,2361,740,1,6.6,Bangkok,2,0,14
+Bayam,Nisam,6.1,24.5,2361,740,1,6.6,Cempaka,6,0,14
+Ketimun,Nisam Antara,6.25,30.2,2139,151,1,6.4,Hercules F1,10,6,15
+Ketimun,Nisam Antara,6.25,30.2,2139,151,1,6.4,Mercy F1,19,6,15
+Ketimun,Nisam Antara,6.25,30.2,2139,151,1,6.4,Roman F1,23,6,15
+Kacang Panjang,Nisam Antara,6.25,30.2,2139,151,1,6.4,Parade Tavi,21,4,15
+Kacang Panjang,Nisam Antara,6.25,30.2,2139,151,1,6.4,Kanton Tavi,13,4,15
+Kacang Panjang,Nisam Antara,6.25,30.2,2139,151,1,6.4,KP-1,12,4,15
+Kangkung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bangkok LP-1,3,5,15
+Kangkung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bisi Kangkung,5,5,15
+Kangkung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Sutra,26,5,15
+Terung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Mustang F1,20,8,15
+Terung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Laguna F1,16,8,15
+Terung,Nisam Antara,6.25,30.2,2139,151,1,6.4,Antaboga,1,8,15
+Cabe Rawit,Nisam Antara,6.25,30.2,2139,151,1,6.4,Dewata F1,8,3,15
+Cabe Rawit,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bara,4,3,15
+Cabe Rawit,Nisam Antara,6.25,30.2,2139,151,1,6.4,Taruna,29,3,15
+Cabe Keriting,Nisam Antara,6.25,30.2,2139,151,1,6.4,TM 999,27,2,15
+Cabe Keriting,Nisam Antara,6.25,30.2,2139,151,1,6.4,Lado F1,15,2,15
+Cabe Keriting,Nisam Antara,6.25,30.2,2139,151,1,6.4,Kencana,14,2,15
+Cabe Besar,Nisam Antara,6.25,30.2,2139,151,1,6.4,Tanjung 2,28,1,15
+Cabe Besar,Nisam Antara,6.25,30.2,2139,151,1,6.4,Gada MK F1,9,1,15
+Cabe Besar,Nisam Antara,6.25,30.2,2139,151,1,6.4,Laris F1,17,1,15
+Tomat,Nisam Antara,6.25,30.2,2139,151,1,6.4,Servo F1,24,9,15
+Tomat,Nisam Antara,6.25,30.2,2139,151,1,6.4,Ratna,22,9,15
+Tomat,Nisam Antara,6.25,30.2,2139,151,1,6.4,Intan,11,9,15
+Semangka,Nisam Antara,6.25,30.2,2139,151,1,6.4,Crimson Sweet,7,7,15
+Semangka,Nisam Antara,6.25,30.2,2139,151,1,6.4,Sugar Baby,25,7,15
+Semangka,Nisam Antara,6.25,30.2,2139,151,1,6.4,Amara F1,0,7,15
+Bayam,Nisam Antara,6.25,30.2,2139,151,1,6.4,Maestro,18,0,15
+Bayam,Nisam Antara,6.25,30.2,2139,151,1,6.4,Bangkok,2,0,15
+Bayam,Nisam Antara,6.25,30.2,2139,151,1,6.4,Cempaka,6,0,15
+Ketimun,Paya Bakong,6.62,27.8,2397,443,2,7.2,Hercules F1,10,6,16
+Ketimun,Paya Bakong,6.62,27.8,2397,443,2,7.2,Mercy F1,19,6,16
+Ketimun,Paya Bakong,6.62,27.8,2397,443,2,7.2,Roman F1,23,6,16
+Kacang Panjang,Paya Bakong,6.62,27.8,2397,443,2,7.2,Parade Tavi,21,4,16
+Kacang Panjang,Paya Bakong,6.62,27.8,2397,443,2,7.2,Kanton Tavi,13,4,16
+Kacang Panjang,Paya Bakong,6.62,27.8,2397,443,2,7.2,KP-1,12,4,16
+Kangkung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bangkok LP-1,3,5,16
+Kangkung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bisi Kangkung,5,5,16
+Kangkung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Sutra,26,5,16
+Terung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Mustang F1,20,8,16
+Terung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Laguna F1,16,8,16
+Terung,Paya Bakong,6.62,27.8,2397,443,2,7.2,Antaboga,1,8,16
+Cabe Rawit,Paya Bakong,6.62,27.8,2397,443,2,7.2,Dewata F1,8,3,16
+Cabe Rawit,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bara,4,3,16
+Cabe Rawit,Paya Bakong,6.62,27.8,2397,443,2,7.2,Taruna,29,3,16
+Cabe Keriting,Paya Bakong,6.62,27.8,2397,443,2,7.2,TM 999,27,2,16
+Cabe Keriting,Paya Bakong,6.62,27.8,2397,443,2,7.2,Lado F1,15,2,16
+Cabe Keriting,Paya Bakong,6.62,27.8,2397,443,2,7.2,Kencana,14,2,16
+Cabe Besar,Paya Bakong,6.62,27.8,2397,443,2,7.2,Tanjung 2,28,1,16
+Cabe Besar,Paya Bakong,6.62,27.8,2397,443,2,7.2,Gada MK F1,9,1,16
+Cabe Besar,Paya Bakong,6.62,27.8,2397,443,2,7.2,Laris F1,17,1,16
+Tomat,Paya Bakong,6.62,27.8,2397,443,2,7.2,Servo F1,24,9,16
+Tomat,Paya Bakong,6.62,27.8,2397,443,2,7.2,Ratna,22,9,16
+Tomat,Paya Bakong,6.62,27.8,2397,443,2,7.2,Intan,11,9,16
+Semangka,Paya Bakong,6.62,27.8,2397,443,2,7.2,Crimson Sweet,7,7,16
+Semangka,Paya Bakong,6.62,27.8,2397,443,2,7.2,Sugar Baby,25,7,16
+Semangka,Paya Bakong,6.62,27.8,2397,443,2,7.2,Amara F1,0,7,16
+Bayam,Paya Bakong,6.62,27.8,2397,443,2,7.2,Maestro,18,0,16
+Bayam,Paya Bakong,6.62,27.8,2397,443,2,7.2,Bangkok,2,0,16
+Bayam,Paya Bakong,6.62,27.8,2397,443,2,7.2,Cempaka,6,0,16
+Ketimun,Pirak Timu,5.83,31.0,2243,510,0,8.3,Hercules F1,10,6,17
+Ketimun,Pirak Timu,5.83,31.0,2243,510,0,8.3,Mercy F1,19,6,17
+Ketimun,Pirak Timu,5.83,31.0,2243,510,0,8.3,Roman F1,23,6,17
+Kacang Panjang,Pirak Timu,5.83,31.0,2243,510,0,8.3,Parade Tavi,21,4,17
+Kacang Panjang,Pirak Timu,5.83,31.0,2243,510,0,8.3,Kanton Tavi,13,4,17
+Kacang Panjang,Pirak Timu,5.83,31.0,2243,510,0,8.3,KP-1,12,4,17
+Kangkung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bangkok LP-1,3,5,17
+Kangkung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bisi Kangkung,5,5,17
+Kangkung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Sutra,26,5,17
+Terung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Mustang F1,20,8,17
+Terung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Laguna F1,16,8,17
+Terung,Pirak Timu,5.83,31.0,2243,510,0,8.3,Antaboga,1,8,17
+Cabe Rawit,Pirak Timu,5.83,31.0,2243,510,0,8.3,Dewata F1,8,3,17
+Cabe Rawit,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bara,4,3,17
+Cabe Rawit,Pirak Timu,5.83,31.0,2243,510,0,8.3,Taruna,29,3,17
+Cabe Keriting,Pirak Timu,5.83,31.0,2243,510,0,8.3,TM 999,27,2,17
+Cabe Keriting,Pirak Timu,5.83,31.0,2243,510,0,8.3,Lado F1,15,2,17
+Cabe Keriting,Pirak Timu,5.83,31.0,2243,510,0,8.3,Kencana,14,2,17
+Cabe Besar,Pirak Timu,5.83,31.0,2243,510,0,8.3,Tanjung 2,28,1,17
+Cabe Besar,Pirak Timu,5.83,31.0,2243,510,0,8.3,Gada MK F1,9,1,17
+Cabe Besar,Pirak Timu,5.83,31.0,2243,510,0,8.3,Laris F1,17,1,17
+Tomat,Pirak Timu,5.83,31.0,2243,510,0,8.3,Servo F1,24,9,17
+Tomat,Pirak Timu,5.83,31.0,2243,510,0,8.3,Ratna,22,9,17
+Tomat,Pirak Timu,5.83,31.0,2243,510,0,8.3,Intan,11,9,17
+Semangka,Pirak Timu,5.83,31.0,2243,510,0,8.3,Crimson Sweet,7,7,17
+Semangka,Pirak Timu,5.83,31.0,2243,510,0,8.3,Sugar Baby,25,7,17
+Semangka,Pirak Timu,5.83,31.0,2243,510,0,8.3,Amara F1,0,7,17
+Bayam,Pirak Timu,5.83,31.0,2243,510,0,8.3,Maestro,18,0,17
+Bayam,Pirak Timu,5.83,31.0,2243,510,0,8.3,Bangkok,2,0,17
+Bayam,Pirak Timu,5.83,31.0,2243,510,0,8.3,Cempaka,6,0,17
+Ketimun,Samudera,6.79,25.1,1527,816,2,7.3,Hercules F1,10,6,18
+Ketimun,Samudera,6.79,25.1,1527,816,2,7.3,Mercy F1,19,6,18
+Ketimun,Samudera,6.79,25.1,1527,816,2,7.3,Roman F1,23,6,18
+Kacang Panjang,Samudera,6.79,25.1,1527,816,2,7.3,Parade Tavi,21,4,18
+Kacang Panjang,Samudera,6.79,25.1,1527,816,2,7.3,Kanton Tavi,13,4,18
+Kacang Panjang,Samudera,6.79,25.1,1527,816,2,7.3,KP-1,12,4,18
+Kangkung,Samudera,6.79,25.1,1527,816,2,7.3,Bangkok LP-1,3,5,18
+Kangkung,Samudera,6.79,25.1,1527,816,2,7.3,Bisi Kangkung,5,5,18
+Kangkung,Samudera,6.79,25.1,1527,816,2,7.3,Sutra,26,5,18
+Terung,Samudera,6.79,25.1,1527,816,2,7.3,Mustang F1,20,8,18
+Terung,Samudera,6.79,25.1,1527,816,2,7.3,Laguna F1,16,8,18
+Terung,Samudera,6.79,25.1,1527,816,2,7.3,Antaboga,1,8,18
+Cabe Rawit,Samudera,6.79,25.1,1527,816,2,7.3,Dewata F1,8,3,18
+Cabe Rawit,Samudera,6.79,25.1,1527,816,2,7.3,Bara,4,3,18
+Cabe Rawit,Samudera,6.79,25.1,1527,816,2,7.3,Taruna,29,3,18
+Cabe Keriting,Samudera,6.79,25.1,1527,816,2,7.3,TM 999,27,2,18
+Cabe Keriting,Samudera,6.79,25.1,1527,816,2,7.3,Lado F1,15,2,18
+Cabe Keriting,Samudera,6.79,25.1,1527,816,2,7.3,Kencana,14,2,18
+Cabe Besar,Samudera,6.79,25.1,1527,816,2,7.3,Tanjung 2,28,1,18
+Cabe Besar,Samudera,6.79,25.1,1527,816,2,7.3,Gada MK F1,9,1,18
+Cabe Besar,Samudera,6.79,25.1,1527,816,2,7.3,Laris F1,17,1,18
+Tomat,Samudera,6.79,25.1,1527,816,2,7.3,Servo F1,24,9,18
+Tomat,Samudera,6.79,25.1,1527,816,2,7.3,Ratna,22,9,18
+Tomat,Samudera,6.79,25.1,1527,816,2,7.3,Intan,11,9,18
+Semangka,Samudera,6.79,25.1,1527,816,2,7.3,Crimson Sweet,7,7,18
+Semangka,Samudera,6.79,25.1,1527,816,2,7.3,Sugar Baby,25,7,18
+Semangka,Samudera,6.79,25.1,1527,816,2,7.3,Amara F1,0,7,18
+Bayam,Samudera,6.79,25.1,1527,816,2,7.3,Maestro,18,0,18
+Bayam,Samudera,6.79,25.1,1527,816,2,7.3,Bangkok,2,0,18
+Bayam,Samudera,6.79,25.1,1527,816,2,7.3,Cempaka,6,0,18
+Ketimun,Sawang,5.6,26.7,2158,546,1,8.9,Hercules F1,10,6,19
+Ketimun,Sawang,5.6,26.7,2158,546,1,8.9,Mercy F1,19,6,19
+Ketimun,Sawang,5.6,26.7,2158,546,1,8.9,Roman F1,23,6,19
+Kacang Panjang,Sawang,5.6,26.7,2158,546,1,8.9,Parade Tavi,21,4,19
+Kacang Panjang,Sawang,5.6,26.7,2158,546,1,8.9,Kanton Tavi,13,4,19
+Kacang Panjang,Sawang,5.6,26.7,2158,546,1,8.9,KP-1,12,4,19
+Kangkung,Sawang,5.6,26.7,2158,546,1,8.9,Bangkok LP-1,3,5,19
+Kangkung,Sawang,5.6,26.7,2158,546,1,8.9,Bisi Kangkung,5,5,19
+Kangkung,Sawang,5.6,26.7,2158,546,1,8.9,Sutra,26,5,19
+Terung,Sawang,5.6,26.7,2158,546,1,8.9,Mustang F1,20,8,19
+Terung,Sawang,5.6,26.7,2158,546,1,8.9,Laguna F1,16,8,19
+Terung,Sawang,5.6,26.7,2158,546,1,8.9,Antaboga,1,8,19
+Cabe Rawit,Sawang,5.6,26.7,2158,546,1,8.9,Dewata F1,8,3,19
+Cabe Rawit,Sawang,5.6,26.7,2158,546,1,8.9,Bara,4,3,19
+Cabe Rawit,Sawang,5.6,26.7,2158,546,1,8.9,Taruna,29,3,19
+Cabe Keriting,Sawang,5.6,26.7,2158,546,1,8.9,TM 999,27,2,19
+Cabe Keriting,Sawang,5.6,26.7,2158,546,1,8.9,Lado F1,15,2,19
+Cabe Keriting,Sawang,5.6,26.7,2158,546,1,8.9,Kencana,14,2,19
+Cabe Besar,Sawang,5.6,26.7,2158,546,1,8.9,Tanjung 2,28,1,19
+Cabe Besar,Sawang,5.6,26.7,2158,546,1,8.9,Gada MK F1,9,1,19
+Cabe Besar,Sawang,5.6,26.7,2158,546,1,8.9,Laris F1,17,1,19
+Tomat,Sawang,5.6,26.7,2158,546,1,8.9,Servo F1,24,9,19
+Tomat,Sawang,5.6,26.7,2158,546,1,8.9,Ratna,22,9,19
+Tomat,Sawang,5.6,26.7,2158,546,1,8.9,Intan,11,9,19
+Semangka,Sawang,5.6,26.7,2158,546,1,8.9,Crimson Sweet,7,7,19
+Semangka,Sawang,5.6,26.7,2158,546,1,8.9,Sugar Baby,25,7,19
+Semangka,Sawang,5.6,26.7,2158,546,1,8.9,Amara F1,0,7,19
+Bayam,Sawang,5.6,26.7,2158,546,1,8.9,Maestro,18,0,19
+Bayam,Sawang,5.6,26.7,2158,546,1,8.9,Bangkok,2,0,19
+Bayam,Sawang,5.6,26.7,2158,546,1,8.9,Cempaka,6,0,19
+Ketimun,Seunuddon,6.79,24.1,1434,703,2,8.3,Hercules F1,10,6,20
+Ketimun,Seunuddon,6.79,24.1,1434,703,2,8.3,Mercy F1,19,6,20
+Ketimun,Seunuddon,6.79,24.1,1434,703,2,8.3,Roman F1,23,6,20
+Kacang Panjang,Seunuddon,6.79,24.1,1434,703,2,8.3,Parade Tavi,21,4,20
+Kacang Panjang,Seunuddon,6.79,24.1,1434,703,2,8.3,Kanton Tavi,13,4,20
+Kacang Panjang,Seunuddon,6.79,24.1,1434,703,2,8.3,KP-1,12,4,20
+Kangkung,Seunuddon,6.79,24.1,1434,703,2,8.3,Bangkok LP-1,3,5,20
+Kangkung,Seunuddon,6.79,24.1,1434,703,2,8.3,Bisi Kangkung,5,5,20
+Kangkung,Seunuddon,6.79,24.1,1434,703,2,8.3,Sutra,26,5,20
+Terung,Seunuddon,6.79,24.1,1434,703,2,8.3,Mustang F1,20,8,20
+Terung,Seunuddon,6.79,24.1,1434,703,2,8.3,Laguna F1,16,8,20
+Terung,Seunuddon,6.79,24.1,1434,703,2,8.3,Antaboga,1,8,20
+Cabe Rawit,Seunuddon,6.79,24.1,1434,703,2,8.3,Dewata F1,8,3,20
+Cabe Rawit,Seunuddon,6.79,24.1,1434,703,2,8.3,Bara,4,3,20
+Cabe Rawit,Seunuddon,6.79,24.1,1434,703,2,8.3,Taruna,29,3,20
+Cabe Keriting,Seunuddon,6.79,24.1,1434,703,2,8.3,TM 999,27,2,20
+Cabe Keriting,Seunuddon,6.79,24.1,1434,703,2,8.3,Lado F1,15,2,20
+Cabe Keriting,Seunuddon,6.79,24.1,1434,703,2,8.3,Kencana,14,2,20
+Cabe Besar,Seunuddon,6.79,24.1,1434,703,2,8.3,Tanjung 2,28,1,20
+Cabe Besar,Seunuddon,6.79,24.1,1434,703,2,8.3,Gada MK F1,9,1,20
+Cabe Besar,Seunuddon,6.79,24.1,1434,703,2,8.3,Laris F1,17,1,20
+Tomat,Seunuddon,6.79,24.1,1434,703,2,8.3,Servo F1,24,9,20
+Tomat,Seunuddon,6.79,24.1,1434,703,2,8.3,Ratna,22,9,20
+Tomat,Seunuddon,6.79,24.1,1434,703,2,8.3,Intan,11,9,20
+Semangka,Seunuddon,6.79,24.1,1434,703,2,8.3,Crimson Sweet,7,7,20
+Semangka,Seunuddon,6.79,24.1,1434,703,2,8.3,Sugar Baby,25,7,20
+Semangka,Seunuddon,6.79,24.1,1434,703,2,8.3,Amara F1,0,7,20
+Bayam,Seunuddon,6.79,24.1,1434,703,2,8.3,Maestro,18,0,20
+Bayam,Seunuddon,6.79,24.1,1434,703,2,8.3,Bangkok,2,0,20
+Bayam,Seunuddon,6.79,24.1,1434,703,2,8.3,Cempaka,6,0,20
+Ketimun,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Hercules F1,10,6,21
+Ketimun,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Mercy F1,19,6,21
+Ketimun,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Roman F1,23,6,21
+Kacang Panjang,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Parade Tavi,21,4,21
+Kacang Panjang,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Kanton Tavi,13,4,21
+Kacang Panjang,Simpang Kramat,6.65,26.4,1801,450,0,7.4,KP-1,12,4,21
+Kangkung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bangkok LP-1,3,5,21
+Kangkung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bisi Kangkung,5,5,21
+Kangkung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Sutra,26,5,21
+Terung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Mustang F1,20,8,21
+Terung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Laguna F1,16,8,21
+Terung,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Antaboga,1,8,21
+Cabe Rawit,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Dewata F1,8,3,21
+Cabe Rawit,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bara,4,3,21
+Cabe Rawit,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Taruna,29,3,21
+Cabe Keriting,Simpang Kramat,6.65,26.4,1801,450,0,7.4,TM 999,27,2,21
+Cabe Keriting,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Lado F1,15,2,21
+Cabe Keriting,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Kencana,14,2,21
+Cabe Besar,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Tanjung 2,28,1,21
+Cabe Besar,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Gada MK F1,9,1,21
+Cabe Besar,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Laris F1,17,1,21
+Tomat,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Servo F1,24,9,21
+Tomat,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Ratna,22,9,21
+Tomat,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Intan,11,9,21
+Semangka,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Crimson Sweet,7,7,21
+Semangka,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Sugar Baby,25,7,21
+Semangka,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Amara F1,0,7,21
+Bayam,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Maestro,18,0,21
+Bayam,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Bangkok,2,0,21
+Bayam,Simpang Kramat,6.65,26.4,1801,450,0,7.4,Cempaka,6,0,21
+Ketimun,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Hercules F1,10,6,22
+Ketimun,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Mercy F1,19,6,22
+Ketimun,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Roman F1,23,6,22
+Kacang Panjang,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Parade Tavi,21,4,22
+Kacang Panjang,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Kanton Tavi,13,4,22
+Kacang Panjang,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,KP-1,12,4,22
+Kangkung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bangkok LP-1,3,5,22
+Kangkung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bisi Kangkung,5,5,22
+Kangkung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Sutra,26,5,22
+Terung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Mustang F1,20,8,22
+Terung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Laguna F1,16,8,22
+Terung,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Antaboga,1,8,22
+Cabe Rawit,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Dewata F1,8,3,22
+Cabe Rawit,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bara,4,3,22
+Cabe Rawit,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Taruna,29,3,22
+Cabe Keriting,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,TM 999,27,2,22
+Cabe Keriting,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Lado F1,15,2,22
+Cabe Keriting,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Kencana,14,2,22
+Cabe Besar,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Tanjung 2,28,1,22
+Cabe Besar,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Gada MK F1,9,1,22
+Cabe Besar,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Laris F1,17,1,22
+Tomat,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Servo F1,24,9,22
+Tomat,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Ratna,22,9,22
+Tomat,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Intan,11,9,22
+Semangka,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Crimson Sweet,7,7,22
+Semangka,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Sugar Baby,25,7,22
+Semangka,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Amara F1,0,7,22
+Bayam,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Maestro,18,0,22
+Bayam,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Bangkok,2,0,22
+Bayam,Syamtalira Aron,6.93,30.1,1739,517,0,7.5,Cempaka,6,0,22
+Ketimun,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Hercules F1,10,6,23
+Ketimun,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Mercy F1,19,6,23
+Ketimun,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Roman F1,23,6,23
+Kacang Panjang,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Parade Tavi,21,4,23
+Kacang Panjang,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Kanton Tavi,13,4,23
+Kacang Panjang,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,KP-1,12,4,23
+Kangkung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bangkok LP-1,3,5,23
+Kangkung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bisi Kangkung,5,5,23
+Kangkung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Sutra,26,5,23
+Terung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Mustang F1,20,8,23
+Terung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Laguna F1,16,8,23
+Terung,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Antaboga,1,8,23
+Cabe Rawit,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Dewata F1,8,3,23
+Cabe Rawit,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bara,4,3,23
+Cabe Rawit,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Taruna,29,3,23
+Cabe Keriting,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,TM 999,27,2,23
+Cabe Keriting,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Lado F1,15,2,23
+Cabe Keriting,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Kencana,14,2,23
+Cabe Besar,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Tanjung 2,28,1,23
+Cabe Besar,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Gada MK F1,9,1,23
+Cabe Besar,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Laris F1,17,1,23
+Tomat,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Servo F1,24,9,23
+Tomat,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Ratna,22,9,23
+Tomat,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Intan,11,9,23
+Semangka,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Crimson Sweet,7,7,23
+Semangka,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Sugar Baby,25,7,23
+Semangka,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Amara F1,0,7,23
+Bayam,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Maestro,18,0,23
+Bayam,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Bangkok,2,0,23
+Bayam,Syamtalira Bayu,5.66,28.4,2239,628,0,6.5,Cempaka,6,0,23
+Ketimun,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Hercules F1,10,6,24
+Ketimun,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Mercy F1,19,6,24
+Ketimun,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Roman F1,23,6,24
+Kacang Panjang,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Parade Tavi,21,4,24
+Kacang Panjang,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Kanton Tavi,13,4,24
+Kacang Panjang,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,KP-1,12,4,24
+Kangkung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bangkok LP-1,3,5,24
+Kangkung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bisi Kangkung,5,5,24
+Kangkung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Sutra,26,5,24
+Terung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Mustang F1,20,8,24
+Terung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Laguna F1,16,8,24
+Terung,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Antaboga,1,8,24
+Cabe Rawit,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Dewata F1,8,3,24
+Cabe Rawit,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bara,4,3,24
+Cabe Rawit,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Taruna,29,3,24
+Cabe Keriting,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,TM 999,27,2,24
+Cabe Keriting,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Lado F1,15,2,24
+Cabe Keriting,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Kencana,14,2,24
+Cabe Besar,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Tanjung 2,28,1,24
+Cabe Besar,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Gada MK F1,9,1,24
+Cabe Besar,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Laris F1,17,1,24
+Tomat,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Servo F1,24,9,24
+Tomat,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Ratna,22,9,24
+Tomat,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Intan,11,9,24
+Semangka,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Crimson Sweet,7,7,24
+Semangka,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Sugar Baby,25,7,24
+Semangka,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Amara F1,0,7,24
+Bayam,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Maestro,18,0,24
+Bayam,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Bangkok,2,0,24
+Bayam,Tanah Jambo Aye,6.64,27.8,2286,5,2,7.0,Cempaka,6,0,24
+Ketimun,Tanah Luas,5.53,30.5,1829,250,0,6.7,Hercules F1,10,6,25
+Ketimun,Tanah Luas,5.53,30.5,1829,250,0,6.7,Mercy F1,19,6,25
+Ketimun,Tanah Luas,5.53,30.5,1829,250,0,6.7,Roman F1,23,6,25
+Kacang Panjang,Tanah Luas,5.53,30.5,1829,250,0,6.7,Parade Tavi,21,4,25
+Kacang Panjang,Tanah Luas,5.53,30.5,1829,250,0,6.7,Kanton Tavi,13,4,25
+Kacang Panjang,Tanah Luas,5.53,30.5,1829,250,0,6.7,KP-1,12,4,25
+Kangkung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bangkok LP-1,3,5,25
+Kangkung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bisi Kangkung,5,5,25
+Kangkung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Sutra,26,5,25
+Terung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Mustang F1,20,8,25
+Terung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Laguna F1,16,8,25
+Terung,Tanah Luas,5.53,30.5,1829,250,0,6.7,Antaboga,1,8,25
+Cabe Rawit,Tanah Luas,5.53,30.5,1829,250,0,6.7,Dewata F1,8,3,25
+Cabe Rawit,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bara,4,3,25
+Cabe Rawit,Tanah Luas,5.53,30.5,1829,250,0,6.7,Taruna,29,3,25
+Cabe Keriting,Tanah Luas,5.53,30.5,1829,250,0,6.7,TM 999,27,2,25
+Cabe Keriting,Tanah Luas,5.53,30.5,1829,250,0,6.7,Lado F1,15,2,25
+Cabe Keriting,Tanah Luas,5.53,30.5,1829,250,0,6.7,Kencana,14,2,25
+Cabe Besar,Tanah Luas,5.53,30.5,1829,250,0,6.7,Tanjung 2,28,1,25
+Cabe Besar,Tanah Luas,5.53,30.5,1829,250,0,6.7,Gada MK F1,9,1,25
+Cabe Besar,Tanah Luas,5.53,30.5,1829,250,0,6.7,Laris F1,17,1,25
+Tomat,Tanah Luas,5.53,30.5,1829,250,0,6.7,Servo F1,24,9,25
+Tomat,Tanah Luas,5.53,30.5,1829,250,0,6.7,Ratna,22,9,25
+Tomat,Tanah Luas,5.53,30.5,1829,250,0,6.7,Intan,11,9,25
+Semangka,Tanah Luas,5.53,30.5,1829,250,0,6.7,Crimson Sweet,7,7,25
+Semangka,Tanah Luas,5.53,30.5,1829,250,0,6.7,Sugar Baby,25,7,25
+Semangka,Tanah Luas,5.53,30.5,1829,250,0,6.7,Amara F1,0,7,25
+Bayam,Tanah Luas,5.53,30.5,1829,250,0,6.7,Maestro,18,0,25
+Bayam,Tanah Luas,5.53,30.5,1829,250,0,6.7,Bangkok,2,0,25
+Bayam,Tanah Luas,5.53,30.5,1829,250,0,6.7,Cempaka,6,0,25
+Ketimun,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Hercules F1,10,6,26
+Ketimun,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Mercy F1,19,6,26
+Ketimun,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Roman F1,23,6,26
+Kacang Panjang,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Parade Tavi,21,4,26
+Kacang Panjang,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Kanton Tavi,13,4,26
+Kacang Panjang,Tanah Pasir,6.35,24.6,2195,840,0,8.9,KP-1,12,4,26
+Kangkung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bangkok LP-1,3,5,26
+Kangkung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bisi Kangkung,5,5,26
+Kangkung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Sutra,26,5,26
+Terung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Mustang F1,20,8,26
+Terung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Laguna F1,16,8,26
+Terung,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Antaboga,1,8,26
+Cabe Rawit,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Dewata F1,8,3,26
+Cabe Rawit,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bara,4,3,26
+Cabe Rawit,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Taruna,29,3,26
+Cabe Keriting,Tanah Pasir,6.35,24.6,2195,840,0,8.9,TM 999,27,2,26
+Cabe Keriting,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Lado F1,15,2,26
+Cabe Keriting,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Kencana,14,2,26
+Cabe Besar,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Tanjung 2,28,1,26
+Cabe Besar,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Gada MK F1,9,1,26
+Cabe Besar,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Laris F1,17,1,26
+Tomat,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Servo F1,24,9,26
+Tomat,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Ratna,22,9,26
+Tomat,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Intan,11,9,26
+Semangka,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Crimson Sweet,7,7,26
+Semangka,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Sugar Baby,25,7,26
+Semangka,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Amara F1,0,7,26
+Bayam,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Maestro,18,0,26
+Bayam,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Bangkok,2,0,26
+Bayam,Tanah Pasir,6.35,24.6,2195,840,0,8.9,Cempaka,6,0,26

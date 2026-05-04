@@ -17,10 +17,15 @@ def preprocess_data(file_path):
     le_varietas = LabelEncoder()
     df['Nama_Varietas_Encoded'] = le_varietas.fit_transform(df['Nama_Varietas'])
     
-    # 3. Initialize LabelEncoder for Nama_Tanaman (useful for filtering recommendations later)
+    # 3. Initialize LabelEncoder for Nama_Tanaman
     print("Encoding 'Nama_Tanaman'...")
     le_tanaman = LabelEncoder()
     df['Nama_Tanaman_Encoded'] = le_tanaman.fit_transform(df['Nama_Tanaman'])
+    
+    # 4. Initialize LabelEncoder for Kecamatan (fingerprint for environment)
+    print("Encoding 'Kecamatan'...")
+    le_kecamatan = LabelEncoder()
+    df['Kecamatan_Encoded'] = le_kecamatan.fit_transform(df['Kecamatan'])
     
     # Create artifacts directory if it doesn't exist
     os.makedirs('models', exist_ok=True)
@@ -28,6 +33,7 @@ def preprocess_data(file_path):
     # Save encoders for future use in prediction
     joblib.dump(le_varietas, 'models/le_varietas.joblib')
     joblib.dump(le_tanaman, 'models/le_tanaman.joblib')
+    joblib.dump(le_kecamatan, 'models/le_kecamatan.joblib')
     print("Encoders saved to 'models/' directory.")
     
     return df, le_varietas, le_tanaman

@@ -28,10 +28,10 @@ This document outlines the Minimum Viable Product (MVP) for the Random Forest sy
 - [x] Initialize `LabelEncoder` for target `Nama_Varietas`.
 
 ### Milestone 2: Model Training & Tuning (Day 1-2)
-- [ ] Split data into 80/20 train-test ratio.
-- [ ] Train `RandomForestClassifier`.
-- [ ] Achieve at least 85% accuracy on the test set.
-- [ ] Save the model and encoders using `joblib`.
+- [x] Split data into 80/20 train-test ratio.
+- [x] Train `RandomForestClassifier`.
+- [x] Achieve at least 85% accuracy on the test set.
+- [x] Save the model and encoders using `joblib`.
 
 ### Milestone 3: Interface Development (Day 2)
 - [ ] Create `predict.py` to take user input (pH, Suhu, etc.).

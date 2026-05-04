@@ -34,9 +34,9 @@ This document outlines the Minimum Viable Product (MVP) for the Random Forest sy
 - [x] Save the model and encoders using `joblib`.
 
 ### Milestone 3: Interface Development (Day 2)
-- [ ] Create `predict.py` to take user input (pH, Suhu, etc.).
-- [ ] Implement the "Top Recommendation" logic for each plant type.
-- [ ] Format the output string.
+- [x] Create `predict.py` to take user input (pH, Suhu, etc.).
+- [x] Implement the "Top Recommendation" logic for each plant type.
+- [x] Format the output string.
 
 ### Milestone 4: API Development (Day 3)
 - [ ] Build a REST API using **FastAPI**.

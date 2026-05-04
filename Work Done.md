@@ -20,3 +20,12 @@
     - Achieved **100.00% accuracy** in identifying the correct environment based on pH, Suhu, Rainfall, etc.
     - Saved the model to `models/random_forest_model.joblib`.
 - **Outcome**: The model can now perfectly identify which location (and thus which set of varieties) matches a set of environmental inputs.
+
+## Milestone 3: Interface Development
+- **Task Completed**: Created a prediction script to generate recommendations.
+- **Action Taken**:
+    - Developed `src/predict.py`.
+    - Implemented logic to predict the environment (Kecamatan) from input features.
+    - Added a lookup system to retrieve all suitable plant varieties for the identified location.
+    - Formatted output to show a clean list of recommendations (e.g., "- Ketimun Varietas Hercules F1").
+- **Outcome**: Users can now input environmental data and receive a full list of recommended varieties, matching the requirements in the reference image.

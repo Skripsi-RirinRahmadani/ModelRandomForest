@@ -29,3 +29,12 @@
     - Added a lookup system to retrieve all suitable plant varieties for the identified location.
     - Formatted output to show a clean list of recommendations (e.g., "- Ketimun Varietas Hercules F1").
 - **Outcome**: Users can now input environmental data and receive a full list of recommended varieties, matching the requirements in the reference image.
+
+## Milestone 4: API Development
+- **Task Completed**: Built a REST API using FastAPI.
+- **Action Taken**:
+    - Created `src/api.py`.
+    - Defined a JSON schema for environmental inputs (pH, Suhu, etc.).
+    - Implemented a `/predict` endpoint that returns recommendations in JSON format.
+    - Added automatic documentation via Swagger (available at `/docs`).
+- **Outcome**: The system is now ready to be integrated with mobile or web applications.

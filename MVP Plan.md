@@ -39,10 +39,10 @@ This document outlines the Minimum Viable Product (MVP) for the Random Forest sy
 - [x] Format the output string.
 
 ### Milestone 4: API Development (Day 3)
-- [ ] Build a REST API using **FastAPI**.
-- [ ] Create a `/predict` endpoint that receives JSON input.
-- [ ] Implement model loading logic within the API.
-- [ ] Document the API using Swagger/OpenAPI (automatically provided by FastAPI).
+- [x] Build a REST API using **FastAPI**.
+- [x] Create a `/predict` endpoint that receives JSON input.
+- [x] Implement model loading logic within the API.
+- [x] Document the API using Swagger/OpenAPI (automatically provided by FastAPI).
 
 ## 5. Success Criteria
 - The system correctly identifies varieties for at least 5 different plant types from a single input.

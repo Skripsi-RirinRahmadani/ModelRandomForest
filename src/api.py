@@ -58,9 +58,12 @@ def predict(input_data: EnvironmentalInput):
         raise HTTPException(status_code=500, detail="Model is not loaded. Please check server logs.")
         
     try:
-        # 1. Preprocess input
+        # 1. Preprocess input (Case-insensitive handling)
         water_mapping = {'Rendah': 0, 'Sedang': 1, 'Tinggi': 2}
-        air_val = water_mapping.get(input_data.ketersediaan_air)
+        
+        # Mengubah input menjadi capitalize (Huruf pertama besar, sisanya kecil)
+        formatted_air = input_data.ketersediaan_air.strip().capitalize()
+        air_val = water_mapping.get(formatted_air)
         if air_val is None:
             raise HTTPException(status_code=400, detail="ketersediaan_air must be 'Rendah', 'Sedang', or 'Tinggi'")
             
@@ -73,8 +76,13 @@ def predict(input_data: EnvironmentalInput):
             input_data.intensitas_matahari_jam
         ]])
         
-        # 2. Predict Kecamatan
-        kec_encoded = MODEL.predict(features)[0]
+        # 2. Predict Kecamatan using DataFrame with feature names to avoid UserWarning
+        features_df = pd.DataFrame(features, columns=[
+            'pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 
+            'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam'
+        ])
+        
+        kec_encoded = MODEL.predict(features_df)[0]
         kec_name = LE_KECAMATAN.inverse_transform([kec_encoded])[0]
         
         # 3. Lookup varieties using pre-loaded DATASET

@@ -23,9 +23,9 @@ This document outlines the Minimum Viable Product (MVP) for the Random Forest sy
 ## 4. Development Milestones
 
 ### Milestone 1: Data Preparation (Day 1)
-- [ ] Load `dataset_training_random_forest.csv`.
-- [ ] Map `Ketersediaan_Air` to numerical values.
-- [ ] Initialize `LabelEncoder` for target `Nama_Varietas`.
+- [x] Load `dataset_training_random_forest.csv`.
+- [x] Map `Ketersediaan_Air` to numerical values.
+- [x] Initialize `LabelEncoder` for target `Nama_Varietas`.
 
 ### Milestone 2: Model Training & Tuning (Day 1-2)
 - [ ] Split data into 80/20 train-test ratio.

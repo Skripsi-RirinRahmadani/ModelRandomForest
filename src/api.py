@@ -102,13 +102,40 @@ def predict(input_data: EnvironmentalInput):
         top_confidence = np.max(probabilities)
         
         # 3. Calculate score for each variety in the dataset
-        # Group by plant and variety to get their locations
-        variety_data = DATASET.groupby(['Nama_Tanaman', 'Nama_Varietas'])['Kecamatan'].unique().reset_index()
+        # Define features for similarity calculation
+        feature_cols = ['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam']
         
-        # Score is sum of probabilities of locations where the variety is found
-        variety_data['Score'] = variety_data['Kecamatan'].apply(
-            lambda k_list: sum(prob_map.get(k, 0) for k in k_list)
-        )
+        # Simple Min-Max Normalization to ensure fair Euclidean distance
+        df_min = DATASET[feature_cols].min()
+        df_max = DATASET[feature_cols].max()
+        df_range = (df_max - df_min).replace(0, 1) # Avoid division by zero
+        
+        # Normalize current input
+        current_input = np.array([
+            input_data.ph_tanah, input_data.suhu_c, input_data.curah_hujan_mm,
+            input_data.elevasi_mdpl, air_val, input_data.intensitas_matahari_jam
+        ])
+        normalized_input = (current_input - df_min.values) / df_range.values
+        
+        # Group by plant and variety to get their average environment and locations
+        variety_data = DATASET.groupby(['Nama_Tanaman', 'Nama_Varietas'])[feature_cols].mean().reset_index()
+        variety_kecamatans = DATASET.groupby(['Nama_Tanaman', 'Nama_Varietas'])['Kecamatan'].unique().reset_index()
+        variety_data = variety_data.merge(variety_kecamatans, on=['Nama_Tanaman', 'Nama_Varietas'])
+        
+        def calculate_final_score(row):
+            # A. Location Match (sum of probabilities of locations)
+            location_score = sum(prob_map.get(k, 0) for k in row['Kecamatan'])
+            
+            # B. Environmental Similarity (distance to variety's average environment)
+            variety_features = (row[feature_cols].values - df_min.values) / df_range.values
+            dist = np.linalg.norm(normalized_input - variety_features)
+            similarity_score = 1 / (1 + dist)
+            
+            # C. Blended Score (60% Location, 40% Similarity)
+            # Capped at 0.98 to avoid unrealistic "perfect 100%"
+            return (location_score * 0.6 + similarity_score * 0.4) * 0.98
+        
+        variety_data['Score'] = variety_data.apply(calculate_final_score, axis=1)
         
         # 4. For each plant, pick the best variety
         best_recs = variety_data.sort_values('Score', ascending=False).groupby('Nama_Tanaman').head(1)

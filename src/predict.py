@@ -27,15 +27,39 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi, air, matahari):
     # 4. Load dataset to calculate variety scores
     df = pd.read_csv('data/processed_dataset.csv')
     
-    # Group the dataset to get unique (Tanaman, Varietas) and their Kecamatans
-    variety_data = df.groupby(['Nama_Tanaman', 'Nama_Varietas'])['Kecamatan'].unique().reset_index()
+    # Define features for similarity calculation
+    feature_cols = ['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam']
     
-    # Calculate score for each variety
-    def calculate_score(kecamatans):
-        # Score is the sum of probabilities of all Kecamatans that have this variety
-        return sum(prob_map.get(k, 0) for k in kecamatans)
+    # Simple Min-Max Normalization to ensure fair Euclidean distance
+    df_min = df[feature_cols].min()
+    df_max = df[feature_cols].max()
+    df_range = (df_max - df_min).replace(0, 1) # Avoid division by zero
     
-    variety_data['Score'] = variety_data['Kecamatan'].apply(calculate_score)
+    # Normalize current input
+    normalized_input = (np.array([ph, suhu, curah_hujan, elevasi, air, matahari]) - df_min.values) / df_range.values
+    
+    # Group the dataset to get unique (Tanaman, Varietas) and their average environment
+    variety_data = df.groupby(['Nama_Tanaman', 'Nama_Varietas'])[feature_cols].mean().reset_index()
+    
+    # Get unique Kecamatans for each variety (to keep the old location-based logic)
+    variety_kecamatans = df.groupby(['Nama_Tanaman', 'Nama_Varietas'])['Kecamatan'].unique().reset_index()
+    variety_data = variety_data.merge(variety_kecamatans, on=['Nama_Tanaman', 'Nama_Varietas'])
+    
+    def calculate_final_score(row):
+        # A. Location Match (Old logic: sum of probabilities of Kecamatans)
+        location_score = sum(prob_map.get(k, 0) for k in row['Kecamatan'])
+        
+        # B. Environmental Similarity (New logic: distance to variety's average environment)
+        variety_features = (row[feature_cols].values - df_min.values) / df_range.values
+        dist = np.linalg.norm(normalized_input - variety_features)
+        similarity_score = 1 / (1 + dist)
+        
+        # C. Blended Score (60% Location, 40% Similarity)
+        # We cap it at 0.98 to avoid "perfect" 100% results which can look unrealistic
+        final_score = (location_score * 0.6 + similarity_score * 0.4) * 0.98
+        return final_score
+    
+    variety_data['Score'] = variety_data.apply(calculate_final_score, axis=1)
     
     # 5. For each plant, pick the variety with the highest score
     best_recommendations = variety_data.sort_values('Score', ascending=False).groupby('Nama_Tanaman').head(1).reset_index()

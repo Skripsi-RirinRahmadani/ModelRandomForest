@@ -1,6 +1,8 @@
-# Panduan Menjalankan Sistem (Workflow)
-
-Ikuti langkah-langkah di bawah ini secara berurutan jika Anda ingin mengulangi proses dari awal atau jika ada pembaruan data pada `data/dataset_training_random_forest.csv`.
+## Langkah 0: Instalasi Dependensi
+Pastikan Anda telah menginstal semua pustaka yang diperlukan sebelum menjalankan skrip.
+```powershell
+python -m pip install -r requirements.txt
+```
 
 ## Langkah 1: Preprocessing Data
 Membersihkan data mentah dan menyiapkan encoder untuk kategori.

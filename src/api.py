@@ -86,27 +86,57 @@ def predict(input_data: EnvironmentalInput):
             input_data.intensitas_matahari_jam
         ]])
         
-        # 2. Predict Kecamatan using DataFrame with feature names to avoid UserWarning
+        # 2. Predict Kecamatan and get confidence score
         features_df = pd.DataFrame(features, columns=[
             'pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 
             'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam'
         ])
         
-        kec_encoded = MODEL.predict(features_df)[0]
-        kec_name = LE_KECAMATAN.inverse_transform([kec_encoded])[0]
+        # 2. Get probabilities for all Kecamatans
+        probabilities = MODEL.predict_proba(features_df)[0]
+        kec_names = LE_KECAMATAN.classes_
+        prob_map = dict(zip(kec_names, probabilities))
         
-        # 3. Lookup varieties using pre-loaded DATASET
-        recommendations = DATASET[DATASET['Kecamatan'] == kec_name]
-        plant_recs = recommendations.groupby('Nama_Tanaman')['Nama_Varietas'].first().to_dict()
+        # Identified location (highest probability)
+        best_kec = kec_names[np.argmax(probabilities)]
+        top_confidence = np.max(probabilities)
         
-        # 4. Format response
-        formatted_recs = [f"{plant} Varietas {variety}" for plant, variety in plant_recs.items()]
+        # 3. Calculate score for each variety in the dataset
+        # Group by plant and variety to get their locations
+        variety_data = DATASET.groupby(['Nama_Tanaman', 'Nama_Varietas'])['Kecamatan'].unique().reset_index()
+        
+        # Score is sum of probabilities of locations where the variety is found
+        variety_data['Score'] = variety_data['Kecamatan'].apply(
+            lambda k_list: sum(prob_map.get(k, 0) for k in k_list)
+        )
+        
+        # 4. For each plant, pick the best variety
+        best_recs = variety_data.sort_values('Score', ascending=False).groupby('Nama_Tanaman').head(1)
+        
+        # 5. Format response
+        results_list = []
+        raw_data = {}
+        for _, row in best_recs.iterrows():
+            plant = row['Nama_Tanaman']
+            variety = row['Nama_Varietas']
+            score = row['Score']
+            
+            results_list.append({
+                "tanaman": plant,
+                "varietas": variety,
+                "kecocokan": f"{score * 100:.2f}%"
+            })
+            raw_data[plant] = {
+                "varietas": variety,
+                "skor_numerik": float(score)
+            }
         
         return {
             "status": "success",
-            "identified_location": kec_name,
-            "recommendations": formatted_recs,
-            "raw_data": plant_recs
+            "identified_location": best_kec,
+            "location_confidence": f"{top_confidence * 100:.2f}%",
+            "recommendations": results_list,
+            "raw_data": raw_data
         }
         
     except Exception as e:

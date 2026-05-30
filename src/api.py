@@ -9,7 +9,7 @@ import os
 app = FastAPI(
     title="Horticulture Recommendation API",
     description="API untuk sistem rekomendasi varietas tanaman hortikultura menggunakan Random Forest",
-    version="1.1.0"
+    version="1.2.0"
 )
 
 # Configure CORS
@@ -45,8 +45,8 @@ def startup_event():
     DATA_PATH = 'data/processed_dataset.csv'
     
     print("Loading resources into memory...")
-    if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH):
-        print("ERROR: Model files not found. API might not work correctly.")
+    if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH) or not os.path.exists(DATA_PATH):
+        print("ERROR: Model files or dataset not found. API might not work correctly.")
         return
 
     MODEL = joblib.load(MODEL_PATH)
@@ -64,8 +64,8 @@ def read_root():
 
 @app.post("/predict")
 def predict(input_data: EnvironmentalInput):
-    if MODEL is None or LE_KECAMATAN is None:
-        raise HTTPException(status_code=500, detail="Model is not loaded. Please check server logs.")
+    if MODEL is None or LE_KECAMATAN is None or DATASET is None:
+        raise HTTPException(status_code=500, detail="Model/Dataset is not loaded. Please check server startup.")
         
     try:
         # 1. Preprocess input (Case-insensitive handling)
@@ -92,7 +92,7 @@ def predict(input_data: EnvironmentalInput):
             'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam'
         ])
         
-        # 2. Get probabilities for all Kecamatans
+        # Get probabilities for all Kecamatans
         probabilities = MODEL.predict_proba(features_df)[0]
         kec_names = LE_KECAMATAN.classes_
         prob_map = dict(zip(kec_names, probabilities))

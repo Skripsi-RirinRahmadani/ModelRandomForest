@@ -5,11 +5,37 @@ import pandas as pd
 import joblib
 import numpy as np
 import os
+from contextlib import asynccontextmanager
+
+# Global variables to store loaded resources
+MODEL = None
+LE_KECAMATAN = None
+DATASET = None
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Memuat model dan data ke memori saat API dinyalakan."""
+    global MODEL, LE_KECAMATAN, DATASET
+    
+    MODEL_PATH = 'models/random_forest_model.joblib'
+    KECAMATAN_ENCODER_PATH = 'models/le_kecamatan.joblib'
+    DATA_PATH = 'data/processed_dataset.csv'
+    
+    print("Loading resources into memory...")
+    if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH) or not os.path.exists(DATA_PATH):
+        print("ERROR: Model files or dataset not found. API might not work correctly.")
+    else:
+        MODEL = joblib.load(MODEL_PATH)
+        LE_KECAMATAN = joblib.load(KECAMATAN_ENCODER_PATH)
+        DATASET = pd.read_csv(DATA_PATH)
+        print("Resources loaded successfully. Ready to predict!")
+    yield
 
 app = FastAPI(
     title="Horticulture Recommendation API",
     description="API untuk sistem rekomendasi varietas tanaman hortikultura menggunakan Random Forest",
-    version="1.2.0"
+    version="1.2.0",
+    lifespan=lifespan
 )
 
 # Configure CORS
@@ -29,30 +55,6 @@ class EnvironmentalInput(BaseModel):
     elevasi_mdpl: float
     ketersediaan_air: str  # Rendah, Sedang, Tinggi
     intensitas_matahari_jam: float
-
-# Global variables to store loaded resources
-MODEL = None
-LE_KECAMATAN = None
-DATASET = None
-
-@app.on_event("startup")
-def startup_event():
-    """Memuat model dan data ke memori saat API dinyalakan."""
-    global MODEL, LE_KECAMATAN, DATASET
-    
-    MODEL_PATH = 'models/random_forest_model.joblib'
-    KECAMATAN_ENCODER_PATH = 'models/le_kecamatan.joblib'
-    DATA_PATH = 'data/processed_dataset.csv'
-    
-    print("Loading resources into memory...")
-    if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH) or not os.path.exists(DATA_PATH):
-        print("ERROR: Model files or dataset not found. API might not work correctly.")
-        return
-
-    MODEL = joblib.load(MODEL_PATH)
-    LE_KECAMATAN = joblib.load(KECAMATAN_ENCODER_PATH)
-    DATASET = pd.read_csv(DATA_PATH)
-    print("Resources loaded successfully. Ready to predict!")
 
 @app.get("/")
 def read_root():

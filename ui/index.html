@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horticulture Recommendation System UI</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --primary: #10b981;
+            --primary-gradient: linear-gradient(135deg, #059669, #10b981, #34d399);
+            --accent-blue: #0284c7;
+            --accent-blue-gradient: linear-gradient(135deg, #0369a1, #0284c7, #38bdf8);
+            --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(2, 132, 199, 0.1) 0px, transparent 50%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 2rem 5% 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo i {
+            font-size: 2.2rem;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .status-pill {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #ef4444;
+            box-shadow: 0 0 8px #ef4444;
+        }
+
+        .status-dot.online {
+            background-color: #10b981;
+            box-shadow: 0 0 8px #10b981;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1.1fr 1.9fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(20px);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .card-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+
+        .card-title i {
+            color: var(--primary);
+        }
+
+        .input-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .input-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .input-label span.val {
+            color: var(--text-primary);
+            font-weight: 700;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .slider-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 6px;
+            border-radius: 9999px;
+            background: rgba(255, 255, 255, 0.1);
+            outline: none;
+            transition: var(--transition);
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+            transition: var(--transition);
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            background: #34d399;
+        }
+
+        .select-input {
+            width: 100%;
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            color: var(--text-primary);
+            outline: none;
+            font-family: inherit;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .select-input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+        }
+
+        .btn {
+            width: 100%;
+            background: var(--primary-gradient);
+            border: none;
+            border-radius: 12px;
+            padding: 1rem;
+            color: white;
+            font-size: 1rem;
+            font-weight: 700;
+            font-family: 'Outfit', sans-serif;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.75rem;
+            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+            transition: var(--transition);
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(16, 185, 129, 0.5);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn.secondary {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            box-shadow: none;
+            margin-top: 0.75rem;
+        }
+
+        .btn.secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Results Container */
+        .results-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            height: 100%;
+        }
+
+        .placeholder-results {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 6rem 2rem;
+            text-align: center;
+            border: 2px dashed rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            color: var(--text-secondary);
+        }
+
+        .placeholder-results i {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.2;
+            color: var(--primary);
+        }
+
+        .placeholder-results h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Real Results Styles */
+        .location-banner {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 640px) {
+            .location-banner {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .stat-box {
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .stat-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .stat-icon.loc {
+            background: rgba(2, 132, 199, 0.15);
+            color: #38bdf8;
+            border: 1px solid rgba(2, 132, 199, 0.3);
+        }
+
+        .stat-icon.conf {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .stat-info p {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-info h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .recs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .rec-card {
+            background: rgba(15, 23, 42, 0.3);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.25rem;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .rec-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary-gradient);
+        }
+
+        .rec-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(16, 185, 129, 0.3);
+            box-shadow: 0 8px 25px -10px rgba(0, 0, 0, 0.3);
+        }
+
+        .rec-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .rec-plant {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        .rec-icon {
+            font-size: 1.2rem;
+            color: var(--primary);
+        }
+
+        .rec-variety-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.5rem 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .rec-variety-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.15rem;
+        }
+
+        .rec-variety {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .score-bar-wrapper {
+            margin-top: 0.5rem;
+        }
+
+        .score-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+
+        .score-val {
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .score-bg {
+            height: 6px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+
+        .score-fill {
+            height: 100%;
+            background: var(--primary-gradient);
+            border-radius: 9999px;
+            width: 0;
+            transition: width 1s cubic-bezier(0.1, 1, 0.1, 1);
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Alert styling */
+        .alert {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.25);
+            color: #fca5a5;
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            display: flex;
+            gap: 0.75rem;
+            align-items: flex-start;
+        }
+
+        .alert i {
+            font-size: 1.1rem;
+            margin-top: 0.1rem;
+        }
+
+        footer {
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-seedling"></i>
+            <h1>Horti<span>Forest.</span></h1>
+        </div>
+        <div class="status-pill" id="status-container">
+            <div class="status-dot" id="status-dot"></div>
+            <span id="status-text">Mengecek API...</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Panel Input (Kiri) -->
+        <section class="card">
+            <div class="card-title">
+                <i class="fa-solid fa-sliders"></i>
+                <h2>Parameter Lingkungan</h2>
+            </div>
+
+            <form id="predict-form" onsubmit="event.preventDefault();">
+                
+                <!-- pH Tanah -->
+                <div class="input-group">
+                    <div class="input-label">
+                        <span><i class="fa-solid fa-flask-vial"></i> pH Tanah</span>
+                        <span class="val" id="ph-val">6.50</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="ph_tanah" min="3.0" max="9.0" step="0.05" value="6.50">
+                    </div>
+                </div>
+
+                <!-- Suhu -->
+                <div class="input-group">
+                    <div class="input-label">
+                        <span><i class="fa-solid fa-temperature-three-quarters"></i> Suhu (°C)</span>
+                        <span class="val" id="suhu-val">27.0°C</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="suhu_c" min="15.0" max="40.0" step="0.1" value="27.0">
+                    </div>
+                </div>
+
+                <!-- Curah Hujan -->
+                <div class="input-group">
+                    <div class="input-label">
+                        <span><i class="fa-solid fa-cloud-showers-water"></i> Curah Hujan Tahunan (mm)</span>
+                        <span class="val" id="hujan-val">2000 mm</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="curah_hujan_mm" min="500" max="4000" step="10" value="2000">
+                    </div>
+                </div>
+
+                <!-- Elevasi -->
+                <div class="input-group">
+                    <div class="input-label">
+                        <span><i class="fa-solid fa-mountain"></i> Elevasi MDPL (mdpl)</span>
+                        <span class="val" id="elevasi-val">150 mdpl</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="elevasi_mdpl" min="0" max="1500" step="5" value="150">
+                    </div>
+                </div>
+
+                <!-- Ketersediaan Air -->
+                <div class="input-group">
+                    <div class="input-label">
+                        <span><i class="fa-solid fa-droplet"></i> Ketersediaan Air</span>
+                    </div>
+                    <select id="ketersediaan_air" class="select-input">
+                        <option value="Rendah">Rendah (Tadah Hujan/Minim)</option>
+                        <option value="Sedang" selected>Sedang (Cukup Pengairan)</option>
+                        <option value="Tinggi">Tinggi (Sangat Melimpah/Irigasi Teknis)</option>
+                    </select>
+                </div>
+
+                <!-- Intensitas Matahari -->
+                <div class="input-group">
+                    <div class="input-label">
+                        <span><i class="fa-solid fa-sun"></i> Intensitas Matahari (Jam/Hari)</span>
+                        <span class="val" id="matahari-val">7.0 jam</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="intensitas_matahari_jam" min="2.0" max="12.0" step="0.1" value="7.0">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn" id="predict-btn">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Analisis Lingkungan
+                </button>
+
+                <button type="button" class="btn secondary" id="simulate-btn">
+                    <i class="fa-solid fa-vial"></i> Jalankan Simulasi Mode
+                </button>
+            </form>
+        </section>
+
+        <!-- Panel Hasil (Kanan) -->
+        <section class="card">
+            <div class="card-title">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Rekomendasi Varietas Tanaman</h2>
+            </div>
+
+            <div class="results-container">
+                <!-- Status API Offline Alert (Tersembunyi secara default) -->
+                <div class="alert" id="offline-alert" style="display: none;">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <div>
+                        <strong>Server API Offline!</strong> Kami akan menggunakan <strong>Simulasi Mode</strong> lokal. Untuk integrasi real-time model Random Forest, silakan jalankan <code>python src/api.py</code> di terminal Anda.
+                    </div>
+                </div>
+
+                <!-- Tampilan Awal / Placeholder -->
+                <div class="placeholder-results" id="results-placeholder">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h3>Siap Menganalisis</h3>
+                    <p>Sesuaikan parameter lingkungan di panel kiri, lalu klik <strong>Analisis Lingkungan</strong> untuk melihat prediksi geografis model Random Forest dan kecocokan varietas.</p>
+                </div>
+
+                <!-- Container Hasil Aktual (Tersembunyi secara default) -->
+                <div id="results-actual" style="display: none;">
+                    
+                    <!-- Banner Lokasi -->
+                    <div class="location-banner">
+                        <div class="stat-box">
+                            <div class="stat-icon loc">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="stat-info">
+                                <p>Prediksi Kecamatan Terdekat</p>
+                                <h2 id="result-kecamatan">-</h2>
+                            </div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon conf">
+                                <i class="fa-solid fa-gauge-high"></i>
+                            </div>
+                            <div class="stat-info">
+                                <p>Geographic Confidence</p>
+                                <h2 id="result-confidence">0.00%</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Judul Grid -->
+                    <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700; margin: 1.5rem 0 0.5rem 0; color: var(--text-primary);">
+                        Varietas Rekomendasi Teratas Per Komoditas
+                    </h3>
+
+                    <!-- Grid Hasil Rekomendasi -->
+                    <div class="recs-grid" id="recs-grid">
+                        <!-- Kartu komoditas akan disuntikkan secara dinamis menggunakan JavaScript -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tugas Akhir Skripsi Ririn Rahmadani. Menggunakan Algoritma <strong>Random Forest Classifier</strong>.</p>
+    </footer>
+
+    <!-- JS Logic -->
+    <script src="app.js"></script>
+</body>
+</html>

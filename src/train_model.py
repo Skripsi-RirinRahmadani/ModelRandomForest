@@ -14,9 +14,7 @@ def train_rf_model(data_path):
         'pH_Tanah', 
         'Suhu_C', 
         'Curah_Hujan_mm', 
-        'Elevasi_mdpl', 
-        'Ketersediaan_Air', 
-        'Intensitas_Matahari_jam'
+        'Elevasi_mdpl'
     ]
     X = df[features]
     y = df['Kecamatan_Encoded']
@@ -48,9 +46,9 @@ def train_rf_model(data_path):
     print("Model saved to 'models/random_forest_model.joblib'.")
     
     return rf_model, accuracy
-
+ 
 if __name__ == "__main__":
-    data_path = 'data/processed_dataset.csv'
+    data_path = 'data2/processed_dataset.csv'
     model, acc = train_rf_model(data_path)
     
     if acc >= 0.90:

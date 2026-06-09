@@ -16,10 +16,7 @@ def preprocess_data(file_path):
     else:
         print("No missing values found in 'Suhu_C'.")
         
-    # 2. Map Ketersediaan_Air to numerical values (Ordinal Encoding)
-    water_mapping = {'Rendah': 0, 'Sedang': 1, 'Tinggi': 2}
-    print("Mapping 'Ketersediaan_Air' to numerical values...")
-    df['Ketersediaan_Air'] = df['Ketersediaan_Air'].map(water_mapping)
+    # 2. (REMOVED) Map Ketersediaan_Air to numerical values (Ordinal Encoding)
     
     # 3. Initialize LabelEncoder for target Nama_Varietas
     print("Encoding target 'Nama_Varietas'...")
@@ -48,13 +45,13 @@ def preprocess_data(file_path):
     return df, le_varietas, le_tanaman, le_kecamatan
 
 if __name__ == "__main__":
-    data_path = 'data/dataset_training_random_forest_generated.csv'
+    data_path = 'data2/dataset_training_random_forest_generated.csv'
     processed_df, le_v, le_t, le_k = preprocess_data(data_path)
     
     # Save the processed dataframe
-    os.makedirs('data', exist_ok=True)
-    processed_df.to_csv('data/processed_dataset.csv', index=False)
-    print("Processed dataset saved to 'data/processed_dataset.csv'.")
+    os.makedirs('data2', exist_ok=True)
+    processed_df.to_csv('data2/processed_dataset.csv', index=False)
+    print("Processed dataset saved to 'data2/processed_dataset.csv'.")
     
     print("\nPre-processing Summary:")
     print(f"Total rows processed: {len(processed_df)}")
@@ -62,4 +59,4 @@ if __name__ == "__main__":
     print(f"Unique Districts (Kecamatan) encoded: {len(le_k.classes_)}")
     print(f"Unique Varieties (Target Class) encoded: {len(le_v.classes_)}")
     print("\nSample Data (first 5 rows):")
-    print(processed_df[['Nama_Tanaman', 'Nama_Tanaman_Encoded', 'Nama_Varietas', 'Nama_Varietas_Encoded', 'Suhu_C', 'Ketersediaan_Air']].head())
+    print(processed_df[['Nama_Tanaman', 'Nama_Tanaman_Encoded', 'Nama_Varietas', 'Nama_Varietas_Encoded', 'Suhu_C']].head())

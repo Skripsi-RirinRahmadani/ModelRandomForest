@@ -7,7 +7,7 @@ import numpy as np
 
 def evaluate_saved_model():
     # 1. Path Configuration
-    data_path = 'data/processed_dataset.csv'
+    data_path = 'data2/processed_dataset.csv'
     model_path = 'models/random_forest_model.joblib'
     le_kecamatan_path = 'models/le_kecamatan.joblib'
 
@@ -30,9 +30,7 @@ def evaluate_saved_model():
         'pH_Tanah', 
         'Suhu_C', 
         'Curah_Hujan_mm', 
-        'Elevasi_mdpl', 
-        'Ketersediaan_Air', 
-        'Intensitas_Matahari_jam'
+        'Elevasi_mdpl'
     ]
     X = df[features]
     y = df['Kecamatan_Encoded']

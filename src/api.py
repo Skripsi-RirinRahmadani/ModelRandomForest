@@ -19,7 +19,7 @@ async def lifespan(app: FastAPI):
     
     MODEL_PATH = 'models/random_forest_model.joblib'
     KECAMATAN_ENCODER_PATH = 'models/le_kecamatan.joblib'
-    DATA_PATH = 'data/processed_dataset.csv'
+    DATA_PATH = 'data2/processed_dataset.csv'
     
     print("Loading resources into memory...")
     if not os.path.exists(MODEL_PATH) or not os.path.exists(KECAMATAN_ENCODER_PATH) or not os.path.exists(DATA_PATH):
@@ -34,7 +34,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="Horticulture Recommendation API",
     description="API untuk sistem rekomendasi varietas tanaman hortikultura menggunakan Random Forest",
-    version="1.2.0",
+    version="1.3.0",
     lifespan=lifespan
 )
 
@@ -53,8 +53,6 @@ class EnvironmentalInput(BaseModel):
     suhu_c: float
     curah_hujan_mm: float
     elevasi_mdpl: float
-    ketersediaan_air: str  # Rendah, Sedang, Tinggi
-    intensitas_matahari_jam: float
 
 @app.get("/")
 def read_root():
@@ -68,30 +66,29 @@ def read_root():
 def predict(input_data: EnvironmentalInput):
     if MODEL is None or LE_KECAMATAN is None or DATASET is None:
         raise HTTPException(status_code=500, detail="Model/Dataset is not loaded. Please check server startup.")
-        
+
+    print("\n" + "="*60)
+    print("🔬 PREDIKSI VARIETAS TANAMAN HORTIKULTURA")
+    print("="*60)
+    print(f"📊 Input Parameter:")
+    print(f"   • pH Tanah          : {input_data.ph_tanah}")
+    print(f"   • Suhu (°C)         : {input_data.suhu_c}")
+    print(f"   • Curah Hujan (mm)  : {input_data.curah_hujan_mm}")
+    print(f"   • Elevasi (mdpl)    : {input_data.elevasi_mdpl}")
+    print("-"*60)
+
     try:
-        # 1. Preprocess input (Case-insensitive handling)
-        water_mapping = {'Rendah': 0, 'Sedang': 1, 'Tinggi': 2}
-        
-        # Mengubah input menjadi capitalize (Huruf pertama besar, sisanya kecil)
-        formatted_air = input_data.ketersediaan_air.strip().capitalize()
-        air_val = water_mapping.get(formatted_air)
-        if air_val is None:
-            raise HTTPException(status_code=400, detail="ketersediaan_air must be 'Rendah', 'Sedang', or 'Tinggi'")
-            
+        # 1. Preprocess input
         features = np.array([[
             input_data.ph_tanah,
             input_data.suhu_c,
             input_data.curah_hujan_mm,
-            input_data.elevasi_mdpl,
-            air_val,
-            input_data.intensitas_matahari_jam
+            input_data.elevasi_mdpl
         ]])
         
         # 2. Predict Kecamatan and get confidence score
         features_df = pd.DataFrame(features, columns=[
-            'pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 
-            'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam'
+            'pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl'
         ])
         
         # Get probabilities for all Kecamatans
@@ -105,7 +102,7 @@ def predict(input_data: EnvironmentalInput):
         
         # 3. Calculate score for each variety in the dataset
         # Define features for similarity calculation
-        feature_cols = ['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam']
+        feature_cols = ['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl']
         
         # Simple Min-Max Normalization to ensure fair Euclidean distance
         df_min = DATASET[feature_cols].min()
@@ -114,8 +111,7 @@ def predict(input_data: EnvironmentalInput):
         
         # Normalize current input
         current_input = np.array([
-            input_data.ph_tanah, input_data.suhu_c, input_data.curah_hujan_mm,
-            input_data.elevasi_mdpl, air_val, input_data.intensitas_matahari_jam
+            input_data.ph_tanah, input_data.suhu_c, input_data.curah_hujan_mm, input_data.elevasi_mdpl
         ])
         normalized_input = (current_input - df_min.values) / df_range.values
         
@@ -138,10 +134,10 @@ def predict(input_data: EnvironmentalInput):
             return (location_score * 0.6 + similarity_score * 0.4) * 0.98
         
         variety_data['Score'] = variety_data.apply(calculate_final_score, axis=1)
-        
+
         # 4. For each plant, pick the best variety
         best_recs = variety_data.sort_values('Score', ascending=False).groupby('Nama_Tanaman').head(1)
-        
+
         # 5. Format response
         results_list = []
         raw_data = {}
@@ -149,7 +145,7 @@ def predict(input_data: EnvironmentalInput):
             plant = row['Nama_Tanaman']
             variety = row['Nama_Varietas']
             score = row['Score']
-            
+
             results_list.append({
                 "tanaman": plant,
                 "varietas": variety,
@@ -159,7 +155,17 @@ def predict(input_data: EnvironmentalInput):
                 "varietas": variety,
                 "skor_numerik": float(score)
             }
-        
+
+        # Print hasil prediksi
+        print(f"✅ Hasil Prediksi:")
+        print(f"   🌍 Kecamatan Teridentifikasi : {best_kec}")
+        print(f"   📍 Confidence Score          : {top_confidence * 100:.2f}%")
+        print(f"\n🌱 Rekomendasi Varietas Teratas (Top 5):")
+        for idx, rec in enumerate(results_list[:5], 1):
+            print(f"   {idx}. {rec['tanaman']}")
+            print(f"      └─ Varietas: {rec['varietas']} | Kecocokan: {rec['kecocokan']}")
+        print("="*60 + "\n")
+
         return {
             "status": "success",
             "identified_location": best_kec,
@@ -170,6 +176,59 @@ def predict(input_data: EnvironmentalInput):
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/kecamatan")
+def get_kecamatan_list():
+    if DATASET is None:
+        raise HTTPException(status_code=500, detail="Dataset not loaded.")
+    unique_kec = sorted(DATASET['Kecamatan'].unique().tolist())
+    return {
+        "status": "success",
+        "kecamatan": unique_kec
+    }
+
+@app.get("/kecamatan/{kecamatan_name}/recommend")
+def recommend_by_kecamatan(kecamatan_name: str):
+    if MODEL is None or LE_KECAMATAN is None or DATASET is None:
+        raise HTTPException(status_code=500, detail="Model/Dataset not loaded.")
+
+    print("\n" + "="*60)
+    print("🗺️  REKOMENDASI BERDASARKAN KECAMATAN")
+    print("="*60)
+    print(f"📍 Kecamatan: {kecamatan_name}")
+
+    kec_rows = DATASET[DATASET['Kecamatan'].str.lower() == kecamatan_name.lower()]
+    if kec_rows.empty:
+        raise HTTPException(status_code=404, detail=f"Kecamatan '{kecamatan_name}' not found.")
+
+    ph = float(kec_rows['pH_Tanah'].mean())
+    # Fill missing suhu using median or mean if needed, but since our processed_dataset already imputed suhu, mean is fully pre-imputed!
+    suhu = float(kec_rows['Suhu_C'].mean())
+    curah_hujan = float(kec_rows['Curah_Hujan_mm'].mean())
+    elevasi = float(kec_rows['Elevasi_mdpl'].mean())
+
+    print(f"📊 Parameter Ekologis:")
+    print(f"   • pH Tanah          : {ph:.2f}")
+    print(f"   • Suhu (°C)         : {suhu:.1f}")
+    print(f"   • Curah Hujan (mm)  : {curah_hujan:.0f}")
+    print(f"   • Elevasi (mdpl)    : {elevasi:.0f}")
+    print("-"*60)
+    
+    env_input = EnvironmentalInput(
+        ph_tanah=ph,
+        suhu_c=suhu,
+        curah_hujan_mm=curah_hujan,
+        elevasi_mdpl=elevasi
+    )
+
+    res = predict(env_input)
+    res["environmental_parameters"] = {
+        "ph": round(ph, 2),
+        "temperature": round(suhu, 1),
+        "rainfall": round(curah_hujan, 0),
+        "elevation": round(elevasi, 0)
+    }
+    return res
 
 if __name__ == "__main__":
     import uvicorn

@@ -1,0 +1,811 @@
+Nama_Tanaman,Kecamatan,pH_Tanah,Suhu_C,Curah_Hujan_mm,Elevasi_mdpl,Nama_Varietas
+Ketimun,Baktiya,5.37,27.0,2090.6,11.4,Hercules F1
+Ketimun,Baktiya Barat,5.77,27.1,2006.5,3.6,Hercules F1
+Ketimun,Banda Baro,5.62,26.4,1985.8,35.2,Hercules F1
+Ketimun,Cot Girek,5.17,25.6,2403.7,124.3,Hercules F1
+Ketimun,Dewantara,5.72,,1932.4,9.4,Hercules F1
+Ketimun,Geureudong Pase,5.4,24.2,2267.2,476.8,Hercules F1
+Ketimun,Kuta Makmur,5.67,26.3,2061.0,141.0,Hercules F1
+Ketimun,Langkahan,5.1,25.8,2429.3,70.5,Hercules F1
+Ketimun,Lapang,6.05,27.1,2021.9,3.8,Hercules F1
+Ketimun,Lhoksukon,5.22,26.9,2091.4,12.1,Hercules F1
+Ketimun,Matangkuli,5.45,26.7,2130.0,11.7,Hercules F1
+Ketimun,Meurah Mulia,5.54,26.6,2083.6,18.0,Hercules F1
+Ketimun,Muara Batu,5.71,,1941.3,10.3,Hercules F1
+Ketimun,Nibong,5.51,26.7,2127.2,17.4,Hercules F1
+Ketimun,Nisam,5.6,26.5,1946.5,30.6,Hercules F1
+Ketimun,Nisam Antara,5.47,25.2,2181.5,458.7,Hercules F1
+Ketimun,Paya Bakong,5.29,25.7,2263.3,81.3,Hercules F1
+Ketimun,Pirak Timu,5.15,26.3,2111.1,12.8,Hercules F1
+Ketimun,Samudera,5.7,26.7,1998.9,6.5,Hercules F1
+Ketimun,Sawang,5.42,25.0,2199.6,380.7,Hercules F1
+Ketimun,Seunuddon,6.09,27.2,2056.1,3.9,Hercules F1
+Ketimun,Simpang Keramat,5.59,26.1,2152.3,164.5,Hercules F1
+Ketimun,Syamtalira Aron,5.64,26.7,2000.2,5.4,Hercules F1
+Ketimun,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Hercules F1
+Ketimun,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Hercules F1
+Ketimun,Tanah Luas,5.49,25.2,2200.2,239.4,Hercules F1
+Ketimun,Tanah Pasir,5.9,,1978.8,4.7,Hercules F1
+Ketimun,Baktiya,5.37,27.0,2090.6,11.4,Mercy F1
+Ketimun,Baktiya Barat,5.77,27.1,2006.5,3.6,Mercy F1
+Ketimun,Banda Baro,5.62,26.4,1985.8,35.2,Mercy F1
+Ketimun,Cot Girek,5.17,25.6,2403.7,124.3,Mercy F1
+Ketimun,Dewantara,5.72,,1932.4,9.4,Mercy F1
+Ketimun,Geureudong Pase,5.4,24.2,2267.2,476.8,Mercy F1
+Ketimun,Kuta Makmur,5.67,26.3,2061.0,141.0,Mercy F1
+Ketimun,Langkahan,5.1,25.8,2429.3,70.5,Mercy F1
+Ketimun,Lapang,6.05,27.1,2021.9,3.8,Mercy F1
+Ketimun,Lhoksukon,5.22,26.9,2091.4,12.1,Mercy F1
+Ketimun,Matangkuli,5.45,26.7,2130.0,11.7,Mercy F1
+Ketimun,Meurah Mulia,5.54,26.6,2083.6,18.0,Mercy F1
+Ketimun,Muara Batu,5.71,,1941.3,10.3,Mercy F1
+Ketimun,Nibong,5.51,26.7,2127.2,17.4,Mercy F1
+Ketimun,Nisam,5.6,26.5,1946.5,30.6,Mercy F1
+Ketimun,Nisam Antara,5.47,25.2,2181.5,458.7,Mercy F1
+Ketimun,Paya Bakong,5.29,25.7,2263.3,81.3,Mercy F1
+Ketimun,Pirak Timu,5.15,26.3,2111.1,12.8,Mercy F1
+Ketimun,Samudera,5.7,26.7,1998.9,6.5,Mercy F1
+Ketimun,Sawang,5.42,25.0,2199.6,380.7,Mercy F1
+Ketimun,Seunuddon,6.09,27.2,2056.1,3.9,Mercy F1
+Ketimun,Simpang Keramat,5.59,26.1,2152.3,164.5,Mercy F1
+Ketimun,Syamtalira Aron,5.64,26.7,2000.2,5.4,Mercy F1
+Ketimun,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Mercy F1
+Ketimun,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Mercy F1
+Ketimun,Tanah Luas,5.49,25.2,2200.2,239.4,Mercy F1
+Ketimun,Tanah Pasir,5.9,,1978.8,4.7,Mercy F1
+Ketimun,Baktiya,5.37,27.0,2090.6,11.4,Roman F1
+Ketimun,Baktiya Barat,5.77,27.1,2006.5,3.6,Roman F1
+Ketimun,Banda Baro,5.62,26.4,1985.8,35.2,Roman F1
+Ketimun,Cot Girek,5.17,25.6,2403.7,124.3,Roman F1
+Ketimun,Dewantara,5.72,,1932.4,9.4,Roman F1
+Ketimun,Geureudong Pase,5.4,24.2,2267.2,476.8,Roman F1
+Ketimun,Kuta Makmur,5.67,26.3,2061.0,141.0,Roman F1
+Ketimun,Langkahan,5.1,25.8,2429.3,70.5,Roman F1
+Ketimun,Lapang,6.05,27.1,2021.9,3.8,Roman F1
+Ketimun,Lhoksukon,5.22,26.9,2091.4,12.1,Roman F1
+Ketimun,Matangkuli,5.45,26.7,2130.0,11.7,Roman F1
+Ketimun,Meurah Mulia,5.54,26.6,2083.6,18.0,Roman F1
+Ketimun,Muara Batu,5.71,,1941.3,10.3,Roman F1
+Ketimun,Nibong,5.51,26.7,2127.2,17.4,Roman F1
+Ketimun,Nisam,5.6,26.5,1946.5,30.6,Roman F1
+Ketimun,Nisam Antara,5.47,25.2,2181.5,458.7,Roman F1
+Ketimun,Paya Bakong,5.29,25.7,2263.3,81.3,Roman F1
+Ketimun,Pirak Timu,5.15,26.3,2111.1,12.8,Roman F1
+Ketimun,Samudera,5.7,26.7,1998.9,6.5,Roman F1
+Ketimun,Sawang,5.42,25.0,2199.6,380.7,Roman F1
+Ketimun,Seunuddon,6.09,27.2,2056.1,3.9,Roman F1
+Ketimun,Simpang Keramat,5.59,26.1,2152.3,164.5,Roman F1
+Ketimun,Syamtalira Aron,5.64,26.7,2000.2,5.4,Roman F1
+Ketimun,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Roman F1
+Ketimun,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Roman F1
+Ketimun,Tanah Luas,5.49,25.2,2200.2,239.4,Roman F1
+Ketimun,Tanah Pasir,5.9,,1978.8,4.7,Roman F1
+Kacang Panjang,Baktiya,5.37,27.0,2090.6,11.4,Parade Tavi
+Kacang Panjang,Baktiya Barat,5.77,27.1,2006.5,3.6,Parade Tavi
+Kacang Panjang,Banda Baro,5.62,26.4,1985.8,35.2,Parade Tavi
+Kacang Panjang,Cot Girek,5.17,25.6,2403.7,124.3,Parade Tavi
+Kacang Panjang,Dewantara,5.72,,1932.4,9.4,Parade Tavi
+Kacang Panjang,Geureudong Pase,5.4,24.2,2267.2,476.8,Parade Tavi
+Kacang Panjang,Kuta Makmur,5.67,26.3,2061.0,141.0,Parade Tavi
+Kacang Panjang,Langkahan,5.1,25.8,2429.3,70.5,Parade Tavi
+Kacang Panjang,Lapang,6.05,27.1,2021.9,3.8,Parade Tavi
+Kacang Panjang,Lhoksukon,5.22,26.9,2091.4,12.1,Parade Tavi
+Kacang Panjang,Matangkuli,5.45,26.7,2130.0,11.7,Parade Tavi
+Kacang Panjang,Meurah Mulia,5.54,26.6,2083.6,18.0,Parade Tavi
+Kacang Panjang,Muara Batu,5.71,,1941.3,10.3,Parade Tavi
+Kacang Panjang,Nibong,5.51,26.7,2127.2,17.4,Parade Tavi
+Kacang Panjang,Nisam,5.6,26.5,1946.5,30.6,Parade Tavi
+Kacang Panjang,Nisam Antara,5.47,25.2,2181.5,458.7,Parade Tavi
+Kacang Panjang,Paya Bakong,5.29,25.7,2263.3,81.3,Parade Tavi
+Kacang Panjang,Pirak Timu,5.15,26.3,2111.1,12.8,Parade Tavi
+Kacang Panjang,Samudera,5.7,26.7,1998.9,6.5,Parade Tavi
+Kacang Panjang,Sawang,5.42,25.0,2199.6,380.7,Parade Tavi
+Kacang Panjang,Seunuddon,6.09,27.2,2056.1,3.9,Parade Tavi
+Kacang Panjang,Simpang Keramat,5.59,26.1,2152.3,164.5,Parade Tavi
+Kacang Panjang,Syamtalira Aron,5.64,26.7,2000.2,5.4,Parade Tavi
+Kacang Panjang,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Parade Tavi
+Kacang Panjang,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Parade Tavi
+Kacang Panjang,Tanah Luas,5.49,25.2,2200.2,239.4,Parade Tavi
+Kacang Panjang,Tanah Pasir,5.9,,1978.8,4.7,Parade Tavi
+Kacang Panjang,Baktiya,5.37,27.0,2090.6,11.4,Kanton Tavi
+Kacang Panjang,Baktiya Barat,5.77,27.1,2006.5,3.6,Kanton Tavi
+Kacang Panjang,Banda Baro,5.62,26.4,1985.8,35.2,Kanton Tavi
+Kacang Panjang,Cot Girek,5.17,25.6,2403.7,124.3,Kanton Tavi
+Kacang Panjang,Dewantara,5.72,,1932.4,9.4,Kanton Tavi
+Kacang Panjang,Geureudong Pase,5.4,24.2,2267.2,476.8,Kanton Tavi
+Kacang Panjang,Kuta Makmur,5.67,26.3,2061.0,141.0,Kanton Tavi
+Kacang Panjang,Langkahan,5.1,25.8,2429.3,70.5,Kanton Tavi
+Kacang Panjang,Lapang,6.05,27.1,2021.9,3.8,Kanton Tavi
+Kacang Panjang,Lhoksukon,5.22,26.9,2091.4,12.1,Kanton Tavi
+Kacang Panjang,Matangkuli,5.45,26.7,2130.0,11.7,Kanton Tavi
+Kacang Panjang,Meurah Mulia,5.54,26.6,2083.6,18.0,Kanton Tavi
+Kacang Panjang,Muara Batu,5.71,,1941.3,10.3,Kanton Tavi
+Kacang Panjang,Nibong,5.51,26.7,2127.2,17.4,Kanton Tavi
+Kacang Panjang,Nisam,5.6,26.5,1946.5,30.6,Kanton Tavi
+Kacang Panjang,Nisam Antara,5.47,25.2,2181.5,458.7,Kanton Tavi
+Kacang Panjang,Paya Bakong,5.29,25.7,2263.3,81.3,Kanton Tavi
+Kacang Panjang,Pirak Timu,5.15,26.3,2111.1,12.8,Kanton Tavi
+Kacang Panjang,Samudera,5.7,26.7,1998.9,6.5,Kanton Tavi
+Kacang Panjang,Sawang,5.42,25.0,2199.6,380.7,Kanton Tavi
+Kacang Panjang,Seunuddon,6.09,27.2,2056.1,3.9,Kanton Tavi
+Kacang Panjang,Simpang Keramat,5.59,26.1,2152.3,164.5,Kanton Tavi
+Kacang Panjang,Syamtalira Aron,5.64,26.7,2000.2,5.4,Kanton Tavi
+Kacang Panjang,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Kanton Tavi
+Kacang Panjang,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Kanton Tavi
+Kacang Panjang,Tanah Luas,5.49,25.2,2200.2,239.4,Kanton Tavi
+Kacang Panjang,Tanah Pasir,5.9,,1978.8,4.7,Kanton Tavi
+Kacang Panjang,Baktiya,5.37,27.0,2090.6,11.4,KP-1
+Kacang Panjang,Baktiya Barat,5.77,27.1,2006.5,3.6,KP-1
+Kacang Panjang,Banda Baro,5.62,26.4,1985.8,35.2,KP-1
+Kacang Panjang,Cot Girek,5.17,25.6,2403.7,124.3,KP-1
+Kacang Panjang,Dewantara,5.72,,1932.4,9.4,KP-1
+Kacang Panjang,Geureudong Pase,5.4,24.2,2267.2,476.8,KP-1
+Kacang Panjang,Kuta Makmur,5.67,26.3,2061.0,141.0,KP-1
+Kacang Panjang,Langkahan,5.1,25.8,2429.3,70.5,KP-1
+Kacang Panjang,Lapang,6.05,27.1,2021.9,3.8,KP-1
+Kacang Panjang,Lhoksukon,5.22,26.9,2091.4,12.1,KP-1
+Kacang Panjang,Matangkuli,5.45,26.7,2130.0,11.7,KP-1
+Kacang Panjang,Meurah Mulia,5.54,26.6,2083.6,18.0,KP-1
+Kacang Panjang,Muara Batu,5.71,,1941.3,10.3,KP-1
+Kacang Panjang,Nibong,5.51,26.7,2127.2,17.4,KP-1
+Kacang Panjang,Nisam,5.6,26.5,1946.5,30.6,KP-1
+Kacang Panjang,Nisam Antara,5.47,25.2,2181.5,458.7,KP-1
+Kacang Panjang,Paya Bakong,5.29,25.7,2263.3,81.3,KP-1
+Kacang Panjang,Pirak Timu,5.15,26.3,2111.1,12.8,KP-1
+Kacang Panjang,Samudera,5.7,26.7,1998.9,6.5,KP-1
+Kacang Panjang,Sawang,5.42,25.0,2199.6,380.7,KP-1
+Kacang Panjang,Seunuddon,6.09,27.2,2056.1,3.9,KP-1
+Kacang Panjang,Simpang Keramat,5.59,26.1,2152.3,164.5,KP-1
+Kacang Panjang,Syamtalira Aron,5.64,26.7,2000.2,5.4,KP-1
+Kacang Panjang,Syamtalira Bayu,5.59,26.4,1951.2,20.0,KP-1
+Kacang Panjang,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,KP-1
+Kacang Panjang,Tanah Luas,5.49,25.2,2200.2,239.4,KP-1
+Kacang Panjang,Tanah Pasir,5.9,,1978.8,4.7,KP-1
+Kangkung,Baktiya,5.37,27.0,2090.6,11.4,Bangkok LP-1
+Kangkung,Baktiya Barat,5.77,27.1,2006.5,3.6,Bangkok LP-1
+Kangkung,Banda Baro,5.62,26.4,1985.8,35.2,Bangkok LP-1
+Kangkung,Cot Girek,5.17,25.6,2403.7,124.3,Bangkok LP-1
+Kangkung,Dewantara,5.72,,1932.4,9.4,Bangkok LP-1
+Kangkung,Geureudong Pase,5.4,24.2,2267.2,476.8,Bangkok LP-1
+Kangkung,Kuta Makmur,5.67,26.3,2061.0,141.0,Bangkok LP-1
+Kangkung,Langkahan,5.1,25.8,2429.3,70.5,Bangkok LP-1
+Kangkung,Lapang,6.05,27.1,2021.9,3.8,Bangkok LP-1
+Kangkung,Lhoksukon,5.22,26.9,2091.4,12.1,Bangkok LP-1
+Kangkung,Matangkuli,5.45,26.7,2130.0,11.7,Bangkok LP-1
+Kangkung,Meurah Mulia,5.54,26.6,2083.6,18.0,Bangkok LP-1
+Kangkung,Muara Batu,5.71,,1941.3,10.3,Bangkok LP-1
+Kangkung,Nibong,5.51,26.7,2127.2,17.4,Bangkok LP-1
+Kangkung,Nisam,5.6,26.5,1946.5,30.6,Bangkok LP-1
+Kangkung,Nisam Antara,5.47,25.2,2181.5,458.7,Bangkok LP-1
+Kangkung,Paya Bakong,5.29,25.7,2263.3,81.3,Bangkok LP-1
+Kangkung,Pirak Timu,5.15,26.3,2111.1,12.8,Bangkok LP-1
+Kangkung,Samudera,5.7,26.7,1998.9,6.5,Bangkok LP-1
+Kangkung,Sawang,5.42,25.0,2199.6,380.7,Bangkok LP-1
+Kangkung,Seunuddon,6.09,27.2,2056.1,3.9,Bangkok LP-1
+Kangkung,Simpang Keramat,5.59,26.1,2152.3,164.5,Bangkok LP-1
+Kangkung,Syamtalira Aron,5.64,26.7,2000.2,5.4,Bangkok LP-1
+Kangkung,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Bangkok LP-1
+Kangkung,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Bangkok LP-1
+Kangkung,Tanah Luas,5.49,25.2,2200.2,239.4,Bangkok LP-1
+Kangkung,Tanah Pasir,5.9,,1978.8,4.7,Bangkok LP-1
+Kangkung,Baktiya,5.37,27.0,2090.6,11.4,Bisi Kangkung
+Kangkung,Baktiya Barat,5.77,27.1,2006.5,3.6,Bisi Kangkung
+Kangkung,Banda Baro,5.62,26.4,1985.8,35.2,Bisi Kangkung
+Kangkung,Cot Girek,5.17,25.6,2403.7,124.3,Bisi Kangkung
+Kangkung,Dewantara,5.72,,1932.4,9.4,Bisi Kangkung
+Kangkung,Geureudong Pase,5.4,24.2,2267.2,476.8,Bisi Kangkung
+Kangkung,Kuta Makmur,5.67,26.3,2061.0,141.0,Bisi Kangkung
+Kangkung,Langkahan,5.1,25.8,2429.3,70.5,Bisi Kangkung
+Kangkung,Lapang,6.05,27.1,2021.9,3.8,Bisi Kangkung
+Kangkung,Lhoksukon,5.22,26.9,2091.4,12.1,Bisi Kangkung
+Kangkung,Matangkuli,5.45,26.7,2130.0,11.7,Bisi Kangkung
+Kangkung,Meurah Mulia,5.54,26.6,2083.6,18.0,Bisi Kangkung
+Kangkung,Muara Batu,5.71,,1941.3,10.3,Bisi Kangkung
+Kangkung,Nibong,5.51,26.7,2127.2,17.4,Bisi Kangkung
+Kangkung,Nisam,5.6,26.5,1946.5,30.6,Bisi Kangkung
+Kangkung,Nisam Antara,5.47,25.2,2181.5,458.7,Bisi Kangkung
+Kangkung,Paya Bakong,5.29,25.7,2263.3,81.3,Bisi Kangkung
+Kangkung,Pirak Timu,5.15,26.3,2111.1,12.8,Bisi Kangkung
+Kangkung,Samudera,5.7,26.7,1998.9,6.5,Bisi Kangkung
+Kangkung,Sawang,5.42,25.0,2199.6,380.7,Bisi Kangkung
+Kangkung,Seunuddon,6.09,27.2,2056.1,3.9,Bisi Kangkung
+Kangkung,Simpang Keramat,5.59,26.1,2152.3,164.5,Bisi Kangkung
+Kangkung,Syamtalira Aron,5.64,26.7,2000.2,5.4,Bisi Kangkung
+Kangkung,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Bisi Kangkung
+Kangkung,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Bisi Kangkung
+Kangkung,Tanah Luas,5.49,25.2,2200.2,239.4,Bisi Kangkung
+Kangkung,Tanah Pasir,5.9,,1978.8,4.7,Bisi Kangkung
+Kangkung,Baktiya,5.37,27.0,2090.6,11.4,Sutra
+Kangkung,Baktiya Barat,5.77,27.1,2006.5,3.6,Sutra
+Kangkung,Banda Baro,5.62,26.4,1985.8,35.2,Sutra
+Kangkung,Cot Girek,5.17,25.6,2403.7,124.3,Sutra
+Kangkung,Dewantara,5.72,,1932.4,9.4,Sutra
+Kangkung,Geureudong Pase,5.4,24.2,2267.2,476.8,Sutra
+Kangkung,Kuta Makmur,5.67,26.3,2061.0,141.0,Sutra
+Kangkung,Langkahan,5.1,25.8,2429.3,70.5,Sutra
+Kangkung,Lapang,6.05,27.1,2021.9,3.8,Sutra
+Kangkung,Lhoksukon,5.22,26.9,2091.4,12.1,Sutra
+Kangkung,Matangkuli,5.45,26.7,2130.0,11.7,Sutra
+Kangkung,Meurah Mulia,5.54,26.6,2083.6,18.0,Sutra
+Kangkung,Muara Batu,5.71,,1941.3,10.3,Sutra
+Kangkung,Nibong,5.51,26.7,2127.2,17.4,Sutra
+Kangkung,Nisam,5.6,26.5,1946.5,30.6,Sutra
+Kangkung,Nisam Antara,5.47,25.2,2181.5,458.7,Sutra
+Kangkung,Paya Bakong,5.29,25.7,2263.3,81.3,Sutra
+Kangkung,Pirak Timu,5.15,26.3,2111.1,12.8,Sutra
+Kangkung,Samudera,5.7,26.7,1998.9,6.5,Sutra
+Kangkung,Sawang,5.42,25.0,2199.6,380.7,Sutra
+Kangkung,Seunuddon,6.09,27.2,2056.1,3.9,Sutra
+Kangkung,Simpang Keramat,5.59,26.1,2152.3,164.5,Sutra
+Kangkung,Syamtalira Aron,5.64,26.7,2000.2,5.4,Sutra
+Kangkung,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Sutra
+Kangkung,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Sutra
+Kangkung,Tanah Luas,5.49,25.2,2200.2,239.4,Sutra
+Kangkung,Tanah Pasir,5.9,,1978.8,4.7,Sutra
+Terung,Baktiya,5.37,27.0,2090.6,11.4,Mustang F1
+Terung,Baktiya Barat,5.77,27.1,2006.5,3.6,Mustang F1
+Terung,Banda Baro,5.62,26.4,1985.8,35.2,Mustang F1
+Terung,Cot Girek,5.17,25.6,2403.7,124.3,Mustang F1
+Terung,Dewantara,5.72,,1932.4,9.4,Mustang F1
+Terung,Geureudong Pase,5.4,24.2,2267.2,476.8,Mustang F1
+Terung,Kuta Makmur,5.67,26.3,2061.0,141.0,Mustang F1
+Terung,Langkahan,5.1,25.8,2429.3,70.5,Mustang F1
+Terung,Lapang,6.05,27.1,2021.9,3.8,Mustang F1
+Terung,Lhoksukon,5.22,26.9,2091.4,12.1,Mustang F1
+Terung,Matangkuli,5.45,26.7,2130.0,11.7,Mustang F1
+Terung,Meurah Mulia,5.54,26.6,2083.6,18.0,Mustang F1
+Terung,Muara Batu,5.71,,1941.3,10.3,Mustang F1
+Terung,Nibong,5.51,26.7,2127.2,17.4,Mustang F1
+Terung,Nisam,5.6,26.5,1946.5,30.6,Mustang F1
+Terung,Nisam Antara,5.47,25.2,2181.5,458.7,Mustang F1
+Terung,Paya Bakong,5.29,25.7,2263.3,81.3,Mustang F1
+Terung,Pirak Timu,5.15,26.3,2111.1,12.8,Mustang F1
+Terung,Samudera,5.7,26.7,1998.9,6.5,Mustang F1
+Terung,Sawang,5.42,25.0,2199.6,380.7,Mustang F1
+Terung,Seunuddon,6.09,27.2,2056.1,3.9,Mustang F1
+Terung,Simpang Keramat,5.59,26.1,2152.3,164.5,Mustang F1
+Terung,Syamtalira Aron,5.64,26.7,2000.2,5.4,Mustang F1
+Terung,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Mustang F1
+Terung,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Mustang F1
+Terung,Tanah Luas,5.49,25.2,2200.2,239.4,Mustang F1
+Terung,Tanah Pasir,5.9,,1978.8,4.7,Mustang F1
+Terung,Baktiya,5.37,27.0,2090.6,11.4,Laguna F1
+Terung,Baktiya Barat,5.77,27.1,2006.5,3.6,Laguna F1
+Terung,Banda Baro,5.62,26.4,1985.8,35.2,Laguna F1
+Terung,Cot Girek,5.17,25.6,2403.7,124.3,Laguna F1
+Terung,Dewantara,5.72,,1932.4,9.4,Laguna F1
+Terung,Geureudong Pase,5.4,24.2,2267.2,476.8,Laguna F1
+Terung,Kuta Makmur,5.67,26.3,2061.0,141.0,Laguna F1
+Terung,Langkahan,5.1,25.8,2429.3,70.5,Laguna F1
+Terung,Lapang,6.05,27.1,2021.9,3.8,Laguna F1
+Terung,Lhoksukon,5.22,26.9,2091.4,12.1,Laguna F1
+Terung,Matangkuli,5.45,26.7,2130.0,11.7,Laguna F1
+Terung,Meurah Mulia,5.54,26.6,2083.6,18.0,Laguna F1
+Terung,Muara Batu,5.71,,1941.3,10.3,Laguna F1
+Terung,Nibong,5.51,26.7,2127.2,17.4,Laguna F1
+Terung,Nisam,5.6,26.5,1946.5,30.6,Laguna F1
+Terung,Nisam Antara,5.47,25.2,2181.5,458.7,Laguna F1
+Terung,Paya Bakong,5.29,25.7,2263.3,81.3,Laguna F1
+Terung,Pirak Timu,5.15,26.3,2111.1,12.8,Laguna F1
+Terung,Samudera,5.7,26.7,1998.9,6.5,Laguna F1
+Terung,Sawang,5.42,25.0,2199.6,380.7,Laguna F1
+Terung,Seunuddon,6.09,27.2,2056.1,3.9,Laguna F1
+Terung,Simpang Keramat,5.59,26.1,2152.3,164.5,Laguna F1
+Terung,Syamtalira Aron,5.64,26.7,2000.2,5.4,Laguna F1
+Terung,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Laguna F1
+Terung,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Laguna F1
+Terung,Tanah Luas,5.49,25.2,2200.2,239.4,Laguna F1
+Terung,Tanah Pasir,5.9,,1978.8,4.7,Laguna F1
+Terung,Baktiya,5.37,27.0,2090.6,11.4,Antaboga
+Terung,Baktiya Barat,5.77,27.1,2006.5,3.6,Antaboga
+Terung,Banda Baro,5.62,26.4,1985.8,35.2,Antaboga
+Terung,Cot Girek,5.17,25.6,2403.7,124.3,Antaboga
+Terung,Dewantara,5.72,,1932.4,9.4,Antaboga
+Terung,Geureudong Pase,5.4,24.2,2267.2,476.8,Antaboga
+Terung,Kuta Makmur,5.67,26.3,2061.0,141.0,Antaboga
+Terung,Langkahan,5.1,25.8,2429.3,70.5,Antaboga
+Terung,Lapang,6.05,27.1,2021.9,3.8,Antaboga
+Terung,Lhoksukon,5.22,26.9,2091.4,12.1,Antaboga
+Terung,Matangkuli,5.45,26.7,2130.0,11.7,Antaboga
+Terung,Meurah Mulia,5.54,26.6,2083.6,18.0,Antaboga
+Terung,Muara Batu,5.71,,1941.3,10.3,Antaboga
+Terung,Nibong,5.51,26.7,2127.2,17.4,Antaboga
+Terung,Nisam,5.6,26.5,1946.5,30.6,Antaboga
+Terung,Nisam Antara,5.47,25.2,2181.5,458.7,Antaboga
+Terung,Paya Bakong,5.29,25.7,2263.3,81.3,Antaboga
+Terung,Pirak Timu,5.15,26.3,2111.1,12.8,Antaboga
+Terung,Samudera,5.7,26.7,1998.9,6.5,Antaboga
+Terung,Sawang,5.42,25.0,2199.6,380.7,Antaboga
+Terung,Seunuddon,6.09,27.2,2056.1,3.9,Antaboga
+Terung,Simpang Keramat,5.59,26.1,2152.3,164.5,Antaboga
+Terung,Syamtalira Aron,5.64,26.7,2000.2,5.4,Antaboga
+Terung,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Antaboga
+Terung,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Antaboga
+Terung,Tanah Luas,5.49,25.2,2200.2,239.4,Antaboga
+Terung,Tanah Pasir,5.9,,1978.8,4.7,Antaboga
+Cabe Rawit,Baktiya,5.37,27.0,2090.6,11.4,Dewata F1
+Cabe Rawit,Baktiya Barat,5.77,27.1,2006.5,3.6,Dewata F1
+Cabe Rawit,Banda Baro,5.62,26.4,1985.8,35.2,Dewata F1
+Cabe Rawit,Cot Girek,5.17,25.6,2403.7,124.3,Dewata F1
+Cabe Rawit,Dewantara,5.72,,1932.4,9.4,Dewata F1
+Cabe Rawit,Geureudong Pase,5.4,24.2,2267.2,476.8,Dewata F1
+Cabe Rawit,Kuta Makmur,5.67,26.3,2061.0,141.0,Dewata F1
+Cabe Rawit,Langkahan,5.1,25.8,2429.3,70.5,Dewata F1
+Cabe Rawit,Lapang,6.05,27.1,2021.9,3.8,Dewata F1
+Cabe Rawit,Lhoksukon,5.22,26.9,2091.4,12.1,Dewata F1
+Cabe Rawit,Matangkuli,5.45,26.7,2130.0,11.7,Dewata F1
+Cabe Rawit,Meurah Mulia,5.54,26.6,2083.6,18.0,Dewata F1
+Cabe Rawit,Muara Batu,5.71,,1941.3,10.3,Dewata F1
+Cabe Rawit,Nibong,5.51,26.7,2127.2,17.4,Dewata F1
+Cabe Rawit,Nisam,5.6,26.5,1946.5,30.6,Dewata F1
+Cabe Rawit,Nisam Antara,5.47,25.2,2181.5,458.7,Dewata F1
+Cabe Rawit,Paya Bakong,5.29,25.7,2263.3,81.3,Dewata F1
+Cabe Rawit,Pirak Timu,5.15,26.3,2111.1,12.8,Dewata F1
+Cabe Rawit,Samudera,5.7,26.7,1998.9,6.5,Dewata F1
+Cabe Rawit,Sawang,5.42,25.0,2199.6,380.7,Dewata F1
+Cabe Rawit,Seunuddon,6.09,27.2,2056.1,3.9,Dewata F1
+Cabe Rawit,Simpang Keramat,5.59,26.1,2152.3,164.5,Dewata F1
+Cabe Rawit,Syamtalira Aron,5.64,26.7,2000.2,5.4,Dewata F1
+Cabe Rawit,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Dewata F1
+Cabe Rawit,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Dewata F1
+Cabe Rawit,Tanah Luas,5.49,25.2,2200.2,239.4,Dewata F1
+Cabe Rawit,Tanah Pasir,5.9,,1978.8,4.7,Dewata F1
+Cabe Rawit,Baktiya,5.37,27.0,2090.6,11.4,Bara
+Cabe Rawit,Baktiya Barat,5.77,27.1,2006.5,3.6,Bara
+Cabe Rawit,Banda Baro,5.62,26.4,1985.8,35.2,Bara
+Cabe Rawit,Cot Girek,5.17,25.6,2403.7,124.3,Bara
+Cabe Rawit,Dewantara,5.72,,1932.4,9.4,Bara
+Cabe Rawit,Geureudong Pase,5.4,24.2,2267.2,476.8,Bara
+Cabe Rawit,Kuta Makmur,5.67,26.3,2061.0,141.0,Bara
+Cabe Rawit,Langkahan,5.1,25.8,2429.3,70.5,Bara
+Cabe Rawit,Lapang,6.05,27.1,2021.9,3.8,Bara
+Cabe Rawit,Lhoksukon,5.22,26.9,2091.4,12.1,Bara
+Cabe Rawit,Matangkuli,5.45,26.7,2130.0,11.7,Bara
+Cabe Rawit,Meurah Mulia,5.54,26.6,2083.6,18.0,Bara
+Cabe Rawit,Muara Batu,5.71,,1941.3,10.3,Bara
+Cabe Rawit,Nibong,5.51,26.7,2127.2,17.4,Bara
+Cabe Rawit,Nisam,5.6,26.5,1946.5,30.6,Bara
+Cabe Rawit,Nisam Antara,5.47,25.2,2181.5,458.7,Bara
+Cabe Rawit,Paya Bakong,5.29,25.7,2263.3,81.3,Bara
+Cabe Rawit,Pirak Timu,5.15,26.3,2111.1,12.8,Bara
+Cabe Rawit,Samudera,5.7,26.7,1998.9,6.5,Bara
+Cabe Rawit,Sawang,5.42,25.0,2199.6,380.7,Bara
+Cabe Rawit,Seunuddon,6.09,27.2,2056.1,3.9,Bara
+Cabe Rawit,Simpang Keramat,5.59,26.1,2152.3,164.5,Bara
+Cabe Rawit,Syamtalira Aron,5.64,26.7,2000.2,5.4,Bara
+Cabe Rawit,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Bara
+Cabe Rawit,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Bara
+Cabe Rawit,Tanah Luas,5.49,25.2,2200.2,239.4,Bara
+Cabe Rawit,Tanah Pasir,5.9,,1978.8,4.7,Bara
+Cabe Rawit,Baktiya,5.37,27.0,2090.6,11.4,Taruna
+Cabe Rawit,Baktiya Barat,5.77,27.1,2006.5,3.6,Taruna
+Cabe Rawit,Banda Baro,5.62,26.4,1985.8,35.2,Taruna
+Cabe Rawit,Cot Girek,5.17,25.6,2403.7,124.3,Taruna
+Cabe Rawit,Dewantara,5.72,,1932.4,9.4,Taruna
+Cabe Rawit,Geureudong Pase,5.4,24.2,2267.2,476.8,Taruna
+Cabe Rawit,Kuta Makmur,5.67,26.3,2061.0,141.0,Taruna
+Cabe Rawit,Langkahan,5.1,25.8,2429.3,70.5,Taruna
+Cabe Rawit,Lapang,6.05,27.1,2021.9,3.8,Taruna
+Cabe Rawit,Lhoksukon,5.22,26.9,2091.4,12.1,Taruna
+Cabe Rawit,Matangkuli,5.45,26.7,2130.0,11.7,Taruna
+Cabe Rawit,Meurah Mulia,5.54,26.6,2083.6,18.0,Taruna
+Cabe Rawit,Muara Batu,5.71,,1941.3,10.3,Taruna
+Cabe Rawit,Nibong,5.51,26.7,2127.2,17.4,Taruna
+Cabe Rawit,Nisam,5.6,26.5,1946.5,30.6,Taruna
+Cabe Rawit,Nisam Antara,5.47,25.2,2181.5,458.7,Taruna
+Cabe Rawit,Paya Bakong,5.29,25.7,2263.3,81.3,Taruna
+Cabe Rawit,Pirak Timu,5.15,26.3,2111.1,12.8,Taruna
+Cabe Rawit,Samudera,5.7,26.7,1998.9,6.5,Taruna
+Cabe Rawit,Sawang,5.42,25.0,2199.6,380.7,Taruna
+Cabe Rawit,Seunuddon,6.09,27.2,2056.1,3.9,Taruna
+Cabe Rawit,Simpang Keramat,5.59,26.1,2152.3,164.5,Taruna
+Cabe Rawit,Syamtalira Aron,5.64,26.7,2000.2,5.4,Taruna
+Cabe Rawit,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Taruna
+Cabe Rawit,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Taruna
+Cabe Rawit,Tanah Luas,5.49,25.2,2200.2,239.4,Taruna
+Cabe Rawit,Tanah Pasir,5.9,,1978.8,4.7,Taruna
+Cabe Keriting,Baktiya,5.37,27.0,2090.6,11.4,TM 999
+Cabe Keriting,Baktiya Barat,5.77,27.1,2006.5,3.6,TM 999
+Cabe Keriting,Banda Baro,5.62,26.4,1985.8,35.2,TM 999
+Cabe Keriting,Cot Girek,5.17,25.6,2403.7,124.3,TM 999
+Cabe Keriting,Dewantara,5.72,,1932.4,9.4,TM 999
+Cabe Keriting,Geureudong Pase,5.4,24.2,2267.2,476.8,TM 999
+Cabe Keriting,Kuta Makmur,5.67,26.3,2061.0,141.0,TM 999
+Cabe Keriting,Langkahan,5.1,25.8,2429.3,70.5,TM 999
+Cabe Keriting,Lapang,6.05,27.1,2021.9,3.8,TM 999
+Cabe Keriting,Lhoksukon,5.22,26.9,2091.4,12.1,TM 999
+Cabe Keriting,Matangkuli,5.45,26.7,2130.0,11.7,TM 999
+Cabe Keriting,Meurah Mulia,5.54,26.6,2083.6,18.0,TM 999
+Cabe Keriting,Muara Batu,5.71,,1941.3,10.3,TM 999
+Cabe Keriting,Nibong,5.51,26.7,2127.2,17.4,TM 999
+Cabe Keriting,Nisam,5.6,26.5,1946.5,30.6,TM 999
+Cabe Keriting,Nisam Antara,5.47,25.2,2181.5,458.7,TM 999
+Cabe Keriting,Paya Bakong,5.29,25.7,2263.3,81.3,TM 999
+Cabe Keriting,Pirak Timu,5.15,26.3,2111.1,12.8,TM 999
+Cabe Keriting,Samudera,5.7,26.7,1998.9,6.5,TM 999
+Cabe Keriting,Sawang,5.42,25.0,2199.6,380.7,TM 999
+Cabe Keriting,Seunuddon,6.09,27.2,2056.1,3.9,TM 999
+Cabe Keriting,Simpang Keramat,5.59,26.1,2152.3,164.5,TM 999
+Cabe Keriting,Syamtalira Aron,5.64,26.7,2000.2,5.4,TM 999
+Cabe Keriting,Syamtalira Bayu,5.59,26.4,1951.2,20.0,TM 999
+Cabe Keriting,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,TM 999
+Cabe Keriting,Tanah Luas,5.49,25.2,2200.2,239.4,TM 999
+Cabe Keriting,Tanah Pasir,5.9,,1978.8,4.7,TM 999
+Cabe Keriting,Baktiya,5.37,27.0,2090.6,11.4,Lado F1
+Cabe Keriting,Baktiya Barat,5.77,27.1,2006.5,3.6,Lado F1
+Cabe Keriting,Banda Baro,5.62,26.4,1985.8,35.2,Lado F1
+Cabe Keriting,Cot Girek,5.17,25.6,2403.7,124.3,Lado F1
+Cabe Keriting,Dewantara,5.72,,1932.4,9.4,Lado F1
+Cabe Keriting,Geureudong Pase,5.4,24.2,2267.2,476.8,Lado F1
+Cabe Keriting,Kuta Makmur,5.67,26.3,2061.0,141.0,Lado F1
+Cabe Keriting,Langkahan,5.1,25.8,2429.3,70.5,Lado F1
+Cabe Keriting,Lapang,6.05,27.1,2021.9,3.8,Lado F1
+Cabe Keriting,Lhoksukon,5.22,26.9,2091.4,12.1,Lado F1
+Cabe Keriting,Matangkuli,5.45,26.7,2130.0,11.7,Lado F1
+Cabe Keriting,Meurah Mulia,5.54,26.6,2083.6,18.0,Lado F1
+Cabe Keriting,Muara Batu,5.71,,1941.3,10.3,Lado F1
+Cabe Keriting,Nibong,5.51,26.7,2127.2,17.4,Lado F1
+Cabe Keriting,Nisam,5.6,26.5,1946.5,30.6,Lado F1
+Cabe Keriting,Nisam Antara,5.47,25.2,2181.5,458.7,Lado F1
+Cabe Keriting,Paya Bakong,5.29,25.7,2263.3,81.3,Lado F1
+Cabe Keriting,Pirak Timu,5.15,26.3,2111.1,12.8,Lado F1
+Cabe Keriting,Samudera,5.7,26.7,1998.9,6.5,Lado F1
+Cabe Keriting,Sawang,5.42,25.0,2199.6,380.7,Lado F1
+Cabe Keriting,Seunuddon,6.09,27.2,2056.1,3.9,Lado F1
+Cabe Keriting,Simpang Keramat,5.59,26.1,2152.3,164.5,Lado F1
+Cabe Keriting,Syamtalira Aron,5.64,26.7,2000.2,5.4,Lado F1
+Cabe Keriting,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Lado F1
+Cabe Keriting,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Lado F1
+Cabe Keriting,Tanah Luas,5.49,25.2,2200.2,239.4,Lado F1
+Cabe Keriting,Tanah Pasir,5.9,,1978.8,4.7,Lado F1
+Cabe Keriting,Baktiya,5.37,27.0,2090.6,11.4,Kencana
+Cabe Keriting,Baktiya Barat,5.77,27.1,2006.5,3.6,Kencana
+Cabe Keriting,Banda Baro,5.62,26.4,1985.8,35.2,Kencana
+Cabe Keriting,Cot Girek,5.17,25.6,2403.7,124.3,Kencana
+Cabe Keriting,Dewantara,5.72,,1932.4,9.4,Kencana
+Cabe Keriting,Geureudong Pase,5.4,24.2,2267.2,476.8,Kencana
+Cabe Keriting,Kuta Makmur,5.67,26.3,2061.0,141.0,Kencana
+Cabe Keriting,Langkahan,5.1,25.8,2429.3,70.5,Kencana
+Cabe Keriting,Lapang,6.05,27.1,2021.9,3.8,Kencana
+Cabe Keriting,Lhoksukon,5.22,26.9,2091.4,12.1,Kencana
+Cabe Keriting,Matangkuli,5.45,26.7,2130.0,11.7,Kencana
+Cabe Keriting,Meurah Mulia,5.54,26.6,2083.6,18.0,Kencana
+Cabe Keriting,Muara Batu,5.71,,1941.3,10.3,Kencana
+Cabe Keriting,Nibong,5.51,26.7,2127.2,17.4,Kencana
+Cabe Keriting,Nisam,5.6,26.5,1946.5,30.6,Kencana
+Cabe Keriting,Nisam Antara,5.47,25.2,2181.5,458.7,Kencana
+Cabe Keriting,Paya Bakong,5.29,25.7,2263.3,81.3,Kencana
+Cabe Keriting,Pirak Timu,5.15,26.3,2111.1,12.8,Kencana
+Cabe Keriting,Samudera,5.7,26.7,1998.9,6.5,Kencana
+Cabe Keriting,Sawang,5.42,25.0,2199.6,380.7,Kencana
+Cabe Keriting,Seunuddon,6.09,27.2,2056.1,3.9,Kencana
+Cabe Keriting,Simpang Keramat,5.59,26.1,2152.3,164.5,Kencana
+Cabe Keriting,Syamtalira Aron,5.64,26.7,2000.2,5.4,Kencana
+Cabe Keriting,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Kencana
+Cabe Keriting,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Kencana
+Cabe Keriting,Tanah Luas,5.49,25.2,2200.2,239.4,Kencana
+Cabe Keriting,Tanah Pasir,5.9,,1978.8,4.7,Kencana
+Cabe Besar,Baktiya,5.37,27.0,2090.6,11.4,Tanjung 2
+Cabe Besar,Baktiya Barat,5.77,27.1,2006.5,3.6,Tanjung 2
+Cabe Besar,Banda Baro,5.62,26.4,1985.8,35.2,Tanjung 2
+Cabe Besar,Cot Girek,5.17,25.6,2403.7,124.3,Tanjung 2
+Cabe Besar,Dewantara,5.72,,1932.4,9.4,Tanjung 2
+Cabe Besar,Geureudong Pase,5.4,24.2,2267.2,476.8,Tanjung 2
+Cabe Besar,Kuta Makmur,5.67,26.3,2061.0,141.0,Tanjung 2
+Cabe Besar,Langkahan,5.1,25.8,2429.3,70.5,Tanjung 2
+Cabe Besar,Lapang,6.05,27.1,2021.9,3.8,Tanjung 2
+Cabe Besar,Lhoksukon,5.22,26.9,2091.4,12.1,Tanjung 2
+Cabe Besar,Matangkuli,5.45,26.7,2130.0,11.7,Tanjung 2
+Cabe Besar,Meurah Mulia,5.54,26.6,2083.6,18.0,Tanjung 2
+Cabe Besar,Muara Batu,5.71,,1941.3,10.3,Tanjung 2
+Cabe Besar,Nibong,5.51,26.7,2127.2,17.4,Tanjung 2
+Cabe Besar,Nisam,5.6,26.5,1946.5,30.6,Tanjung 2
+Cabe Besar,Nisam Antara,5.47,25.2,2181.5,458.7,Tanjung 2
+Cabe Besar,Paya Bakong,5.29,25.7,2263.3,81.3,Tanjung 2
+Cabe Besar,Pirak Timu,5.15,26.3,2111.1,12.8,Tanjung 2
+Cabe Besar,Samudera,5.7,26.7,1998.9,6.5,Tanjung 2
+Cabe Besar,Sawang,5.42,25.0,2199.6,380.7,Tanjung 2
+Cabe Besar,Seunuddon,6.09,27.2,2056.1,3.9,Tanjung 2
+Cabe Besar,Simpang Keramat,5.59,26.1,2152.3,164.5,Tanjung 2
+Cabe Besar,Syamtalira Aron,5.64,26.7,2000.2,5.4,Tanjung 2
+Cabe Besar,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Tanjung 2
+Cabe Besar,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Tanjung 2
+Cabe Besar,Tanah Luas,5.49,25.2,2200.2,239.4,Tanjung 2
+Cabe Besar,Tanah Pasir,5.9,,1978.8,4.7,Tanjung 2
+Cabe Besar,Baktiya,5.37,27.0,2090.6,11.4,Gada MK F1
+Cabe Besar,Baktiya Barat,5.77,27.1,2006.5,3.6,Gada MK F1
+Cabe Besar,Banda Baro,5.62,26.4,1985.8,35.2,Gada MK F1
+Cabe Besar,Cot Girek,5.17,25.6,2403.7,124.3,Gada MK F1
+Cabe Besar,Dewantara,5.72,,1932.4,9.4,Gada MK F1
+Cabe Besar,Geureudong Pase,5.4,24.2,2267.2,476.8,Gada MK F1
+Cabe Besar,Kuta Makmur,5.67,26.3,2061.0,141.0,Gada MK F1
+Cabe Besar,Langkahan,5.1,25.8,2429.3,70.5,Gada MK F1
+Cabe Besar,Lapang,6.05,27.1,2021.9,3.8,Gada MK F1
+Cabe Besar,Lhoksukon,5.22,26.9,2091.4,12.1,Gada MK F1
+Cabe Besar,Matangkuli,5.45,26.7,2130.0,11.7,Gada MK F1
+Cabe Besar,Meurah Mulia,5.54,26.6,2083.6,18.0,Gada MK F1
+Cabe Besar,Muara Batu,5.71,,1941.3,10.3,Gada MK F1
+Cabe Besar,Nibong,5.51,26.7,2127.2,17.4,Gada MK F1
+Cabe Besar,Nisam,5.6,26.5,1946.5,30.6,Gada MK F1
+Cabe Besar,Nisam Antara,5.47,25.2,2181.5,458.7,Gada MK F1
+Cabe Besar,Paya Bakong,5.29,25.7,2263.3,81.3,Gada MK F1
+Cabe Besar,Pirak Timu,5.15,26.3,2111.1,12.8,Gada MK F1
+Cabe Besar,Samudera,5.7,26.7,1998.9,6.5,Gada MK F1
+Cabe Besar,Sawang,5.42,25.0,2199.6,380.7,Gada MK F1
+Cabe Besar,Seunuddon,6.09,27.2,2056.1,3.9,Gada MK F1
+Cabe Besar,Simpang Keramat,5.59,26.1,2152.3,164.5,Gada MK F1
+Cabe Besar,Syamtalira Aron,5.64,26.7,2000.2,5.4,Gada MK F1
+Cabe Besar,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Gada MK F1
+Cabe Besar,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Gada MK F1
+Cabe Besar,Tanah Luas,5.49,25.2,2200.2,239.4,Gada MK F1
+Cabe Besar,Tanah Pasir,5.9,,1978.8,4.7,Gada MK F1
+Cabe Besar,Baktiya,5.37,27.0,2090.6,11.4,Laris F1
+Cabe Besar,Baktiya Barat,5.77,27.1,2006.5,3.6,Laris F1
+Cabe Besar,Banda Baro,5.62,26.4,1985.8,35.2,Laris F1
+Cabe Besar,Cot Girek,5.17,25.6,2403.7,124.3,Laris F1
+Cabe Besar,Dewantara,5.72,,1932.4,9.4,Laris F1
+Cabe Besar,Geureudong Pase,5.4,24.2,2267.2,476.8,Laris F1
+Cabe Besar,Kuta Makmur,5.67,26.3,2061.0,141.0,Laris F1
+Cabe Besar,Langkahan,5.1,25.8,2429.3,70.5,Laris F1
+Cabe Besar,Lapang,6.05,27.1,2021.9,3.8,Laris F1
+Cabe Besar,Lhoksukon,5.22,26.9,2091.4,12.1,Laris F1
+Cabe Besar,Matangkuli,5.45,26.7,2130.0,11.7,Laris F1
+Cabe Besar,Meurah Mulia,5.54,26.6,2083.6,18.0,Laris F1
+Cabe Besar,Muara Batu,5.71,,1941.3,10.3,Laris F1
+Cabe Besar,Nibong,5.51,26.7,2127.2,17.4,Laris F1
+Cabe Besar,Nisam,5.6,26.5,1946.5,30.6,Laris F1
+Cabe Besar,Nisam Antara,5.47,25.2,2181.5,458.7,Laris F1
+Cabe Besar,Paya Bakong,5.29,25.7,2263.3,81.3,Laris F1
+Cabe Besar,Pirak Timu,5.15,26.3,2111.1,12.8,Laris F1
+Cabe Besar,Samudera,5.7,26.7,1998.9,6.5,Laris F1
+Cabe Besar,Sawang,5.42,25.0,2199.6,380.7,Laris F1
+Cabe Besar,Seunuddon,6.09,27.2,2056.1,3.9,Laris F1
+Cabe Besar,Simpang Keramat,5.59,26.1,2152.3,164.5,Laris F1
+Cabe Besar,Syamtalira Aron,5.64,26.7,2000.2,5.4,Laris F1
+Cabe Besar,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Laris F1
+Cabe Besar,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Laris F1
+Cabe Besar,Tanah Luas,5.49,25.2,2200.2,239.4,Laris F1
+Cabe Besar,Tanah Pasir,5.9,,1978.8,4.7,Laris F1
+Tomat,Baktiya,5.37,27.0,2090.6,11.4,Servo F1
+Tomat,Baktiya Barat,5.77,27.1,2006.5,3.6,Servo F1
+Tomat,Banda Baro,5.62,26.4,1985.8,35.2,Servo F1
+Tomat,Cot Girek,5.17,25.6,2403.7,124.3,Servo F1
+Tomat,Dewantara,5.72,,1932.4,9.4,Servo F1
+Tomat,Geureudong Pase,5.4,24.2,2267.2,476.8,Servo F1
+Tomat,Kuta Makmur,5.67,26.3,2061.0,141.0,Servo F1
+Tomat,Langkahan,5.1,25.8,2429.3,70.5,Servo F1
+Tomat,Lapang,6.05,27.1,2021.9,3.8,Servo F1
+Tomat,Lhoksukon,5.22,26.9,2091.4,12.1,Servo F1
+Tomat,Matangkuli,5.45,26.7,2130.0,11.7,Servo F1
+Tomat,Meurah Mulia,5.54,26.6,2083.6,18.0,Servo F1
+Tomat,Muara Batu,5.71,,1941.3,10.3,Servo F1
+Tomat,Nibong,5.51,26.7,2127.2,17.4,Servo F1
+Tomat,Nisam,5.6,26.5,1946.5,30.6,Servo F1
+Tomat,Nisam Antara,5.47,25.2,2181.5,458.7,Servo F1
+Tomat,Paya Bakong,5.29,25.7,2263.3,81.3,Servo F1
+Tomat,Pirak Timu,5.15,26.3,2111.1,12.8,Servo F1
+Tomat,Samudera,5.7,26.7,1998.9,6.5,Servo F1
+Tomat,Sawang,5.42,25.0,2199.6,380.7,Servo F1
+Tomat,Seunuddon,6.09,27.2,2056.1,3.9,Servo F1
+Tomat,Simpang Keramat,5.59,26.1,2152.3,164.5,Servo F1
+Tomat,Syamtalira Aron,5.64,26.7,2000.2,5.4,Servo F1
+Tomat,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Servo F1
+Tomat,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Servo F1
+Tomat,Tanah Luas,5.49,25.2,2200.2,239.4,Servo F1
+Tomat,Tanah Pasir,5.9,,1978.8,4.7,Servo F1
+Tomat,Baktiya,5.37,27.0,2090.6,11.4,Ratna
+Tomat,Baktiya Barat,5.77,27.1,2006.5,3.6,Ratna
+Tomat,Banda Baro,5.62,26.4,1985.8,35.2,Ratna
+Tomat,Cot Girek,5.17,25.6,2403.7,124.3,Ratna
+Tomat,Dewantara,5.72,,1932.4,9.4,Ratna
+Tomat,Geureudong Pase,5.4,24.2,2267.2,476.8,Ratna
+Tomat,Kuta Makmur,5.67,26.3,2061.0,141.0,Ratna
+Tomat,Langkahan,5.1,25.8,2429.3,70.5,Ratna
+Tomat,Lapang,6.05,27.1,2021.9,3.8,Ratna
+Tomat,Lhoksukon,5.22,26.9,2091.4,12.1,Ratna
+Tomat,Matangkuli,5.45,26.7,2130.0,11.7,Ratna
+Tomat,Meurah Mulia,5.54,26.6,2083.6,18.0,Ratna
+Tomat,Muara Batu,5.71,,1941.3,10.3,Ratna
+Tomat,Nibong,5.51,26.7,2127.2,17.4,Ratna
+Tomat,Nisam,5.6,26.5,1946.5,30.6,Ratna
+Tomat,Nisam Antara,5.47,25.2,2181.5,458.7,Ratna
+Tomat,Paya Bakong,5.29,25.7,2263.3,81.3,Ratna
+Tomat,Pirak Timu,5.15,26.3,2111.1,12.8,Ratna
+Tomat,Samudera,5.7,26.7,1998.9,6.5,Ratna
+Tomat,Sawang,5.42,25.0,2199.6,380.7,Ratna
+Tomat,Seunuddon,6.09,27.2,2056.1,3.9,Ratna
+Tomat,Simpang Keramat,5.59,26.1,2152.3,164.5,Ratna
+Tomat,Syamtalira Aron,5.64,26.7,2000.2,5.4,Ratna
+Tomat,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Ratna
+Tomat,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Ratna
+Tomat,Tanah Luas,5.49,25.2,2200.2,239.4,Ratna
+Tomat,Tanah Pasir,5.9,,1978.8,4.7,Ratna
+Tomat,Baktiya,5.37,27.0,2090.6,11.4,Intan
+Tomat,Baktiya Barat,5.77,27.1,2006.5,3.6,Intan
+Tomat,Banda Baro,5.62,26.4,1985.8,35.2,Intan
+Tomat,Cot Girek,5.17,25.6,2403.7,124.3,Intan
+Tomat,Dewantara,5.72,,1932.4,9.4,Intan
+Tomat,Geureudong Pase,5.4,24.2,2267.2,476.8,Intan
+Tomat,Kuta Makmur,5.67,26.3,2061.0,141.0,Intan
+Tomat,Langkahan,5.1,25.8,2429.3,70.5,Intan
+Tomat,Lapang,6.05,27.1,2021.9,3.8,Intan
+Tomat,Lhoksukon,5.22,26.9,2091.4,12.1,Intan
+Tomat,Matangkuli,5.45,26.7,2130.0,11.7,Intan
+Tomat,Meurah Mulia,5.54,26.6,2083.6,18.0,Intan
+Tomat,Muara Batu,5.71,,1941.3,10.3,Intan
+Tomat,Nibong,5.51,26.7,2127.2,17.4,Intan
+Tomat,Nisam,5.6,26.5,1946.5,30.6,Intan
+Tomat,Nisam Antara,5.47,25.2,2181.5,458.7,Intan
+Tomat,Paya Bakong,5.29,25.7,2263.3,81.3,Intan
+Tomat,Pirak Timu,5.15,26.3,2111.1,12.8,Intan
+Tomat,Samudera,5.7,26.7,1998.9,6.5,Intan
+Tomat,Sawang,5.42,25.0,2199.6,380.7,Intan
+Tomat,Seunuddon,6.09,27.2,2056.1,3.9,Intan
+Tomat,Simpang Keramat,5.59,26.1,2152.3,164.5,Intan
+Tomat,Syamtalira Aron,5.64,26.7,2000.2,5.4,Intan
+Tomat,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Intan
+Tomat,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Intan
+Tomat,Tanah Luas,5.49,25.2,2200.2,239.4,Intan
+Tomat,Tanah Pasir,5.9,,1978.8,4.7,Intan
+Semangka,Baktiya,5.37,27.0,2090.6,11.4,Crimson Sweet
+Semangka,Baktiya Barat,5.77,27.1,2006.5,3.6,Crimson Sweet
+Semangka,Banda Baro,5.62,26.4,1985.8,35.2,Crimson Sweet
+Semangka,Cot Girek,5.17,25.6,2403.7,124.3,Crimson Sweet
+Semangka,Dewantara,5.72,,1932.4,9.4,Crimson Sweet
+Semangka,Geureudong Pase,5.4,24.2,2267.2,476.8,Crimson Sweet
+Semangka,Kuta Makmur,5.67,26.3,2061.0,141.0,Crimson Sweet
+Semangka,Langkahan,5.1,25.8,2429.3,70.5,Crimson Sweet
+Semangka,Lapang,6.05,27.1,2021.9,3.8,Crimson Sweet
+Semangka,Lhoksukon,5.22,26.9,2091.4,12.1,Crimson Sweet
+Semangka,Matangkuli,5.45,26.7,2130.0,11.7,Crimson Sweet
+Semangka,Meurah Mulia,5.54,26.6,2083.6,18.0,Crimson Sweet
+Semangka,Muara Batu,5.71,,1941.3,10.3,Crimson Sweet
+Semangka,Nibong,5.51,26.7,2127.2,17.4,Crimson Sweet
+Semangka,Nisam,5.6,26.5,1946.5,30.6,Crimson Sweet
+Semangka,Nisam Antara,5.47,25.2,2181.5,458.7,Crimson Sweet
+Semangka,Paya Bakong,5.29,25.7,2263.3,81.3,Crimson Sweet
+Semangka,Pirak Timu,5.15,26.3,2111.1,12.8,Crimson Sweet
+Semangka,Samudera,5.7,26.7,1998.9,6.5,Crimson Sweet
+Semangka,Sawang,5.42,25.0,2199.6,380.7,Crimson Sweet
+Semangka,Seunuddon,6.09,27.2,2056.1,3.9,Crimson Sweet
+Semangka,Simpang Keramat,5.59,26.1,2152.3,164.5,Crimson Sweet
+Semangka,Syamtalira Aron,5.64,26.7,2000.2,5.4,Crimson Sweet
+Semangka,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Crimson Sweet
+Semangka,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Crimson Sweet
+Semangka,Tanah Luas,5.49,25.2,2200.2,239.4,Crimson Sweet
+Semangka,Tanah Pasir,5.9,,1978.8,4.7,Crimson Sweet
+Semangka,Baktiya,5.37,27.0,2090.6,11.4,Sugar Baby
+Semangka,Baktiya Barat,5.77,27.1,2006.5,3.6,Sugar Baby
+Semangka,Banda Baro,5.62,26.4,1985.8,35.2,Sugar Baby
+Semangka,Cot Girek,5.17,25.6,2403.7,124.3,Sugar Baby
+Semangka,Dewantara,5.72,,1932.4,9.4,Sugar Baby
+Semangka,Geureudong Pase,5.4,24.2,2267.2,476.8,Sugar Baby
+Semangka,Kuta Makmur,5.67,26.3,2061.0,141.0,Sugar Baby
+Semangka,Langkahan,5.1,25.8,2429.3,70.5,Sugar Baby
+Semangka,Lapang,6.05,27.1,2021.9,3.8,Sugar Baby
+Semangka,Lhoksukon,5.22,26.9,2091.4,12.1,Sugar Baby
+Semangka,Matangkuli,5.45,26.7,2130.0,11.7,Sugar Baby
+Semangka,Meurah Mulia,5.54,26.6,2083.6,18.0,Sugar Baby
+Semangka,Muara Batu,5.71,,1941.3,10.3,Sugar Baby
+Semangka,Nibong,5.51,26.7,2127.2,17.4,Sugar Baby
+Semangka,Nisam,5.6,26.5,1946.5,30.6,Sugar Baby
+Semangka,Nisam Antara,5.47,25.2,2181.5,458.7,Sugar Baby
+Semangka,Paya Bakong,5.29,25.7,2263.3,81.3,Sugar Baby
+Semangka,Pirak Timu,5.15,26.3,2111.1,12.8,Sugar Baby
+Semangka,Samudera,5.7,26.7,1998.9,6.5,Sugar Baby
+Semangka,Sawang,5.42,25.0,2199.6,380.7,Sugar Baby
+Semangka,Seunuddon,6.09,27.2,2056.1,3.9,Sugar Baby
+Semangka,Simpang Keramat,5.59,26.1,2152.3,164.5,Sugar Baby
+Semangka,Syamtalira Aron,5.64,26.7,2000.2,5.4,Sugar Baby
+Semangka,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Sugar Baby
+Semangka,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Sugar Baby
+Semangka,Tanah Luas,5.49,25.2,2200.2,239.4,Sugar Baby
+Semangka,Tanah Pasir,5.9,,1978.8,4.7,Sugar Baby
+Semangka,Baktiya,5.37,27.0,2090.6,11.4,Amara F1
+Semangka,Baktiya Barat,5.77,27.1,2006.5,3.6,Amara F1
+Semangka,Banda Baro,5.62,26.4,1985.8,35.2,Amara F1
+Semangka,Cot Girek,5.17,25.6,2403.7,124.3,Amara F1
+Semangka,Dewantara,5.72,,1932.4,9.4,Amara F1
+Semangka,Geureudong Pase,5.4,24.2,2267.2,476.8,Amara F1
+Semangka,Kuta Makmur,5.67,26.3,2061.0,141.0,Amara F1
+Semangka,Langkahan,5.1,25.8,2429.3,70.5,Amara F1
+Semangka,Lapang,6.05,27.1,2021.9,3.8,Amara F1
+Semangka,Lhoksukon,5.22,26.9,2091.4,12.1,Amara F1
+Semangka,Matangkuli,5.45,26.7,2130.0,11.7,Amara F1
+Semangka,Meurah Mulia,5.54,26.6,2083.6,18.0,Amara F1
+Semangka,Muara Batu,5.71,,1941.3,10.3,Amara F1
+Semangka,Nibong,5.51,26.7,2127.2,17.4,Amara F1
+Semangka,Nisam,5.6,26.5,1946.5,30.6,Amara F1
+Semangka,Nisam Antara,5.47,25.2,2181.5,458.7,Amara F1
+Semangka,Paya Bakong,5.29,25.7,2263.3,81.3,Amara F1
+Semangka,Pirak Timu,5.15,26.3,2111.1,12.8,Amara F1
+Semangka,Samudera,5.7,26.7,1998.9,6.5,Amara F1
+Semangka,Sawang,5.42,25.0,2199.6,380.7,Amara F1
+Semangka,Seunuddon,6.09,27.2,2056.1,3.9,Amara F1
+Semangka,Simpang Keramat,5.59,26.1,2152.3,164.5,Amara F1
+Semangka,Syamtalira Aron,5.64,26.7,2000.2,5.4,Amara F1
+Semangka,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Amara F1
+Semangka,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Amara F1
+Semangka,Tanah Luas,5.49,25.2,2200.2,239.4,Amara F1
+Semangka,Tanah Pasir,5.9,,1978.8,4.7,Amara F1
+Bayam,Baktiya,5.37,27.0,2090.6,11.4,Maestro
+Bayam,Baktiya Barat,5.77,27.1,2006.5,3.6,Maestro
+Bayam,Banda Baro,5.62,26.4,1985.8,35.2,Maestro
+Bayam,Cot Girek,5.17,25.6,2403.7,124.3,Maestro
+Bayam,Dewantara,5.72,,1932.4,9.4,Maestro
+Bayam,Geureudong Pase,5.4,24.2,2267.2,476.8,Maestro
+Bayam,Kuta Makmur,5.67,26.3,2061.0,141.0,Maestro
+Bayam,Langkahan,5.1,25.8,2429.3,70.5,Maestro
+Bayam,Lapang,6.05,27.1,2021.9,3.8,Maestro
+Bayam,Lhoksukon,5.22,26.9,2091.4,12.1,Maestro
+Bayam,Matangkuli,5.45,26.7,2130.0,11.7,Maestro
+Bayam,Meurah Mulia,5.54,26.6,2083.6,18.0,Maestro
+Bayam,Muara Batu,5.71,,1941.3,10.3,Maestro
+Bayam,Nibong,5.51,26.7,2127.2,17.4,Maestro
+Bayam,Nisam,5.6,26.5,1946.5,30.6,Maestro
+Bayam,Nisam Antara,5.47,25.2,2181.5,458.7,Maestro
+Bayam,Paya Bakong,5.29,25.7,2263.3,81.3,Maestro
+Bayam,Pirak Timu,5.15,26.3,2111.1,12.8,Maestro
+Bayam,Samudera,5.7,26.7,1998.9,6.5,Maestro
+Bayam,Sawang,5.42,25.0,2199.6,380.7,Maestro
+Bayam,Seunuddon,6.09,27.2,2056.1,3.9,Maestro
+Bayam,Simpang Keramat,5.59,26.1,2152.3,164.5,Maestro
+Bayam,Syamtalira Aron,5.64,26.7,2000.2,5.4,Maestro
+Bayam,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Maestro
+Bayam,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Maestro
+Bayam,Tanah Luas,5.49,25.2,2200.2,239.4,Maestro
+Bayam,Tanah Pasir,5.9,,1978.8,4.7,Maestro
+Bayam,Baktiya,5.37,27.0,2090.6,11.4,Bangkok
+Bayam,Baktiya Barat,5.77,27.1,2006.5,3.6,Bangkok
+Bayam,Banda Baro,5.62,26.4,1985.8,35.2,Bangkok
+Bayam,Cot Girek,5.17,25.6,2403.7,124.3,Bangkok
+Bayam,Dewantara,5.72,,1932.4,9.4,Bangkok
+Bayam,Geureudong Pase,5.4,24.2,2267.2,476.8,Bangkok
+Bayam,Kuta Makmur,5.67,26.3,2061.0,141.0,Bangkok
+Bayam,Langkahan,5.1,25.8,2429.3,70.5,Bangkok
+Bayam,Lapang,6.05,27.1,2021.9,3.8,Bangkok
+Bayam,Lhoksukon,5.22,26.9,2091.4,12.1,Bangkok
+Bayam,Matangkuli,5.45,26.7,2130.0,11.7,Bangkok
+Bayam,Meurah Mulia,5.54,26.6,2083.6,18.0,Bangkok
+Bayam,Muara Batu,5.71,,1941.3,10.3,Bangkok
+Bayam,Nibong,5.51,26.7,2127.2,17.4,Bangkok
+Bayam,Nisam,5.6,26.5,1946.5,30.6,Bangkok
+Bayam,Nisam Antara,5.47,25.2,2181.5,458.7,Bangkok
+Bayam,Paya Bakong,5.29,25.7,2263.3,81.3,Bangkok
+Bayam,Pirak Timu,5.15,26.3,2111.1,12.8,Bangkok
+Bayam,Samudera,5.7,26.7,1998.9,6.5,Bangkok
+Bayam,Sawang,5.42,25.0,2199.6,380.7,Bangkok
+Bayam,Seunuddon,6.09,27.2,2056.1,3.9,Bangkok
+Bayam,Simpang Keramat,5.59,26.1,2152.3,164.5,Bangkok
+Bayam,Syamtalira Aron,5.64,26.7,2000.2,5.4,Bangkok
+Bayam,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Bangkok
+Bayam,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Bangkok
+Bayam,Tanah Luas,5.49,25.2,2200.2,239.4,Bangkok
+Bayam,Tanah Pasir,5.9,,1978.8,4.7,Bangkok
+Bayam,Baktiya,5.37,27.0,2090.6,11.4,Cempaka
+Bayam,Baktiya Barat,5.77,27.1,2006.5,3.6,Cempaka
+Bayam,Banda Baro,5.62,26.4,1985.8,35.2,Cempaka
+Bayam,Cot Girek,5.17,25.6,2403.7,124.3,Cempaka
+Bayam,Dewantara,5.72,,1932.4,9.4,Cempaka
+Bayam,Geureudong Pase,5.4,24.2,2267.2,476.8,Cempaka
+Bayam,Kuta Makmur,5.67,26.3,2061.0,141.0,Cempaka
+Bayam,Langkahan,5.1,25.8,2429.3,70.5,Cempaka
+Bayam,Lapang,6.05,27.1,2021.9,3.8,Cempaka
+Bayam,Lhoksukon,5.22,26.9,2091.4,12.1,Cempaka
+Bayam,Matangkuli,5.45,26.7,2130.0,11.7,Cempaka
+Bayam,Meurah Mulia,5.54,26.6,2083.6,18.0,Cempaka
+Bayam,Muara Batu,5.71,,1941.3,10.3,Cempaka
+Bayam,Nibong,5.51,26.7,2127.2,17.4,Cempaka
+Bayam,Nisam,5.6,26.5,1946.5,30.6,Cempaka
+Bayam,Nisam Antara,5.47,25.2,2181.5,458.7,Cempaka
+Bayam,Paya Bakong,5.29,25.7,2263.3,81.3,Cempaka
+Bayam,Pirak Timu,5.15,26.3,2111.1,12.8,Cempaka
+Bayam,Samudera,5.7,26.7,1998.9,6.5,Cempaka
+Bayam,Sawang,5.42,25.0,2199.6,380.7,Cempaka
+Bayam,Seunuddon,6.09,27.2,2056.1,3.9,Cempaka
+Bayam,Simpang Keramat,5.59,26.1,2152.3,164.5,Cempaka
+Bayam,Syamtalira Aron,5.64,26.7,2000.2,5.4,Cempaka
+Bayam,Syamtalira Bayu,5.59,26.4,1951.2,20.0,Cempaka
+Bayam,Tanah Jambo Aye,5.31,27.0,2143.6,10.4,Cempaka
+Bayam,Tanah Luas,5.49,25.2,2200.2,239.4,Cempaka
+Bayam,Tanah Pasir,5.9,,1978.8,4.7,Cempaka

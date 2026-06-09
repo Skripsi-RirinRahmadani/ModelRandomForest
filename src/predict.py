@@ -3,11 +3,11 @@ import joblib
 import numpy as np
 import os
 
-def get_recommendations(ph, suhu, curah_hujan, elevasi, air, matahari):
+def get_recommendations(ph, suhu, curah_hujan, elevasi):
     # 1. Load the model and encoders
     model_path = 'models/random_forest_model.joblib'
     le_kec_path = 'models/le_kecamatan.joblib'
-    data_path = 'data/processed_dataset.csv'
+    data_path = 'data2/processed_dataset.csv'
     
     if not os.path.exists(model_path) or not os.path.exists(le_kec_path) or not os.path.exists(data_path):
         raise FileNotFoundError("Model, Encoders, or Processed Dataset not found. Please train the model first.")
@@ -17,14 +17,8 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi, air, matahari):
     df = pd.read_csv(data_path)
     
     # 2. Prepare input for prediction
-    if isinstance(air, str):
-        water_mapping = {'Rendah': 0, 'Sedang': 1, 'Tinggi': 2}
-        air_val = water_mapping.get(air.strip().capitalize(), 1)
-    else:
-        air_val = int(air)
-        
-    input_data = pd.DataFrame([[ph, suhu, curah_hujan, elevasi, air_val, matahari]], 
-                              columns=['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam'])
+    input_data = pd.DataFrame([[ph, suhu, curah_hujan, elevasi]], 
+                              columns=['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl'])
     
     # 3. Get probabilities for all Kecamatans from Random Forest
     probabilities = model.predict_proba(input_data)[0]
@@ -36,7 +30,7 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi, air, matahari):
     top_confidence = np.max(probabilities)
     
     # 4. Calculate variety scores based on location probabilities and similarity
-    feature_cols = ['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl', 'Ketersediaan_Air', 'Intensitas_Matahari_jam']
+    feature_cols = ['pH_Tanah', 'Suhu_C', 'Curah_Hujan_mm', 'Elevasi_mdpl']
     
     # Min-Max Normalization reference
     df_min = df[feature_cols].min()
@@ -44,7 +38,7 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi, air, matahari):
     df_range = (df_max - df_min).replace(0, 1) # Avoid division by zero
     
     # Normalize current input
-    normalized_input = (np.array([ph, suhu, curah_hujan, elevasi, air_val, matahari]) - df_min.values) / df_range.values
+    normalized_input = (np.array([ph, suhu, curah_hujan, elevasi]) - df_min.values) / df_range.values
     
     # Group the dataset to get average environment parameters per variety
     variety_data = df.groupby(['Nama_Tanaman', 'Nama_Varietas'])[feature_cols].mean().reset_index()
@@ -77,8 +71,9 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi, air, matahari):
     for _, row in best_recommendations.iterrows():
         results[row['Nama_Tanaman']] = (row['Nama_Varietas'], row['Score'])
         
+        # Cap score for printing
     return best_kec, results, top_confidence
-
+ 
 if __name__ == "__main__":
     print("--- Sistem Rekomendasi Varietas Tanaman Hortikultura Aceh Utara (Random Forest) ---")
     try:
@@ -87,10 +82,8 @@ if __name__ == "__main__":
         suhu = float(input("Suhu C (contoh 24.2): ") or 24.2)
         hujan = float(input("Curah Hujan mm (contoh 1763): ") or 1763)
         elevasi = float(input("Elevasi mdpl (contoh 255): ") or 255)
-        air_str = input("Ketersediaan Air (Rendah/Sedang/Tinggi) (contoh Rendah): ") or "Rendah"
-        matahari = float(input("Intensitas Matahari jam (contoh 6.4): ") or 6.4)
         
-        kec, recs, conf = get_recommendations(ph, suhu, hujan, elevasi, air_str, matahari)
+        kec, recs, conf = get_recommendations(ph, suhu, hujan, elevasi)
         
         print("\n" + "="*70)
         print(f"Hasil Analisis Geografis:")

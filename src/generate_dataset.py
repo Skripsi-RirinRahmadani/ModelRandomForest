@@ -78,19 +78,34 @@ def generate_training_dataset():
     df_env = df_env.rename(columns={'kecamatan_clean': 'Kecamatan'})
 
     # 4. Generate the full combination of all 30 varieties * 27 kecamatan = 810 rows
+    # Set seed for reproducibility
+    np.random.seed(42)
+    
     rows = []
     for _, var_row in df_varietas.iterrows():
         plant = var_row['Nama_Tanaman']
         variety = var_row['Nama_Varietas']
         
         for _, env_row in df_env.iterrows():
+            # Add very small Gaussian noise to features to keep them distinguishable but varied
+            ph_noise = np.random.normal(0, 0.02)
+            suhu_noise = np.random.normal(0, 0.05)
+            hujan_noise = np.random.normal(0, 5.0)
+            elev_noise = np.random.normal(0, 1.0)
+            
+            # Apply and round to realistic bounds
+            ph = round(max(3.0, min(9.0, env_row['pH_Tanah'] + ph_noise)), 2)
+            suhu = round(env_row['Suhu_C'] + suhu_noise, 1) if not pd.isna(env_row['Suhu_C']) else np.nan
+            hujan = round(max(0.0, env_row['Curah_Hujan_mm'] + hujan_noise), 1)
+            elev = round(max(0.0, env_row['Elevasi_mdpl'] + elev_noise), 1)
+            
             rows.append({
                 'Nama_Tanaman': plant,
                 'Kecamatan': env_row['Kecamatan'],
-                'pH_Tanah': env_row['pH_Tanah'],
-                'Suhu_C': env_row['Suhu_C'],
-                'Curah_Hujan_mm': env_row['Curah_Hujan_mm'],
-                'Elevasi_mdpl': env_row['Elevasi_mdpl'],
+                'pH_Tanah': ph,
+                'Suhu_C': suhu,
+                'Curah_Hujan_mm': hujan,
+                'Elevasi_mdpl': elev,
                 'Nama_Varietas': variety
             })
             

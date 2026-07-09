@@ -48,8 +48,8 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi):
     variety_data = variety_data.merge(variety_kecamatans, on=['Nama_Tanaman', 'Nama_Varietas'])
     
     def calculate_final_score(row):
-        # A. Location Score (sum of model probabilities for Kecamatan where this variety is grown)
-        location_score = sum(prob_map.get(k, 0) for k in row['Kecamatan'])
+        # A. Location Score (max of model probabilities for Kecamatan where this variety is grown)
+        location_score = max(prob_map.get(k, 0) for k in row['Kecamatan'])
         
         # B. Environmental Similarity (normalized Euclidean distance)
         variety_features = (row[feature_cols].values - df_min.values) / df_range.values
@@ -57,8 +57,7 @@ def get_recommendations(ph, suhu, curah_hujan, elevasi):
         similarity_score = 1 / (1 + dist)
         
         # C. Blended Score (60% Location model score, 40% Similarity score)
-        # Cap at 0.98 for realistic percentage representation
-        final_score = (location_score * 0.6 + similarity_score * 0.4) * 0.98
+        final_score = location_score * 0.6 + similarity_score * 0.4
         return final_score
     
     variety_data['Score'] = variety_data.apply(calculate_final_score, axis=1)

@@ -68,46 +68,60 @@ def generate_training_dataset():
     # Check if there are exactly 27 kecamatan
     print(f"Merged environmental dataframe contains {len(df_env)} Kecamatan.")
     
+    # Impute missing Suhu_C based on Elevasi_mdpl using linear regression on non-missing data
+    non_missing = df_env.dropna(subset=['Suhu_C'])
+    if len(non_missing) > 0 and df_env['Suhu_C'].isna().any():
+        from sklearn.linear_model import LinearRegression
+        reg = LinearRegression().fit(non_missing[['Elevasi_mdpl']], non_missing['Suhu_C'])
+        df_env['Suhu_C_Imputed'] = df_env['Suhu_C']
+        for idx, row in df_env[df_env['Suhu_C'].isna()].iterrows():
+            pred_temp = reg.predict([[row['Elevasi_mdpl']]])[0]
+            df_env.at[idx, 'Suhu_C_Imputed'] = pred_temp
+            print(f"Imputed Suhu_C for Kecamatan '{row['kecamatan_clean']}' based on Elevasi {row['Elevasi_mdpl']:.1f} mdpl: {pred_temp:.1f}°C")
+        df_env['Suhu_C'] = df_env['Suhu_C_Imputed']
+        df_env = df_env.drop(columns=['Suhu_C_Imputed'])
+    
     # Round numerical variables to match target precisions
     df_env['pH_Tanah'] = df_env['pH_Tanah'].round(2)
-    # Suhu can be float, missing values kept as NaN
     df_env['Suhu_C'] = df_env['Suhu_C'].round(1)
     df_env['Curah_Hujan_mm'] = df_env['Curah_Hujan_mm'].round(1)
     df_env['Elevasi_mdpl'] = df_env['Elevasi_mdpl'].round(1)
     
     df_env = df_env.rename(columns={'kecamatan_clean': 'Kecamatan'})
 
-    # 4. Generate the full combination of all 30 varieties * 27 kecamatan = 810 rows
+    # 4. Generate combination of all 30 varieties * 27 kecamatan * 5 samples = 4050 rows
     # Set seed for reproducibility
     np.random.seed(42)
     
     rows = []
+    num_samples_per_combo = 5
     for _, var_row in df_varietas.iterrows():
         plant = var_row['Nama_Tanaman']
         variety = var_row['Nama_Varietas']
         
         for _, env_row in df_env.iterrows():
-            # Add very small Gaussian noise to features to keep them distinguishable but varied
-            ph_noise = np.random.normal(0, 0.02)
-            suhu_noise = np.random.normal(0, 0.05)
-            hujan_noise = np.random.normal(0, 5.0)
-            elev_noise = np.random.normal(0, 1.0)
-            
-            # Apply and round to realistic bounds
-            ph = round(max(3.0, min(9.0, env_row['pH_Tanah'] + ph_noise)), 2)
-            suhu = round(env_row['Suhu_C'] + suhu_noise, 1) if not pd.isna(env_row['Suhu_C']) else np.nan
-            hujan = round(max(0.0, env_row['Curah_Hujan_mm'] + hujan_noise), 1)
-            elev = round(max(0.0, env_row['Elevasi_mdpl'] + elev_noise), 1)
-            
-            rows.append({
-                'Nama_Tanaman': plant,
-                'Kecamatan': env_row['Kecamatan'],
-                'pH_Tanah': ph,
-                'Suhu_C': suhu,
-                'Curah_Hujan_mm': hujan,
-                'Elevasi_mdpl': elev,
-                'Nama_Varietas': variety
-            })
+            for _ in range(num_samples_per_combo):
+                # Apply realistic environmental variance/noise per district
+                ph_noise = np.random.normal(0, 0.15)
+                suhu_noise = np.random.normal(0, 0.25)
+                hujan_noise = np.random.normal(0, 50.0)
+                elev_noise = np.random.normal(0, 15.0)
+                
+                # Apply and round to realistic bounds
+                ph = round(max(3.0, min(9.0, env_row['pH_Tanah'] + ph_noise)), 2)
+                suhu = round(env_row['Suhu_C'] + suhu_noise, 1)
+                hujan = round(max(0.0, env_row['Curah_Hujan_mm'] + hujan_noise), 1)
+                elev = round(max(0.0, env_row['Elevasi_mdpl'] + elev_noise), 1)
+                
+                rows.append({
+                    'Nama_Tanaman': plant,
+                    'Kecamatan': env_row['Kecamatan'],
+                    'pH_Tanah': ph,
+                    'Suhu_C': suhu,
+                    'Curah_Hujan_mm': hujan,
+                    'Elevasi_mdpl': elev,
+                    'Nama_Varietas': variety
+                })
             
     df_generated = pd.DataFrame(rows)
     print(f"Generated training dataset has {len(df_generated)} rows.")

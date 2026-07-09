@@ -121,8 +121,8 @@ def predict(input_data: EnvironmentalInput):
         variety_data = variety_data.merge(variety_kecamatans, on=['Nama_Tanaman', 'Nama_Varietas'])
         
         def calculate_final_score(row):
-            # A. Location Match (sum of probabilities of locations)
-            location_score = sum(prob_map.get(k, 0) for k in row['Kecamatan'])
+            # A. Location Match (max of probabilities of locations)
+            location_score = max(prob_map.get(k, 0) for k in row['Kecamatan'])
             
             # B. Environmental Similarity (distance to variety's average environment)
             variety_features = (row[feature_cols].values - df_min.values) / df_range.values
@@ -130,8 +130,7 @@ def predict(input_data: EnvironmentalInput):
             similarity_score = 1 / (1 + dist)
             
             # C. Blended Score (60% Location, 40% Similarity)
-            # Capped at 0.98 to avoid unrealistic "perfect 100%"
-            return (location_score * 0.6 + similarity_score * 0.4) * 0.98
+            return location_score * 0.6 + similarity_score * 0.4
         
         variety_data['Score'] = variety_data.apply(calculate_final_score, axis=1)
 

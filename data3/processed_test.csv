@@ -1,0 +1,163 @@
+Nama_Tanaman,Kecamatan,pH_Tanah,Suhu_C,Curah_Hujan_mm,Elevasi_mdpl,Ketersediaan_Air,Intensitas_Matahari_jam,Nama_Varietas,Nama_Varietas_Encoded,Nama_Tanaman_Encoded,Kecamatan_Encoded
+Ketimun,Baktiya,5.37,27.0,2091.0,11,Rendah,0.67,Hercules F1,10,6,0
+Ketimun,Baktiya Barat,6.17,27.01,2006.0,4,Rendah,6.74,Hercules F1,10,6,1
+Ketimun,Banda Baro,6.02,26.04,1986.0,35,Tinggi,4.78,Hercules F1,10,6,2
+Ketimun,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Hercules F1,10,6,3
+Ketimun,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Hercules F1,10,6,9
+Ketimun,Baktiya,5.37,27.0,2091.0,11,Rendah,0.67,Mercy F1,19,6,0
+Ketimun,Baktiya Barat,6.17,27.01,2006.0,4,Rendah,6.74,Mercy F1,19,6,1
+Ketimun,Banda Baro,6.02,26.04,1986.0,35,Tinggi,4.78,Mercy F1,19,6,2
+Ketimun,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Mercy F1,19,6,3
+Ketimun,Nibong,5.51,26.07,2127.0,17,Rendah,6.66,Mercy F1,19,6,13
+Ketimun,Baktiya,5.37,27.0,2091.0,11,Rendah,0.67,Roman F1,23,6,0
+Ketimun,Baktiya Barat,7.1,24.44,1572.79,4,Rendah,5.58,Roman F1,23,6,1
+Ketimun,Banda Baro,6.02,26.04,1986.0,35,Tinggi,4.78,Roman F1,23,6,2
+Ketimun,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Roman F1,23,6,3
+Ketimun,Lhoksukon,6.49,32.58,2179.43,14,Rendah,5.08,Roman F1,23,6,9
+Kacang Panjang,Baktiya,5.37,27.0,2091.0,11,Rendah,0.67,Parade Tavi,21,4,0
+Kacang Panjang,Baktiya Barat,6.17,27.01,2006.0,4,Rendah,6.74,Parade Tavi,21,4,1
+Kacang Panjang,Banda Baro,6.02,26.04,1986.0,35,Tinggi,4.78,Parade Tavi,21,4,2
+Kacang Panjang,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Parade Tavi,21,4,3
+Kacang Panjang,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Parade Tavi,21,4,18
+Kacang Panjang,Banda Baro,6.02,26.04,1986.0,35,Tinggi,4.78,Kanton Tavi,13,4,2
+Kacang Panjang,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Kanton Tavi,13,4,3
+Kacang Panjang,Seunuddon,6.09,27.02,2056.0,4,Rendah,4.28,Kanton Tavi,13,4,20
+Kacang Panjang,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,Kanton Tavi,13,4,5
+Kacang Panjang,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Kanton Tavi,13,4,6
+Kacang Panjang,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,KP-1,12,4,5
+Kacang Panjang,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,KP-1,12,4,6
+Kacang Panjang,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,KP-1,12,4,7
+Kacang Panjang,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,KP-1,12,4,8
+Kacang Panjang,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,KP-1,12,4,9
+Kangkung,Nisam,5.06,26.05,1947.0,31,Tinggi,6.26,Bangkok LP-1,3,5,14
+Kangkung,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Bangkok LP-1,3,5,15
+Kangkung,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Bangkok LP-1,3,5,16
+Kangkung,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Bangkok LP-1,3,5,17
+Kangkung,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Bangkok LP-1,3,5,18
+Kangkung,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Bisi Kangkung,5,5,15
+Kangkung,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Bisi Kangkung,5,5,16
+Kangkung,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Bisi Kangkung,5,5,17
+Kangkung,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Bisi Kangkung,5,5,18
+Kangkung,Sawang,5.42,25.0,2200.0,381,Tinggi,6.13,Bisi Kangkung,5,5,19
+Kangkung,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,Sutra,26,5,5
+Kangkung,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Sutra,26,5,6
+Kangkung,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Sutra,26,5,7
+Kangkung,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Sutra,26,5,8
+Kangkung,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Sutra,26,5,9
+Kangkung,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Sutra,26,5,10
+Terung,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Mustang F1,20,8,15
+Terung,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Mustang F1,20,8,16
+Terung,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Mustang F1,20,8,17
+Terung,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Mustang F1,20,8,18
+Terung,Sawang,5.42,25.0,2200.0,381,Tinggi,6.13,Mustang F1,20,8,19
+Terung,Nisam,5.06,26.05,1947.0,31,Tinggi,6.26,Laguna F1,16,8,14
+Terung,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Laguna F1,16,8,15
+Terung,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Laguna F1,16,8,16
+Terung,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Laguna F1,16,8,17
+Terung,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Laguna F1,16,8,18
+Terung,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Antaboga,1,8,7
+Terung,Lapang,5.2,21.32,1926.8,4,Rendah,18.19,Antaboga,1,8,8
+Terung,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Antaboga,1,8,9
+Terung,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Antaboga,1,8,10
+Terung,Meurah Mulia,5.54,26.06,2084.0,18,Sedang,6.47,Antaboga,1,8,11
+Cabe Rawit,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,Dewata F1,8,3,5
+Cabe Rawit,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Dewata F1,8,3,6
+Cabe Rawit,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Dewata F1,8,3,7
+Cabe Rawit,Lapang,5.58,28.4,2393.86,4,Rendah,19.0,Dewata F1,8,3,8
+Cabe Rawit,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Dewata F1,8,3,9
+Cabe Rawit,Nisam,5.06,26.05,1947.0,31,Tinggi,6.26,Bara,4,3,14
+Cabe Rawit,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Bara,4,3,15
+Cabe Rawit,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Bara,4,3,16
+Cabe Rawit,Pirak Timu,6.32,20.27,1896.7,13,Sedang,8.05,Bara,4,3,17
+Cabe Rawit,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Bara,4,3,18
+Cabe Rawit,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Taruna,29,3,6
+Cabe Rawit,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Taruna,29,3,7
+Cabe Rawit,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Taruna,29,3,8
+Cabe Rawit,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Taruna,29,3,9
+Cabe Rawit,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Taruna,29,3,10
+Cabe Keriting,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,TM 999,27,2,5
+Cabe Keriting,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,TM 999,27,2,6
+Cabe Keriting,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,TM 999,27,2,7
+Cabe Keriting,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,TM 999,27,2,8
+Cabe Keriting,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,TM 999,27,2,9
+Cabe Keriting,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Lado F1,15,2,16
+Cabe Keriting,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Lado F1,15,2,17
+Cabe Keriting,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Lado F1,15,2,18
+Cabe Keriting,Sawang,5.42,25.0,2200.0,381,Tinggi,6.13,Lado F1,15,2,19
+Cabe Keriting,Seunuddon,6.09,27.02,2056.0,4,Rendah,4.28,Lado F1,15,2,20
+Cabe Keriting,Simpang Keramat,5.59,26.01,2152.0,165,Tinggi,6.53,Lado F1,15,2,21
+Cabe Keriting,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Kencana,14,2,6
+Cabe Keriting,Langkahan,4.55,28.49,1999.19,80,Sedang,6.18,Kencana,14,2,7
+Cabe Keriting,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Kencana,14,2,8
+Cabe Keriting,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Kencana,14,2,9
+Cabe Keriting,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Kencana,14,2,10
+Cabe Keriting,Meurah Mulia,5.54,26.06,2084.0,18,Sedang,6.47,Kencana,14,2,11
+Cabe Besar,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,Tanjung 2,28,1,5
+Cabe Besar,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Tanjung 2,28,1,6
+Cabe Besar,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Tanjung 2,28,1,7
+Cabe Besar,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Tanjung 2,28,1,8
+Cabe Besar,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Tanjung 2,28,1,9
+Cabe Besar,Matangkuli,6.05,21.25,2648.78,10,Sedang,5.77,Tanjung 2,28,1,10
+Cabe Besar,Nisam,5.06,26.05,1947.0,31,Tinggi,6.26,Gada MK F1,9,1,14
+Cabe Besar,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Gada MK F1,9,1,15
+Cabe Besar,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Gada MK F1,9,1,16
+Cabe Besar,Pirak Timu,5.2,22.94,2277.8,13,Sedang,6.71,Gada MK F1,9,1,17
+Cabe Besar,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Gada MK F1,9,1,18
+Cabe Besar,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Laris F1,17,1,15
+Cabe Besar,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Laris F1,17,1,16
+Cabe Besar,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Laris F1,17,1,17
+Cabe Besar,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Laris F1,17,1,18
+Cabe Besar,Sawang,5.51,27.81,1965.34,418,Tinggi,7.35,Laris F1,17,1,19
+Tomat,Geureudong Pase,5.04,24.02,2267.0,477,Sedang,6.53,Servo F1,24,9,5
+Tomat,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Servo F1,24,9,6
+Tomat,Langkahan,4.16,27.4,3028.03,55,Sedang,6.66,Servo F1,24,9,7
+Tomat,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Servo F1,24,9,8
+Tomat,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Servo F1,24,9,9
+Tomat,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Ratna,22,9,6
+Tomat,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Ratna,22,9,7
+Tomat,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Ratna,22,9,8
+Tomat,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Ratna,22,9,9
+Tomat,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Ratna,22,9,10
+Tomat,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Intan,11,9,6
+Tomat,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Intan,11,9,7
+Tomat,Lapang,7.33,33.14,2384.14,4,Rendah,19.11,Intan,11,9,8
+Tomat,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Intan,11,9,9
+Tomat,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Intan,11,9,10
+Semangka,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Crimson Sweet,7,7,6
+Semangka,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Crimson Sweet,7,7,7
+Semangka,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Crimson Sweet,7,7,8
+Semangka,Lhoksukon,4.79,27.59,2437.46,9,Rendah,5.96,Crimson Sweet,7,7,9
+Semangka,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Crimson Sweet,7,7,10
+Semangka,Nisam,5.06,26.05,1947.0,31,Tinggi,6.26,Sugar Baby,25,7,14
+Semangka,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Sugar Baby,25,7,15
+Semangka,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Sugar Baby,25,7,16
+Semangka,Pirak Timu,5.15,26.03,2111.0,13,Sedang,6.65,Sugar Baby,25,7,17
+Semangka,Samudera,5.07,26.07,1999.0,7,Rendah,1.27,Sugar Baby,25,7,18
+Semangka,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Amara F1,0,7,6
+Semangka,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Amara F1,0,7,7
+Semangka,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Amara F1,0,7,8
+Semangka,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Amara F1,0,7,9
+Semangka,Matangkuli,4.17,30.89,2430.17,10,Sedang,8.16,Amara F1,0,7,10
+Bayam,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Maestro,18,0,7
+Bayam,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Maestro,18,0,8
+Bayam,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Maestro,18,0,9
+Bayam,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Maestro,18,0,10
+Bayam,Meurah Mulia,5.54,26.06,2084.0,18,Sedang,6.47,Maestro,18,0,11
+Bayam,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Bangkok,2,0,6
+Bayam,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Bangkok,2,0,7
+Bayam,Lapang,6.05,27.01,2022.0,4,Rendah,17.21,Bangkok,2,0,8
+Bayam,Lhoksukon,4.0,27.68,1629.06,13,Rendah,5.98,Bangkok,2,0,9
+Bayam,Matangkuli,5.45,26.07,2130.0,12,Sedang,6.66,Bangkok,2,0,10
+Bayam,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Cempaka,6,0,6
+Bayam,Langkahan,5.01,25.08,2429.0,71,Sedang,6.65,Cempaka,6,0,7
+Bayam,Lapang,6.25,32.88,2343.69,4,Rendah,19.41,Cempaka,6,0,8
+Bayam,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Cempaka,6,0,9
+Bayam,Matangkuli,4.58,29.15,2419.59,13,Sedang,6.17,Cempaka,6,0,10
+Bayam,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Cempaka,6,0,16
+Semangka,Kuta Makmur,6.07,26.03,2061.0,141,Tinggi,6.55,Sugar Baby,25,7,6
+Tomat,Nisam Antara,5.47,25.02,2181.0,459,Tinggi,6.53,Intan,11,9,15
+Tomat,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Servo F1,24,9,3
+Cabe Besar,Cot Girek,5.17,25.06,2404.0,124,Sedang,6.61,Laris F1,17,1,3
+Cabe Besar,Lhoksukon,5.22,26.09,2091.0,12,Rendah,6.69,Gada MK F1,9,1,9
+Cabe Keriting,Syamtalira Aron,6.04,26.07,2000.0,5,Rendah,25.52,Kencana,14,2,22
+Cabe Rawit,Paya Bakong,5.29,25.07,2263.0,81,Sedang,6.61,Taruna,29,3,16
